@@ -1,0 +1,36 @@
+name: Docs Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  docs-quality:
+    name: Documentation quality checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run documentation unit tests
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+
+      - name: Check internal Markdown anchors
+        run: python3 scripts/check_docs.py
+
+      - name: Generate progress report
+        run: |
+          python3 scripts/progress.py --json > /tmp/progress.json
+          echo "Progress summary:"
+          python3 -c 'import json; data = json.load(open("/tmp/progress.json", encoding="utf-8")); total = data["total"]; print("Progress: %d/%d (%.1f%%) across %d sections" % (total["done"], total["total"], total["percent"], len(data["sections"])))'
+          echo "Progress JSON written to /tmp/progress.json"
