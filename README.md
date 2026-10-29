@@ -14,6 +14,8 @@
 >
 > *Best of luck to you!*
 
+> **In a hurry?** Start with the [8–12 week minimal path](MINIMAL-PATH.md), then return to this full plan for depth. The minimal path is a routing layer, not a replacement for the full list.
+
 <details>
 <summary>Translations:</summary>
 
@@ -78,6 +80,7 @@ For a complete CS self-taught program, the resources for my study plan have been
 
 ### The Study Plan
 
+- [Minimal path (8–12 weeks)](MINIMAL-PATH.md)
 - [What is it?](#what-is-it)
 - [Why use it?](#why-use-it)
 - [How to use it](#how-to-use-it)
@@ -143,7 +146,6 @@ For a complete CS self-taught program, the resources for my study plan have been
 ### Getting the Job
 
 - [Update Your Resume](#update-your-resume)
-- [Find a Job](#find-a-job)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
@@ -158,7 +160,7 @@ For a complete CS self-taught program, the resources for my study plan have been
 - [Additional Learning](#additional-learning)
     - [Compilers](#compilers)
     - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
+    - [Unix command line tools](#unixlinux-command-line-tools)
     - [Information theory](#information-theory-videos)
     - [Parity & Hamming Code](#parity--hamming-code-videos)
     - [Entropy](#entropy)
@@ -276,6 +278,8 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 It would be great to replace the online course resources with free and always-available public sources,
 such as YouTube videos (preferably university lectures), so that you people can study these anytime,
 not just when a specific online course is in session.
+
+If a link is dead, please report it instead of silently removing the resource: see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -1008,6 +1012,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 	Backtracking Blueprint: [Java](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
 	[Python](https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A)
 - ### Dynamic Programming
+    - **Editor's note (2026):** Dynamic programming still appears in interviews at many companies. Treat the original advice below as "don't over-invest before the basics", not "skip DP": be able to recognize 1-D/2-D DP, memoization, knapsack, and LCS patterns.
     - You probably won't see any dynamic programming problems in your interview, but it's worth being able to recognize a
     problem as being a candidate for dynamic programming.
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
@@ -2013,6 +2018,14 @@ Sit back and enjoy.
 - [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
 - [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 - More papers: [1,000 papers](https://github.com/0voice/computer_expert_paper)
+
+**[⬆ back to top](#table-of-contents)**
+
+## Maintenance & Contributing
+
+Last reviewed: 2026-10. If you need a shorter route, start with [MINIMAL-PATH.md](MINIMAL-PATH.md). For broken links, translation fixes, or other changes, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+The original project is [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university).
 
 **[⬆ back to top](#table-of-contents)**
 

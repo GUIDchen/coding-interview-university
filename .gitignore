@@ -18,3 +18,8 @@ Thumbs.db
 
 # Sublime Files
 .sublime
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
