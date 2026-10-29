@@ -106,10 +106,13 @@ When in doubt, copy the anchor from the file's own table of contents, or let the
 
 ## Translation sync policy
 
-- **English is canonical.** `README.md` and `MINIMAL-PATH.md` define the content; translations follow them.
-- **Simplified Chinese (`translations/README-cn.md`, `translations/MINIMAL-PATH-cn.md`) must track English.**
+- **English is canonical.** `README.md`, `MINIMAL-PATH.md`, `PROBLEM-SET.md`, and `JOB-SEARCH.md` define the content; translations follow them.
+- **Simplified Chinese (`translations/README-cn.md`, `translations/MINIMAL-PATH-cn.md`, `translations/PROBLEM-SET-cn.md`, `translations/JOB-SEARCH-cn.md`) must track English.**
   New topics, removed topics, reordered sections, changed problem counts, and changed acceptance
   criteria all need a matching Chinese change.
+- **Keep the status snapshot honest.** After changing a translation, run
+  `python3 scripts/translation_status.py --write` and include the regenerated `TRANSLATION-STATUS.md`
+  in the same PR if the status or coverage changed.
 - **Same PR is preferred.** Land English and Chinese together when you can. If you cannot translate,
   say so in the PR description and open a follow-up issue; a translation may lag by at most two weeks.
 - **Structure, not just words.** Keep heading levels, list nesting, and order identical. Keep links
@@ -128,10 +131,12 @@ When in doubt, copy the anchor from the file's own table of contents, or let the
 
 ## Link-check policy
 
-- `.github/workflows/links_checker.yml` runs monthly with lychee over `README.md` and
-  `translations/README-cn.md`, plus on manual dispatch. It never fails the build; it opens or updates
-  a single `report` issue, and closes it when a run comes back clean. Failures are not an emergency,
-  but the linked resources should be fixed or replaced when reported.
+- `.github/workflows/links_checker.yml` runs monthly with lychee over the root guides (`README.md`,
+  `MINIMAL-PATH.md`, `PROBLEM-SET.md`, `JOB-SEARCH.md`, `CONTRIBUTING.md`,
+  `programming-language-resources.md`) and `translations/README-cn.md`, plus on manual dispatch. It
+  never fails the build; it opens or updates a single `report` issue, and closes it when a run comes
+  back clean. Failures are not an emergency, but the linked resources should be fixed or replaced when
+  reported.
 - `.github/workflows/docs_quality.yml` runs on pushes to `main` and on pull requests. It runs the
 documentation unit tests, `check_docs.py`, and a progress report; a non-zero exit fails the check.
   Enable branch protection if you want it to block merges. This is the check that protects the table of contents.
@@ -176,15 +181,21 @@ From the repository root:
 ```bash
 python3 scripts/check_docs.py                 # in-page anchors: README.md + README-cn.md
 python3 scripts/check_docs.py --files MINIMAL-PATH.md translations/MINIMAL-PATH-cn.md
-python3 scripts/progress.py                   # task-list progress for README.md
-python3 scripts/progress.py --json            # same report, machine-readable
+python3 scripts/fix_anchors.py                 # dry-run: propose safe anchor repairs in translations
+python3 scripts/translation_status.py          # coverage and broken-anchor snapshot
+python3 scripts/progress.py                    # task-list progress for README.md
+python3 scripts/progress.py --json             # same report, machine-readable
 python3 -m unittest discover -s scripts -p 'test_*.py'
 ```
 
 `check_docs.py` validates in-page anchors only, not external URLs or relative file paths, and it
-checks `README.md` and `translations/README-cn.md` unless you pass `--files`. It exits non-zero on a
+checks `README.md`, `translations/README-cn.md`, and the root guides (`MINIMAL-PATH.md`,
+`PROBLEM-SET.md`, `JOB-SEARCH.md`, `CONTRIBUTING.md`, `TRANSLATION-STATUS.md`) unless you pass
+`--files`. It exits non-zero on a
 broken anchor, and `--check-parity` warns when EN and CN checkbox counts drift apart. `progress.py`
-defaults to `README.md` and accepts `--file` for another document.
+defaults to `README.md` and accepts `--file` for another document. `fix_anchors.py` is dry-run by
+default; `--write` applies only repairs whose replacement anchor already exists.
+`python3 scripts/translation_status.py --write` regenerates `TRANSLATION-STATUS.md`.
 
 Keep these scripts standard-library-only so they run anywhere; if a change needs a dependency,
 justify it in the PR. If either script is missing from your checkout, pull the latest `main`. If it
@@ -199,6 +210,7 @@ Copy this into your pull request description:
 - [ ] `python3 scripts/check_docs.py` passes (`--files` if you touched a MINIMAL-PATH file)
 - [ ] Every new or changed link was opened manually; anchors verified on github.com
 - [ ] If English content changed, the Chinese translation is updated (or a follow-up is noted)
+- [ ] If a translation changed, `python3 scripts/translation_status.py --write` was run
 - [ ] TOC updated if a heading was added, with a matching anchor
 - [ ] No affiliate, referral, shortened, or tracking links; no bare URLs
 - [ ] No personal progress checkboxes; no unrelated reformatting
@@ -228,10 +240,12 @@ Copy this into your pull request description:
 
 ## Adding a translation
 
-1. Copy `README.md` to `translations/README-xx.md` (or `MINIMAL-PATH.md` to `translations/MINIMAL-PATH-xx.md`).
+1. Copy `README.md` to `translations/README-xx.md` (or `MINIMAL-PATH.md`, `PROBLEM-SET.md`, or
+   `JOB-SEARCH.md` to a matching `translations/<name>-xx.md`).
 2. Add the canonical-version note at the top.
 3. Translate in place, keeping heading order, links, and task-list syntax.
-4. Add the file to the translations list at the top of `README.md`.
+4. Add the file to the translations list at the top of `README.md` and regenerate
+   `TRANSLATION-STATUS.md` with `python3 scripts/translation_status.py --write`.
 5. Run the checks, then open one PR per language.
 
 Thanks for keeping this useful for the next person.
