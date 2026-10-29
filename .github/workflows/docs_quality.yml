@@ -28,6 +28,11 @@ jobs:
       - name: Check internal Markdown anchors
         run: python3 scripts/check_docs.py
 
+      - name: Check translation status report
+        run: |
+          python3 scripts/translation_status.py --markdown > /tmp/translation-status.md
+          head -5 /tmp/translation-status.md
+
       - name: Generate progress report
         run: |
           python3 scripts/progress.py --json > /tmp/progress.json

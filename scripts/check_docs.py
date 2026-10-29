@@ -33,6 +33,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_FILES = (
     REPO_ROOT / "README.md",
     REPO_ROOT / "translations" / "README-cn.md",
+    REPO_ROOT / "MINIMAL-PATH.md",
+    REPO_ROOT / "translations" / "MINIMAL-PATH-cn.md",
+    REPO_ROOT / "PROBLEM-SET.md",
+    REPO_ROOT / "translations" / "PROBLEM-SET-cn.md",
+    REPO_ROOT / "JOB-SEARCH.md",
+    REPO_ROOT / "translations" / "JOB-SEARCH-cn.md",
+    REPO_ROOT / "CONTRIBUTING.md",
+    REPO_ROOT / "TRANSLATION-STATUS.md",
 )
 
 # Punctuation that is stripped by GitHub-style slugging.  Most of it is
