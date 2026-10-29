@@ -78,34 +78,34 @@
 
 ### अभ्यास योजना
 
-- [हे काय आहे?](#what-is-it)
-- [ते का वापरावे?](#why-use-it)
-- [ते कसे वापरावे](#how-to-use-it)
+- [हे काय आहे?](#हे-काय-आहे)
+- [ते का वापरावे?](#ते-का-वापरावे)
+- [ते कसे वापरावे](#ते-कसे-वापरावे)
 - [तुम्हाला तुम्हाला मोठा प्रतिबंधित वाटत नसावं](#dont-feel-you-arent-smart-enough)
 - [व्हिडिओ संसाधनांबद्दल एक नोट](#a-note-about-video-resources)
-- [प्रोग्रामिंग भाषा निवडा](#choose-a-programming-language)
+- [प्रोग्रामिंग भाषा निवडा](#प्रोग्रामिंग-भाषा-निवडा)
 - [डेटा संरचनांसाठी पुस्तके आणि अल्गोरिदम्स](#books-for-data-structures-and-algorithms)
 - [मुलाखत सज्जा पुस्तके](#interview-prep-books)
 - [माझे चुकीचे का न करा](#dont-make-my-mistakes)
 - [तुम्हाला काहीही दिसेल नाही याबद्दल](#what-you-wont-see-covered)
-- [दैनिक योजना](#the-daily-plan)
+- [दैनिक योजना](#दैनिक-योजना)
 - [कोडिंग प्रश्नांचे अभ्यास](#coding-question-practice)
-- [कोडिंग समस्या](#coding-problems)
+- [कोडिंग समस्या](#कोडिंग-समस्या)
 
 ### Topics of Study
 
 - [अल्गोरिदमिक जटिलता / बिग-ओ / अनिन्द्य विश्लेषण](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [डेटा संरचना](#data-structures)
-  - [अ‍ॅरे](#arrays)
+- [डेटा संरचना](#डेटा-संरचना)
+  - [अ‍ॅरे](#अ‍ॅरे)
   - [लिंक्ड लिस्ट](#linked-lists)
-  - [स्टॅक](#stack)
-  - [क्यू](#queue)
-  - [हॅश टेबल](#hash-table)
+  - [स्टॅक](#स्टॅक)
+  - [क्यू](#क्यू)
+  - [हॅश टेबल](#हॅश-टेबल)
 - [अधिक माहिती](#more-knowledge)
-  - [बायनरी शोध](#binary-search)
+  - [बायनरी शोध](#बायनरी-शोध)
   - [बिटव्हाइझ कार्ये](#bitwise-operations)
-- [झाडे](#trees)
-  - [झाडे - परिचय](#trees---intro)
+- [झाडे](#झाडे)
+  - [झाडे - परिचय](#झाडे---परिचय)
   - [बायनरी शोध झाडे: बीएसटी](#binary-search-trees-bsts)
   - [हीप / प्राथमिक क्यू / बायनरी हीप](#heap--priority-queue--binary-heap)
   - संतुलित शोध झाडे (सामान्य अवधारणा, तपशील नाही)
@@ -116,7 +116,7 @@
   - हीपसॉर्ट
   - क्विकसॉर्ट
   - मर्जसॉर्ट
-- [ग्राफ](#graphs)
+- [ग्राफ](#ग्राफ)
   - प्रेषित
   - अप्रेषित
   - अजॅसेन्सी मॅट्रिक्स
@@ -124,7 +124,7 @@
   - पट्ट्यांतरण: बीएफएस, डीएफएस
 - [अधिक माहिती](#even-more-knowledge)
   - [पुनरावर्तन](#recursion)
-  - [डायनॅमिक प्रोग्रामिंग](#dynamic-programming)
+  - [डायनॅमिक प्रोग्रामिंग](#डायनॅमिक-प्रोग्रामिंग)
   - [नमूद प्रकार](#design-patterns)
   - [कॉम्बिनेटोरिक्स (न निवडा क) आणि प्रायव्हबिलिटी](#combinatorics-n-choose-k--probability)
   - [एनपी, एनपी-संपूर्ण आणि अंदाज अल्गोरिदम](#np-np-complete-and-approximation-algorithms)
@@ -135,9 +135,9 @@
   - [स्पर्श आणि संदेशांचे शोध](#string-searching--manipulations)
   - [त्राय](#tries)
   - [फ्लोटिंग पॉइंट नंबर्स](#floating-point-numbers)
-  - [यूनिकोड](#unicode)
-  - [एंडियनेस](#endianness)
-  - [नेटवर्किंग](#networking)
+  - [यूनिकोड](#यूनिकोड)
+  - [एंडियनेस](#एंडियनेस)
+  - [नेटवर्किंग](#नेटवर्किंग)
 - [निवड अभ्यास](#final-review)
 
 ### नोकरी मिळवणे
@@ -153,10 +153,10 @@
 
 ### ऐच्छिक अतिरिक्त विषय आणि संसाधने
 
-- [अतिरिक्त पुस्तके](#additional-books)
+- [अतिरिक्त पुस्तके](#अतिरिक्त-पुस्तके)
 - [सिस्टम डिझाइन, स्केलेबिलिटी, डेटा हॅंडलिंग](#system-design-scalability-data-handling) (जेव्हा तुम्हाला 4+ वर्षांचा अनुभव आहे)
 - [अधिक शिक्षण](#additional-learning)
-  - [कॉम्पायलर्स](#compilers)
+  - [कॉम्पायलर्स](#कॉम्पायलर्स)
   - [इमॅक्स आणि व्हाई(एम)](#emacs-and-vim)
   - [यूनिक्स कमांड लाईन टूल्स](#unix-command-line-tools)
   - [माहिती सिद्धांत](#information-theory-videos)
@@ -164,18 +164,18 @@
   - [एन्ट्रॉपी](#entropy)
   - [क्रिप्टोग्राफी](#cryptography)
   - [संपीडन](#compression)
-  - [कंप्यूटर सुरक्षा](#computer-security)
+  - [कंप्यूटर सुरक्षा](#कंप्यूटर-सुरक्षा)
   - [कचरा संग्रह](#garbage-collection)
   - [समान कार्यक्रमीकरण](#parallel-programming)
   - [संदेशपाठ, सिरिअलिझेशन, आणि कतार प्रणाली](#messaging-serialization-and-queueing-systems)
   - [ए\*](#a)
-  - [फास्ट फूरियर ट्रांसफॉर्म](#fast-fourier-transform)
-  - [ब्लूम फिल्टर](#bloom-filter)
-  - [हायपरलॉगलॉग](#hyperloglog)
+  - [फास्ट फूरियर ट्रांसफॉर्म](#फास्ट-फूरियर-ट्रांसफॉर्म)
+  - [ब्लूम फिल्टर](#ब्लूम-फिल्टर)
+  - [हायपरलॉगलॉग](#हायपरलॉगलॉग)
   - [स्थानिकता-संवेगी ह्याशिंग](#locality-sensitive-hashing)
   - [वॅन एम्डे बोस झाडे](#van-emde-boas-trees)
   - [अभिवृद्धित डेटा संरचना](#augmented-data-structures)
-  - [संतुलित शोध झाडे](#balanced-search-trees)
+  - [संतुलित शोध झाडे](#संतुलित-शोध-झाडे)
     - AVL झाडे
     - स्प्ले झाडे
     - लाल/काळ झाडे
@@ -183,12 +183,12 @@
     - 2-3-4 झाडे (किंवा 2-4 झाडे)
     - N-अरे (K-अरे, M-अरे) झाडे
     - B-झाडे
-  - [k-D झाडे](#k-d-trees)
+  - [k-D झाडे](#k-d-झाडे)
   - [स्किप झाडे](#skip-lists)
-  - [नेटवर्क फ्लो](#network-flows)
+  - [नेटवर्क फ्लो](#नेटवर्क-फ्लो)
   - [विभाजित सेट्स & युनियन फिंड](#disjoint-sets--union-find)
-  - [फास्ट प्रोसेसिंगसाठी गणित](#math-for-fast-processing)
-  - [ट्रेप](#treap)
+  - [फास्ट प्रोसेसिंगसाठी गणित](#फास्ट-प्रोसेसिंगसाठी-गणित)
+  - [ट्रेप](#ट्रेप)
   - [लीनियर प्रोग्रामिंग](#linear-programming-videos)
   - [ज्यामिती, कोणज्यात्मक कवळ](#geometry-convex-hull-videos)
   - [विचारमगारी गणित](#discrete-math)
@@ -736,7 +736,7 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 - ### बायनरी शोध झाडे: BSTs
 
   - [ ] [बायनरी शोध झाड समीक्षा (व्हिडिओ)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-  - [ ] [परिचय (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+  - [ ] [परिचय (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
   - [ ] [MIT (व्हिडिओ)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
   - C/C++:
     - [ ] [बायनरी शोध झाड - C/C++ मध्ये कार्यान्वितीकरण (व्हिडिओ)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -766,11 +766,11 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
   - झाड म्हणून विज्ञान केले जाते, परंतु सामान्यतः संग्रह (एरे, लिंक्ड सूची) मध्ये लीनियर आहे
   - [ ] [हिप](<https://en.wikipedia.org/wiki/Heap_(data_structure)>)
   - [ ] [परिचय (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
-  - [ ] [बायनरी झाड (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+  - [ ] [बायनरी झाड (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
   - [ ] [झाड उंची टिप (व्हिडिओ)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-  - [ ] [मूल्यांची बुनणी (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-  - [ ] [पूर्ण बायनरी झाड (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-  - [ ] [उपनामकोड (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+  - [ ] [मूल्यांची बुनणी (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+  - [ ] [पूर्ण बायनरी झाड (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+  - [ ] [उपनामकोड (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
   - [ ] [हिप क्रमवार क्रमणी (व्हिडिओ)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
   - [ ] [हिप क्रमवार (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
   - [ ] [हिप निर्माण (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
@@ -810,10 +810,10 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 - [ ] [सेजविक - मर्जसॉर्ट (5 व्हिडिओ)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 
   - [ ] [1. मर्जसॉर्ट](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
-  - [ ] [2. बॉटम-अप मर्जसॉर्ट](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
+  - [ ] [2. बॉटम-अप मर्जसॉर्ट](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
   - [ ] [3. सॉर्टिंग संघटना](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
   - [ ] [4. कंपरेटर्स](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
-  - [ ] [5. स्थिरता](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+  - [ ] [5. स्थिरता](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 - [ ] [सेजविक - क्विकसॉर्ट (4 व्हिडिओ)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 
@@ -866,12 +866,12 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 
 - [ ] आवश्यक नाही, परंतु मी त्यांना शिफारस करतो:
   - [ ] [सेजविक - रॅडिक्स सॉर्ट (६ व्हिडिओ)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-    - [ ] [1. जावात स्ट्रिंग्स](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
+    - [ ] [1. जावात स्ट्रिंग्स](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
     - [ ] [2. की इंडेक्स्ड काउंटिंग](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
-    - [ ] [3. लीस्ट सिग्निफिकंट डिजिट फर्स्ट स्ट्रिंग रॅडिक्स सॉर्ट](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-    - [ ] [4. मोस्ट सिग्निफिकंट डिजिट फर्स्ट स्ट्रिंग रॅडिक्स सॉर्ट](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+    - [ ] [3. लीस्ट सिग्निफिकंट डिजिट फर्स्ट स्ट्रिंग रॅडिक्स सॉर्ट](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+    - [ ] [4. मोस्ट सिग्निफिकंट डिजिट फर्स्ट स्ट्रिंग रॅडिक्स सॉर्ट](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
     - [ ] [5. ३ वे रॅडिक्स क्विकसॉर्ट](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
-    - [ ] [6. सफ्फिक्स अ‍ॅरे](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [6. सफ्फिक्स अ‍ॅरे](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
   - [ ] [रॅडिक्स सॉर्ट](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
   - [ ] [रॅडिक्स सॉर्ट (व्हिडिओ)](https://www.youtube.com/watch?v=xhr26ia4k38)
   - [ ] [रॅडिक्स सॉर्ट, काउंटिंग सॉर्ट (कनिष्ठ समय दिल्याप्रमाणे सीमांकित) (व्हिडिओ)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -982,13 +982,13 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
   - [ ] येल व्याख्यान नोट्स:
     - [ ] [डायनॅमिक प्रोग्रामिंग](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
   - [ ] कोर्सेरा:
-    - [ ] [RNA सेकंडरी संरचना समस्या (व्हिडिओ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
+    - [ ] [RNA सेकंडरी संरचना समस्या (व्हिडिओ)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
     - [ ] [एक डायनॅमिक प्रोग्रामिंग अल्गोरिदम (व्हिडिओ)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
     - [ ] [डीपी अल्गोरिदमचा चित्रण (व्हिडिओ)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
-    - [ ] [डीपी अल्गोरिदमची चालनाची वेळ (व्हिडिओ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-    - [ ] [डीपी बनाम पुनरावलोकन अंमलावणी (व्हिडिओ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+    - [ ] [डीपी अल्गोरिदमची चालनाची वेळ (व्हिडिओ)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+    - [ ] [डीपी बनाम पुनरावलोकन अंमलावणी (व्हिडिओ)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
     - [ ] [ग्लोबल पेअरवायस सिक्वेन्स अलायनमेंट (व्हिडिओ)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
-    - [ ] [स्थानिक पेअरवायस सिक्वेन्स अलायनमेंट (व्हिडिओ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+    - [ ] [स्थानिक पेअरवायस सिक्वेन्स अलायनमेंट (व्हिडिओ)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### डिझाइन पॅटर्न्स
 
@@ -1121,14 +1121,14 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
 
 - ### स्ट्रिंग शोध आणि व्यवस्थापन
 
-  - [ ] [सेजविक - सफ्फिक्स अ‍ॅरेस (व्हिडिओ)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+  - [ ] [सेजविक - सफ्फिक्स अ‍ॅरेस (व्हिडिओ)](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
   - [ ] [सेजविक - उपस्थिती शोध (व्हिडिओ)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
     - [ ] [1. उपस्थिती शोधास परिचय](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
-    - [ ] [2. ब्र्यूट-फोर्स उपस्थिती शोध](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-    - [ ] [3. क्नूथ-मोरिस प्रॅट](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-    - [ ] [4. बोयर-मोर](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
+    - [ ] [2. ब्र्यूट-फोर्स उपस्थिती शोध](https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+    - [ ] [3. क्नूथ-मोरिस प्रॅट](https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+    - [ ] [4. बोयर-मोर](https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
     - [ ] [5. राबिन-कार्प](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
-  - [ ] [टेक्स्टमध्ये पॅटर्न शोध (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+  - [ ] [टेक्स्टमध्ये पॅटर्न शोध (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
   जर आपल्याला या विषयावर अधिक माहिती आवडत असेल तर, "कितीकोटी विषयांवर अतिरिक्त माहिती" मध्ये "स्ट्रिंग मॅचिंग" अनुभाग पहा.
 
@@ -1138,14 +1138,14 @@ iOS वर $25 खर्च होते परंतु इतर प्ले�
     मार्गाचे ट्रॅक
   - मी कोडमध्ये वाचले, परंतु कार्यान्वित केले नाही
   - [ ] [सेजविक - ट्राय (3 व्हिडिओ)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-    - [ ] [1. आर-वे ट्राय](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-    - [ ] [2. तेर्नरी सर्च ट्राय](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-    - [ ] [3. अक्षराधारित प्रक्रिया](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+    - [ ] [1. आर-वे ट्राय](https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+    - [ ] [2. तेर्नरी सर्च ट्राय](https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+    - [ ] [3. अक्षराधारित प्रक्रिया](https://www.coursera.org/lecture/algorithms-part2/character-based-operations-jwNmV)
   - [ ] [डेटा संरचना आणि प्रोग्रामिंग तंत्रे वरचे नोंद](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
   - [ ] लघु कोर्स व्हिडिओ:
-    - [ ] [ट्राय सर्व परिचय (व्हिडिओ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-    - [ ] [ट्राय संचयनाची प्रदर्शनी (व्हिडिओ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-    - [ ] [ट्राय अंमलबजावणी कसे करावी (व्हिडिओ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+    - [ ] [ट्राय सर्व परिचय (व्हिडिओ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+    - [ ] [ट्राय संचयनाची प्रदर्शनी (व्हिडिओ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+    - [ ] [ट्राय अंमलबजावणी कसे करावी (व्हिडिओ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
   - [ ] [ट्राय: एक अवधृत डेटा संरचना](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
   - [ ] [टॉपकोडर - ट्रायज वापरणे](https://www.topcoder.com/thrive/articles/Using%20Tries)
   - [ ] [स्टॅनफोर्ड व्हिडिओ (वास्तविक वापराची केस) (व्हिडिओ)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1482,9 +1482,9 @@ Have a story, not just data, about something you accomplished.
 
   - [खान अकॅडेमी](https://www.khanacademy.org/computing/computer-science/informationtheory)
   - अधिक मार्कोव प्रक्रियांच्याबद्दल:
-    - [मूळ मार्कोव मजकूर प्रक्रिया](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-    - [मूळ मार्कोव मजकूर प्रक्रिया कार्यान्वयन](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-    - [प्रकल्प = मार्कोव मजकूर उत्पादन सरळ मार्गदर्शन](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+    - [मूळ मार्कोव मजकूर प्रक्रिया](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+    - [मूळ मार्कोव मजकूर प्रक्रिया कार्यान्वयन](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+    - [प्रकल्प = मार्कोव मजकूर उत्पादन सरळ मार्गदर्शन](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
   - खालील MIT 6.050J माहिती आणि एंट्रोपी सिरीजमध्ये अधिक पहा
 
 - ### पॅरिटी आणि हॅमिंग कोड (व्हिडिओ)
@@ -1626,9 +1626,9 @@ Have a story, not just data, about something you accomplished.
     पूर्णत्वसाठी ग्राहकांचा न्याय पाहतात. जावाच्या 8 आवृत्यात,
     संगणना हॅशमॅपविजेच्या संगणकावर संरक्षण अजेंडा एसएनएसमध्ये विनिर्मित केले जाते"
   - [MIT AVL झाड / AVL क्रम (व्हिडिओ)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-  - [AVL झाड (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-  - [AVL झाड अंमलबजावणी (व्हिडिओ)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-  - [विभाजन आणि संयोजन](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+  - [AVL झाड (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+  - [AVL झाड अंमलबजावणी (व्हिडिओ)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+  - [विभाजन आणि संयोजन](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
   - [[पुनरावलोकन] AVL झाडे (प्लेलिस्ट) 19 मिनिटंमध्ये (व्हिडिओ)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
   - **एसप्ले झाडे**
@@ -1766,12 +1766,12 @@ Have a story, not just data, about something you accomplished.
 
 - **युनियन-फाइंड**
 
-  - [अवलोकन](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-  - [नैव्हेज इम्प्लिमेंटेशन](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-  - [वृक्षे](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-  - [श्रेणीद्वारे एकीकरण](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-  - [पॅथ कम्प्रेशन](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-  - [विश्लेषण पर्याय](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+  - [अवलोकन](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+  - [नैव्हेज इम्प्लिमेंटेशन](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+  - [वृक्षे](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+  - [श्रेणीद्वारे एकीकरण](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+  - [पॅथ कम्प्रेशन](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+  - [विश्लेषण पर्याय](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - **अधिक डायनॅमिक प्रोग्रामिंग** (व्हिडिओ)
 
@@ -1804,8 +1804,8 @@ Have a story, not just data, about something you accomplished.
 - **स्ट्रिंग मॅचिंग**
   - रबिन-कार्प (व्हिडिओ):
     - [रबिन कार्प ऍल्गोरिदम](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
-    - [पूर्वगणना](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-    - [ऑप्टिमायझेशन: अंमलाने आणि विश्लेषण](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+    - [पूर्वगणना](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+    - [ऑप्टिमायझेशन: अंमलाने आणि विश्लेषण](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
     - [टेबल डबलिंग, कार्प-रबिन](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
     - [रोलिंग हॅशेस, अमोर्टाईज्ड विश्लेषण](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
   - क्नुथ-मोर्रिस-प्रॅट (केएमपी):

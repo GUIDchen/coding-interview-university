@@ -673,7 +673,7 @@ Quyidagi havolada siz ma'lumotlar tuzilmasi aslida qanday ishlashini tushunib ol
 
 - ### Binary search tree lar: BST lar
     - [ ] [Binary Search Tree Tahlili (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    
-    - [ ] [Kirish (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [Kirish (video)](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
         - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -702,16 +702,16 @@ Quyidagi havolada siz ma'lumotlar tuzilmasi aslida qanday ishlashini tushunib ol
 - ### Heap / Priority Queue / Binary Heap
     - tree (daraxt) dek tasvirlansada, xotirada ketma ket tarzida saqlanadi (massiv, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Introduction (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Naive Implementations (video)](https://www.coursera.org/lecture/data-structures/naive-implementations-z3l9N)
+    - [ ] [Binary Trees (video)](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
     - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Basic Operations (video)](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+    - [ ] [Pseudocode (video)](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
     - [ ] [Heap Sort - boshiga sakraydi (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+    - [ ] [Building a heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -745,17 +745,17 @@ Quyidagi havolada siz ma'lumotlar tuzilmasi aslida qanday ishlashini tushunib ol
 - Heapsort uchun yuqorida berilgan ma'lumotlar tuzilmasini ko'ring, Heap sort ajoyib lekin barqaror emas.
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
-    - [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-    - [ ] [3. Sorting Complexity](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
-    - [ ] [4. Comparators](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
-    - [ ] [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+    - [ ] [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+    - [ ] [2. Bottom up Mergesort](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
+    - [ ] [3. Sorting Complexity](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
+    - [ ] [4. Comparators](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    - [ ] [5. Stability](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 - [ ] [Sedgewick - Quicksort (4 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-    - [ ] [2. Selection](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
-    - [ ] [3. Duplicate Keys](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
-    - [ ] [4. System Sorts](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
+    - [ ] [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
+    - [ ] [2. Selection](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+    - [ ] [3. Duplicate Keys](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
+    - [ ] [4. System Sorts](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
 
 - [ ] UC Berkeley:
     - [ ] [CS 61B Lecture 29: Sorting I (video)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
@@ -796,12 +796,12 @@ Quyidagi havolada siz ma'lumotlar tuzilmasi aslida qanday ishlashini tushunib ol
 
 - [ ] Quyidagilar talab qilinmaydi lekin shaxsan men ularni tavsiya qilaman:
     - [ ] [Sedgewick - Radix Sorts (6 ta video)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-        - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-        - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
-        - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-        - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [1. Strings in Java](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
+        - [ ] [2. Key Indexed Counting](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+        - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
+        - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+        - [ ] [6. Suffix Arrays](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -903,13 +903,13 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] Yale ma'ruza yozuvlari:
         - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
-        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
+        - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
+        - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
+        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### Object-Oriented Programming
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -1042,29 +1042,29 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - Operatsion tizim videolaridan o'rganish mumkin
 
 - ### Stringni izlash va manipulyatsiyalar
-    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
-        - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-        - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-        - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-        - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
-    - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+        - [ ] [1. Introduction to Substring Search](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+        - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+        - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+        - [ ] [4. Boyer-Moore](https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
+        - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+    - [ ] [Search pattern in text (video)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
-    Agar bu mavzuda ko'proq ma'lumot olmoqchi bo'lsangiz, "String Matching" bo'limini ko'ring [Ba'zi mavzular bo'yicha qo'shimcha ma'lumotlar](#bazi-mavzular-bo'yicha-qoshimcha-malumotlar).
+    Agar bu mavzuda ko'proq ma'lumot olmoqchi bo'lsangiz, "String Matching" bo'limini ko'ring [Ba'zi mavzular bo'yicha qo'shimcha ma'lumotlar](#bazi-mavzular-boyicha-qoshimcha-malumotlar).
 
 - ### Trie-lar
     - Trie-larning turli xili mavjud. Bazilarida prefiks bor bo'lsa bazilarida esa yo'q, va bazilari yo'lni kuzatish uchun bitlar o'rniga string ishlatishadi.
     - Men kodini ko'rib chiqaman, lekin o'zim yozmayman
     - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-        - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-        - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+        - [ ] [1. R Way Tries](https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+        - [ ] [2. Ternary Search Tries](https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+        - [ ] [3. Character Based Operations](https://www.coursera.org/lecture/algorithms-part2/character-based-operations-jwNmV)
     - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [ ] Qisqa kurslar:
-        - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+        - [ ] [Introduction To Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+        - [ ] [Performance Of Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+        - [ ] [Implementing A Trie (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
     - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
     - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1194,7 +1194,7 @@ Computer science da graflar bir talay masalalarni tasvirlashda ishlatiladi. Shun
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - Bundanda ko'proq narsa o'rganish, [Video Seriyalar](#video-series) seksiyadagi "Ulkan Datasetlarni Qazish" video seriyasini ko'ring
+    - Bundanda ko'proq narsa o'rganish, [Video Seriyalar](#video-seriyalar) seksiyadagi "Ulkan Datasetlarni Qazish" video seriyasini ko'ring
 - [ ] Tizim dizayn qilish jarayonini mashq qilish: Bu yerda qog'ozda yozib yechish uchun bir nechta misollar bor. Har birini real proyektlarda qanday yechishgani haqida maqolalari ham bor:
     - tahlil: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
@@ -1508,9 +1508,9 @@ Hech qachon tugatgan bo'lmaymiz.
 - ### Ma'lumot nazariyasi (videolar)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - Markov protseslari haqida batafsil:
-        - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+        - [Core Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+        - [Core Implementing Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
     - Batafsil quyida MIT 6.050J-ning Ma'lumot va Entropiya seriyalarida ko'ring
 
 - ### Parity va "Hamming Code" (videolar)
@@ -1647,9 +1647,9 @@ Hech qachon tugatgan bo'lmaymiz.
             Shu sababli u bir marta qurilib qayta-qayta yuklanib ishlatiladigan data strukturalari uchun juda qo'l keladi.
             Masalan: til lug'atlari yoki dastur lu'gatlari (assembler va interpreter opcode-lari)
         - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [AVL Trees (video)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+        - [AVL Tree Implementation (video)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+        - [Split And Merge](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
         - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **Splay trees**
@@ -1812,12 +1812,12 @@ Hech qachon tugatgan bo'lmaymiz.
 
 
 - **Union-Find**
-    - [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    - [Overview](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+    - [Naive Implementation](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+    - [Trees](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+    - [Union By Rank](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+    - [Path Compression](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+    - [Analysis Options](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - **Dinamik dasturlash haqida batafsil** (videolar)
     - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
@@ -1846,9 +1846,9 @@ Hech qachon tugatgan bo'lmaymiz.
 
 - **String Matching**
     - Rabin-Karp (videolar):
-        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-        - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [Rabin Karps Algorithm](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+        - [Precomputing](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+        - [Optimization: Implementation and Analysis](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - Knuth-Morris-Pratt (KMP):

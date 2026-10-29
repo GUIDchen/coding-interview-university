@@ -74,45 +74,45 @@ Eğer güvenlik ya da operasyon mühendisi olmak istiyorsanız, opsiyonel listed
 - [Nasıl kullanılır?](#nasıl-kullanılır)
 - [Yeterince zeki olmadığınızı hissetmeyin](#yeterince-zeki-olmadığınızı-hissetmeyin)
 - [Video Kaynakları Hakkında](#video-kaynakları-hakkında)
-- [Mülakat Süreci & Genel Mülakat Hazırlığı](#interview-process--general-interview-prep)
-- [Mülakat İçin Bir Dil Seçin](#pick-one-language-for-the-interview)
-- [Kitap Listesi](#book-list)
-- [Başlamadan Önce](#before-you-get-started)
+- [Mülakat Süreci & Genel Mülakat Hazırlığı](#mülakat-süreci--genel-mülakat-hazırlığı)
+- [Mülakat İçin Bir Dil Seçin](#mülakat-i̇çin-bir-dil-seçin)
+- [Kitap Listesi](#kitap-listesi)
+- [Başlamadan Önce](#başlamadan-önce)
 - [Örtülü Olarak Görmeyecekleriniz](#what-you-wont-see-covered)
-- [Günlük Plan](#the-daily-plan)
-- [Önkoşul Bilgisi](#prerequisite-knowledge)
-- [Günlük Plan](#the-daily-plan)
+- [Günlük Plan](#günlük-plan)
+- [Önkoşul Bilgisi](#önkoşul-bilgisi)
+- [Günlük Plan](#günlük-plan)
 - [Algoritma Karmaşıklığı / Big-O / Asimptotik Analizler](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Veri Yapıları](#data-structures)
-    - [Diziler](#arrays)
-    - [Bağlı Listeler](#linked-lists)
-    - [Yığın](#stack)
-    - [Kuyruk](#queue)
-    - [Hash tablosu](#hash-table)
+- [Veri Yapıları](#veri-yapıları)
+    - [Diziler](#diziler)
+    - [Bağlı Listeler](#bağlı-listeler)
+    - [Yığın](#yığın)
+    - [Kuyruk](#kuyruk)
+    - [Hash tablosu](#hash-tablosu)
 - [Ekstra Bilgi](#more-knowledge)
     - [İkili arama](#binary-search)
     - [Bitsel operasyonlar](#bitwise-operations)
-- [Ağaçlar](#trees)
-    - [Ağaçlar - Notlar & Arkaplan](#trees---notes--background)
+- [Ağaçlar](#ağaçlar)
+    - [Ağaçlar - Notlar & Arkaplan](#ağaçlar---notlar--arkaplan)
     - [İkili Arama Ağaçları: BST'ler](#binary-search-trees-bsts)
     - [Yığın / Öncelik Kuyruğu / İkili Yığın](#heap--priority-queue--binary-heap)
     - dengeli arama ağaçları (genel konseptler, detaylar hariç)
     - dolaşımlar: preorder, inorder, postorder, BFS, DFS
-- [Sıralama](#sorting)
+- [Sıralama](#sıralama)
     - seçimli (selection)
     - eklemeli (insertion)
     - yığın sıralama (heapsort)
     - hızlı sıralama (quicksort)
     - merge sort
-- [Graflar](#graphs)
+- [Graflar](#graflar)
     - yönlü
     - yönsüz
     - bitişiklik matrisi
     - bitişiklik listesi
     - dolaşımlar: BFS, DFS
-- [Daha Fazla Bilgi](#even-more-knowledge)
-    - [Rekürsif](#recursion)
-    - [Dinamik Programlama](#dynamic-programming)
+- [Daha Fazla Bilgi](#daha-fazla-bilgi)
+    - [Rekürsif](#rekürsif)
+    - [Dinamik Programlama](#dinamik-programlama)
     - [Nesneye-Yönelik Programlama](#object-oriented-programming)
     - [Tasarım Desenleri](#design-patterns)
     - [Kombinasyonlar (n seçim k) & İhtimaller](#combinatorics-n-choose-k--probability)
@@ -545,15 +545,15 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
 
 - ### Bağlı Listeler
     - [ ] Tanım:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - tüm video değil, Node yapısı ve bellek ayırma için olan bölümler.
     - [ ] Bağlı Listeler vs Diziler:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [neden bağlı listelerden kaçınmalısınız (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Pointer için pointer bilgisine ihtiyacınız var:
         (bir pointer'ı bir fonksiyona yolladığınızda, bu pointer'ın işaret ettiği adresi değiştirebilir.)
@@ -575,11 +575,11 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
         - [ ] reverse() - listeyi ters çevirir
         - [ ] remove_value(value) - bu değerdeki ilk bulunan içeriği kaldırır
     - [ ] Çift Bağlı Liste
-        - [Tanım (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - [Tanım (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - Uygulamaya gerek yok
 
 - ### Yığın
-    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Uygulamayın. Diziyle gerçekleştirmek önemsiz.
 
@@ -698,7 +698,7 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
 
 - ### İkili arama ağaçları: BSTs
     - [ ] [İkili Arama Ağacı İncelemesi (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [Introduction (video)](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
         - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -727,16 +727,16 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
 - ### Heap / Öncelik Kuyruğu / Binary Heap
     - ağaç olarak görselleştirilir, ancak depolama ortamında genellikle doğrusaldır (dizi, bağlı liste)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Giriş (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Giriş (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Naive Implementations (video)](https://www.coursera.org/lecture/data-structures/naive-implementations-z3l9N)
+    - [ ] [Binary Trees (video)](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
     - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Basic Operations (video)](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+    - [ ] [Complete Binary Trees (video)](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+    - [ ] [Pseudocode (video)](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
     - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+    - [ ] [Building a heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -770,17 +770,17 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
 - Heap sort için, yukarıdaki Heap veri yapısına bakın. Heap sort güzel, ama stabil değil.
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
-    - [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-    - [ ] [3. Sorting Complexity](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
-    - [ ] [4. Comparators](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
-    - [ ] [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+    - [ ] [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+    - [ ] [2. Bottom up Mergesort](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
+    - [ ] [3. Sorting Complexity](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
+    - [ ] [4. Comparators](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    - [ ] [5. Stability](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 - [ ] [Sedgewick - Quicksort (4 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-    - [ ] [2. Selection](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
-    - [ ] [3. Duplicate Keys](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
-    - [ ] [4. System Sorts](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
+    - [ ] [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
+    - [ ] [2. Selection](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+    - [ ] [3. Duplicate Keys](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
+    - [ ] [4. System Sorts](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
 
 - [ ] UC Berkeley:
     - [ ] [CS 61B Lecture 29: Sorting I (video)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
@@ -821,12 +821,12 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
 
 - [ ] Gerekli değil, fakat tavsiye ediyorum:
     - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-        - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-        - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
-        - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-        - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [1. Strings in Java](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
+        - [ ] [2. Key Indexed Counting](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+        - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
+        - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+        - [ ] [6. Suffix Arrays](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -929,13 +929,13 @@ Graflar, bilgisayar bilimlerinde birçok sorunu temsil etmek için kullanılabil
     - [ ] Yale Lecture notes:
         - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
-        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
+        - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
+        - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
+        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### Object-Oriented Programming
     - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -1067,14 +1067,14 @@ Graflar, bilgisayar bilimlerinde birçok sorunu temsil etmek için kullanılabil
     - Can be gleaned from Operating System videos
 
 - ### String searching & manipulations
-    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
-        - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-        - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-        - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-        - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
-    - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+        - [ ] [1. Introduction to Substring Search](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+        - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+        - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+        - [ ] [4. Boyer-Moore](https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
+        - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+    - [ ] [Search pattern in text (video)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
     If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects).
 
@@ -1083,14 +1083,14 @@ Graflar, bilgisayar bilimlerinde birçok sorunu temsil etmek için kullanılabil
         to track the path
     - I read through code, but will not implement
     - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-        - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-        - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+        - [ ] [1. R Way Tries](https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+        - [ ] [2. Ternary Search Tries](https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+        - [ ] [3. Character Based Operations](https://www.coursera.org/lecture/algorithms-part2/character-based-operations-jwNmV)
     - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [ ] Short course videos:
-        - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+        - [ ] [Introduction To Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+        - [ ] [Performance Of Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+        - [ ] [Implementing A Trie (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
     - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
     - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1532,9 +1532,9 @@ You're never really done.
 - ### Information theory (videos)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - More about Markov processes:
-        - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+        - [Core Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+        - [Core Implementing Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
     - See more in MIT 6.050J Information and Entropy series below
 
 - ### Parity & Hamming Code (videos)
@@ -1671,9 +1671,9 @@ You're never really done.
             attractive for data structures that may be built once and loaded without reconstruction, such as language
             dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter)
         - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [AVL Trees (video)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+        - [AVL Tree Implementation (video)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+        - [Split And Merge](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
         - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **Splay trees**
@@ -1841,12 +1841,12 @@ You're never really done.
 
 
 - **Union-Find**
-    - [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    - [Overview](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+    - [Naive Implementation](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+    - [Trees](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+    - [Union By Rank](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+    - [Path Compression](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+    - [Analysis Options](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - **More Dynamic Programming** (videos)
     - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
@@ -1875,9 +1875,9 @@ You're never really done.
 
 - **String Matching**
     - Rabin-Karp (videos):
-        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-        - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [Rabin Karps Algorithm](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+        - [Precomputing](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+        - [Optimization: Implementation and Analysis](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - Knuth-Morris-Pratt (KMP):

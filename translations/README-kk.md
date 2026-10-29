@@ -115,7 +115,7 @@ Frontend инженерлері (FEE) және бағдарламалық жас
 
 ### Оқу жоспары
 
-- [Бұл не?](#не-ол)
+- [Бұл не?](#бұл-не)
 - [Неге оны пайдалану керек?](#why-use-it)
 - [Қалай пайдалану керек](#қалай-пайдалану керек)
 - [Өзіңізді жеткілікті ақылды емес деп санамаңыз](#сізді жеткілікті түрде ақылды-сезінбеңіз)
@@ -151,7 +151,7 @@ bağdarlamalıq qamtamasız etwdi äzirlew/ïnjenerlik rölder.
 
 ### Oqw josparı
 
-- [Bul ne?](#ne-ol)
+- [Bul ne?](#bul-ne)
 - [Nege onı paydalanw kerek?](#why-use-it)
 - [Qalay paydalanw kerek](#qalay-paydalanw kerek)
 - [Öziñizdi jetkilikti aqıldı emes dep sanamañız](#sizdi jetkilikti türde aqıldı-sezinbeñiz)
@@ -173,7 +173,7 @@ bağdarlamalıq qamtamasız etwdi äzirlew/ïnjenerlik rölder.
     - [Байланыстырылған тізімдер](#linked-lists)
     - [Стек](#стек)
     - [Кезек](#кезек)
-    - [Хэш кестесі](#хэш-кесте)
+    - [Хэш кестесі](#хэш-кестесі)
 - [Қосымша білім](#көп-білім)
     - [Екілік іздеу](#екілік іздеу)
     - [биттік операциялар](#биттік операциялар)
@@ -231,7 +231,7 @@ bağdarlamalıq qamtamasız etwdi äzirlew/ïnjenerlik rölder.
  - [Baylanıstırılğan tizimder](#linked-lists)
  - [Stek](#stek)
  - [Kezek](#kezek)
- - [Xéş kestesi](#xéş-keste)
+ - [Xéş kestesi](#xéş-kestesi)
 - [Qosımşa bilim](#köp-bilim)
  - [Ekilik izdew](#ekilik izdew)
  - [bïttik operacïyalar](#bïttik operacïyalar)
@@ -298,7 +298,7 @@ bağdarlamalıq qamtamasız etwdi äzirlew/ïnjenerlik rölder.
     - [Компьютер қауіпсіздігі](#компьютер қауіпсіздігі)
     - [Қоқыс жинау](#қоқыс жинау)
     - [Параллельді бағдарламалау](#параллельді бағдарламалау)
-    - [Хабар алмасу, сериялау және кезекке қою жүйелері](#хабарлама-серияландыру-және-кезектеу-жүйелері)
+    - [Хабар алмасу, сериялау және кезекке қою жүйелері](#хабар-алмасу-сериялау-және-кезекке-қою-жүйелері)
     - [A*](#a)
     - [Fast Furier Transform](#fast-fourier-transform)
     - [Блум сүзгісі](#блум-сүзгісі)
@@ -325,8 +325,8 @@ bağdarlamalıq qamtamasız etwdi äzirlew/ïnjenerlik rölder.
     - [Дискретті математика](#дискретті-математика)
 - [Кейбір тақырыптар бойынша қосымша мәліметтер](кейбір тақырыптар бойынша #қосымша-деталь)
 - [Бейне сериясы](#бейне сериясы)
-- [Информатика курстары](#компьютер-ғылым-курстары)
-- [Қағаздар](#қағаз)
+- [Информатика курстары](#информатика-курстары)
+- [Қағаздар](#қағаздар)
 ### Qosımşa qosımşa taqırıptar men reswrstar
 
 - [Qosımşa kitaptar](#qosımşa kitaptar)
@@ -343,7 +343,7 @@ bağdarlamalıq qamtamasız etwdi äzirlew/ïnjenerlik rölder.
  - [Kompyuter qawipsizdigi](#kompyuter qawipsizdigi)
  - [Qoqıs jïnaw](#qoqıs jïnaw)
  - [Paralleldi bağdarlamalaw](#paralleldi bağdarlamalaw)
- - [Xabar almasw, serïyalaw jäne kezekke qoyu jüyeleri](#xabarlama-serïyalandırw-jäne-kezektew-jüyeleri)
+ - [Xabar almasw, serïyalaw jäne kezekke qoyu jüyeleri](#xabar-almasw-serïyalaw-jäne-kezekke-qoyu-jüyeleri)
  - [A*](#a)
  - [Fast Furier Transform](#fast-fourier-transform)
  - [Blwm süzgisi](#blwm-süzgisi)
@@ -370,8 +370,8 @@ bağdarlamalıq qamtamasız etwdi äzirlew/ïnjenerlik rölder.
  - [Dïskretti matematïka](#dïskretti-matematïka)
 - [Keybir taqırıptar boyınşa qosımşa mälimetter](keybir taqırıptar boyınşa #qosımşa-detal)
 - [Beyne serïyası](#beyne serïyası)
-- [Ïnformatïka kwrstarı](#kompyuter-ğılım-kwrstarı)
-- [Qağazdar](#qağaz)
+- [Ïnformatïka kwrstarı](#ïnformatïka-kwrstarı)
+- [Qağazdar](#qağazdar)
 
 ## Оны не үшін қолдану керек?
 

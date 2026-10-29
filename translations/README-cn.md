@@ -1,6 +1,6 @@
 # 编程面试大学
 
-> **翻译说明：** 本中文翻译可能滞后于英文原版；若两者内容冲突，以英文原版 [../README.md](../README.md) 为准。最后审校：2026-10。
+> **翻译说明：** 本中文翻译可能滞后于英文原版；若两者内容冲突，以英文原版 [../README.md](../README.md) 为准。最后审校：2026-10。各语种覆盖情况见 [翻译状态](../TRANSLATION-STATUS.md)。
 
 > **时间不够？** 先看 [8–12 周最小可行路径](MINIMAL-PATH-cn.md)，再回到完整计划补充深度。
 
@@ -51,6 +51,7 @@
 - [日常计划](#日常计划)
 - [编程问题练习](#编程问题练习)
 - [编程问题](#编程问题)
+- [题单（75 题）](PROBLEM-SET-cn.md)
 
 ### 学习的主题
 
@@ -102,6 +103,7 @@
 ### 获得工作机会
 
 - [更新你的简历](#更新你的简历)
+- [找工作](JOB-SEARCH-cn.md)
 - [面试流程与一般面试准备](#面试流程与一般面试准备)
 - [当面试来临的时候](#当面试来临的时候)
 - [问面试官的问题](#问面试官的问题)
@@ -481,6 +483,8 @@
 
 别忘了参考你的主要编程面试书籍[这里](#面试准备书籍).
 
+与最小可行路径配套的 75 道题，按周排列，见[题单](PROBLEM-SET-cn.md)。
+
 解决问题：
 - [如何找到解决方案](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
 - [如何分析Topcoder问题陈述](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
@@ -722,7 +726,7 @@
 
 - ### 二叉查找树（Binary search trees）：BSTs
     - [ ] [二叉搜索树复习（视频）](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [介绍（视频）](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
     - [ ] [MIT（视频）](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
     - C/C++:
         - [ ] [二叉查找树 —— 在 C/C++ 中实现（视频）](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -752,11 +756,11 @@
     - 以树形结构可视化，但通常在存储上是线性的（数组、链表）
     - [ ] [堆（Heap）](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [堆简介（视频）](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
-    - [ ] [二叉树（视频）](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [二叉树（视频）](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
     - [ ] [树高度备注（视频）](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [基本操作（视频）](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [完全二叉树（视频）](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [伪代码（视频）](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [基本操作（视频）](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+    - [ ] [完全二叉树（视频）](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+    - [ ] [伪代码（视频）](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
     - [ ] [堆排序 - 跳转到开始部分（视频）](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
     - [ ] [堆排序（视频）](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
     - [ ] [构建堆（视频）](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
@@ -794,10 +798,10 @@
 
 - [ ] [Sedgewick ── 归并排序（5个视频）](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. 归并排序（Mergesort）](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
-    - [ ] [2. 自底向上的归并排序（Bottom up Mergesort）](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
+    - [ ] [2. 自底向上的归并排序（Bottom up Mergesort）](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
     - [ ] [3. 排序复杂性（Sorting Complexity）](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
     - [ ] [4. 比较器（Comparators）](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
-    - [ ] [5. 稳定性（Stability）](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+    - [ ] [5. 稳定性（Stability）](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 - [ ] [Sedgewick ── 快速排序（4个视频）](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. 快速排序（Quicksort）](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
@@ -845,12 +849,12 @@
 
 - [ ] 有兴趣的话，还有一些补充，但并不是必须的:
     - [ ] [Sedgewick ── 基数排序（6个视频）](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-        - [ ] [1. Java 中的字符串](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
+        - [ ] [1. Java 中的字符串](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
         - [ ] [2. 键值索引计数（Key Indexed Counting）](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
-        - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+        - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
         - [ ] [5. 三向基数快速排序（3 Way Radix Quicksort）](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
-        - [ ] [6. 后继数组（Suffix Arrays）](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [6. 后继数组（Suffix Arrays）](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [基数排序](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [基数排序（视频）](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [基数排序, 计数排序 (线性时间内)（视频）](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -958,13 +962,13 @@
     - [ ] 耶鲁课程笔记:
         - [ ] [动态规划](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera 课程:
-        - [ ] [RNA 二级结构问题（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
+        - [ ] [RNA 二级结构问题（视频）](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
         - [ ] [动态规划算法（视频）](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
         - [ ] [DP 算法描述（视频）](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
-        - [ ] [DP 算法的运行时间（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP vs 递归实现（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+        - [ ] [DP 算法的运行时间（视频）](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+        - [ ] [DP vs 递归实现（视频）](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
         - [ ] [全局成对序列排列（视频）](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
-        - [ ] [本地成对序列排列（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] [本地成对序列排列（视频）](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### 设计模式
     - [ ] [UML 统一建模语言概览 (视频)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
@@ -1092,14 +1096,14 @@
     - [ ] [如何编写测试](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### 字符串搜索和操作
-    - [ ] [Sedgewick──后缀数组（Suffix Arrays）（视频）](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick──后缀数组（Suffix Arrays）（视频）](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Sedgewick──子字符串搜寻（视频）](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. 子字符串搜寻导论](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
-        - [ ] [2. 子字符串搜寻──暴力法](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-        - [ ] [3. KMP算法](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-        - [ ] [4. Boyer-Moore算法](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
+        - [ ] [2. 子字符串搜寻──暴力法](https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+        - [ ] [3. KMP算法](https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+        - [ ] [4. Boyer-Moore算法](https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
         - [ ] [5. Rabin-Karp算法](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
-    - [ ] [文本的搜索模式（视频）](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    - [ ] [文本的搜索模式（视频）](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
 如果你需要有关此主题的更多详细信息，请参阅“[一些主题的额外内容](#一些主题的额外内容)”中的“字符串匹配”部分。
 
@@ -1108,14 +1112,14 @@
     - 需要注意的是，字典树各式各样。有些有前缀，而有些则没有。有些使用字符串而不使用比特位来追踪路径。
     - 阅读代码，但不实现。
     - [ ] [Sedgewick ── 字典树（3个视频）](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. R Way字典树](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-        - [ ] [2. 三元搜索树](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-        - [ ] [3. 基于字符串的操作](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+        - [ ] [1. R Way字典树](https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+        - [ ] [2. 三元搜索树](https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+        - [ ] [3. 基于字符串的操作](https://www.coursera.org/lecture/algorithms-part2/character-based-operations-jwNmV)
     - [ ] [数据结构笔记及编程技术](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [ ] 短课程视频：
-        - [ ] [对字典树的介绍（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [字典树的性能（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [实现一棵字典树（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+        - [ ] [对字典树的介绍（视频）](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+        - [ ] [字典树的性能（视频）](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+        - [ ] [实现一棵字典树（视频）](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
     - [ ] [字典树：一个被忽略的数据结构](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] [TopCoder ── 使用字典树](https://www.topcoder.com/thrive/articles/Using%20Tries)
     - [ ] [标准教程（现实中的用例）（视频）](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1176,6 +1180,8 @@
     - 作者备注：“这是针对美国的简历。印度和其他国家的简历有不同的期望，尽管许多要点是相同的。”
 - [“逐步简历指南” by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - 详细指南，教您如何从零开始设置您的简历，编写有效的简历内容，优化它，并测试您的简历。
+
+至于求职本身——在哪里投递、内推、进度跟踪和谈薪——见[找工作](JOB-SEARCH-cn.md)。
 
 ## 面试流程与一般面试准备
 
@@ -1485,9 +1491,9 @@
 - ### 信息论 (视频)
     - [Khan Academy 可汗学院](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - 更多有关马尔可夫的内容:
-        - [马尔可夫内容生成（Core Markov Text Generation）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        - [Core Implementing Markov Text Generation马尔可夫内容生成实现](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-        - [一个马尔可夫内容生成器的项目（Project = Markov Text Generation Walk Through）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+        - [马尔可夫内容生成（Core Markov Text Generation）](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+        - [Core Implementing Markov Text Generation马尔可夫内容生成实现](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+        - [一个马尔可夫内容生成器的项目（Project = Markov Text Generation Walk Through）](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
     - 关于更多信息，请参照下方 MIT 6.050J 信息和系统复杂度的内容。
 
 - ### 奇偶校验位 & 汉明码 (视频)
@@ -1623,9 +1629,9 @@
         只需要构建一次，就可以在不重新构造的情况下读取，
         适合于实现诸如语言字典（或程序字典，如一个汇编程序或解释程序的操作码）。
         - [MIT AVL 树 / AVL 树的排序（视频）](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [AVL 树（视频）](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [AVL 树的实现（视频）](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [分离与合并](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [AVL 树（视频）](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+        - [AVL 树的实现（视频）](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+        - [分离与合并](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
         - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **伸展树**
@@ -1766,12 +1772,12 @@
 
 
 - **Union-Find**
-    - [概览](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [初级实践](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [树状结构](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [合并树状结构](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [路径压缩](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [分析选项](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    - [概览](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+    - [初级实践](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+    - [树状结构](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+    - [合并树状结构](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+    - [路径压缩](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+    - [分析选项](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - **动态规划的更多内容** (视频)
     - [6.006: 动态规划 I: 斐波那契数列, 最短路径](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
@@ -1801,8 +1807,8 @@
 - **字符串匹配**
     - Rabin-Karp（视频）
         - [Rabin Karps 算法](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
-        - [预计算](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [优化：实施和分析](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [预计算](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+        - [优化：实施和分析](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
         - [表翻倍，Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [滚动哈希，摊销分析](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - Knuth-Morris-Pratt (KMP)：

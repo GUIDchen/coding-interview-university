@@ -120,8 +120,8 @@
 - [អនុវត្តសំណួរសរសេរកូដ](#coding-question-practice)
 - [លំហាត់សរសេរកូដ / បញ្ហា](#coding-exerciseschallenges)
 - [នៅពេលអ្នកជិតដល់ការសំភាសន៍](#once-youre-closer-to-the-interview)
-- [ប្រវត្តិរូបសង្ខេបរបស់អ្នក](#your-resume)
-- [ត្រូវគិតអំពីពេលសម្ភាសន៍មកដល់](#be-thinking-of-for-when-the-interview-comes)
+- [ប្រវត្តិរូបសង្ខេបរបស់អ្នក](#ប្រវត្តិរូបសង្ខេបរបស់អ្នក)
+- [ត្រូវគិតអំពីពេលសម្ភាសន៍មកដល់](#ត្រូវគិតអំពីពេលសម្ភាសន៍មកដល់)
 - [មានសំណួរសម្រាប់អ្នកសម្ភាសន៍យេីង](#have-questions-for-the-interviewer)
 - [នៅពេលដែលទទួលបានការងារធ្វើ](#once-youve-got-the-job)
 
@@ -491,7 +491,7 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 - [ ] [UC Berkeley Big O (មានវីដេអូ)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [UC Berkeley Big Omega (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [ការវិភាគរំលោះ (Amortized) (វីដេអូ)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [បង្ហាញរូបភាព "Big-O" (វីដេអូ)](https://www.coursera.org/lecture/alacticmic-thinking-1/illustrating-big-o-YVqzv)
+- [ ] [បង្ហាញរូបភាព "Big-O" (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
 - [ ] TopCoder (រួមបញ្ចូលទាំងទំនាក់ទំនងកើតឡើងវិញនិងទ្រឹស្តីបទមេ)៖
     - [ភាពស្មុគស្មាញនៃការគណនា៖ ផ្នែកទី ១](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [ភាពស្មុគស្មាញនៃការគណនា៖ ផ្នែកទី ២](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
@@ -506,9 +506,9 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 - ### Arrays
     - អនុវត្តវ៉ិចទ័រប្តូរទំហំដោយស្វ័យប្រវត្តិ។
     - [ ] ការពិពណ៌នា៖
-        - [Arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [Arrays (វីដេអូ)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UC Berkeley CS61B - អារេ លីនែអ៊ែរ និង ពហុវិមាត្រ (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (ចាប់ផ្តើមមើលចាប់ពី ១៥នាទី ៣២វិនាទី)
-        - [Arrays ឌីណាមិចេ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Arrays ឌីណាមិចេ (វីដេអូ)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (វីដេអូ)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] អនុវត្តវ៉ិចទ័រ (បំលែង Arrays ដោយប្តូរទំហំស្វ័យប្រវត្តិ)៖
         - [ ] អនុវត្តការសរសេរកូដដោយប្រើArrays និង ទ្រនិចចង្អុល និង គណិតទ្រនិចដើម្បីលោតទៅសន្ទស្សន៍មួយ។
@@ -540,15 +540,15 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 
 - ### Linked Lists
     - [ ] ការពិពណ៌នា៖
-        - [ ] [Singly Linked Lists (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [ ] [Singly Linked Lists (វីដេអូ)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists ១ (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists ២ (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [កូដ C (វីដេអូ)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
         - មិនមែនវីដេអូទាំងមូលទេគឺគ្រាន់តែជាផ្នែកអំពីរចនាសម្ព័ន្ធ (Data Structure) និងការបែងចែក Memory ។
     - [ ] Linked List vs Arrays:
-        - [Core Linked Lists Vs Arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [នៅក្នុងពិភពពិត Linked Lists Vs Arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+        - [Core Linked Lists Vs Arrays (វីដេអូ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [នៅក្នុងពិភពពិត Linked Lists Vs Arrays (វីដេអូ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [ហេតុអ្វីអ្នកគួរចៀសវាង linked lists (វីដេអូ)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: you need pointer to pointer knowledge:
         (សម្រាប់ពេលអ្នកហុច pointer ទៅមុខងារមួយដែលអាចផ្លាស់ប្តូរអាស័យដ្ឋានដែលព្រួញចង្អុល)
@@ -570,13 +570,13 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
         - [ ] reverse() - បញ្ច្រាស់បញ្ជី
         - [ ] remove_value(តម្លៃ) - លុបធាតុដំបូងក្នុងបញ្ជីជាមួយតម្លៃនេះ
     - [ ] Doubly-linked List
-        - [ការពិពណ៌នា (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - [ការពិពណ៌នា (វីដេអូ)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - មិនចាំបាច់អនុវត្តទេ
 
 ---
 
 - ### Stack
-    - [ ] [Stack (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [Stack (វីដេអូ)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] នឹងមិនអនុវត្តទេ។ ការអនុវត្តជាមួយ Array គឺមិនសំខាន់។
 
@@ -611,12 +611,12 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
         - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     - [ ] វគ្គសិក្សាអនឡាញ៖
-        - [ ] [Core Hash Tables (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [ ] [Core Hash Tables (វីដេអូ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
         - [ ] [រចនាសម្ព័ន្ធទិន្នន័យ (វីដេអូ)](https://www.coursera.org/learn/data-structures/home/week/4)
-        - [ ] [បញ្ហាសៀវភៅទូរស័ព្ទ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] [បញ្ហាសៀវភៅទូរស័ព្ទ (វីដេអូ)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
         - [តារាងចែកចាយ]
-            - [ការផ្ទុកឡើងភ្លាមៗនិងការបង្កើនប្រសិទ្ធភាពផ្ទុកនៅក្នុងប្រអប់ឯកសារ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [តារាងហាសចែកចាយ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+            - [ការផ្ទុកឡើងភ្លាមៗនិងការបង្កើនប្រសិទ្ធភាពផ្ទុកនៅក្នុងប្រអប់ឯកសារ (វីដេអូ)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+            - [តារាងហាសចែកចាយ (វីដេអូ)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
     - [ ] អនុវត្តជាមួយអារេដោយប្រើការស៊ើបអង្កេតលីនេអ៊ែរ
         - hash(k, m) - m គឺជាទំហំនៃតារាង hash
@@ -671,8 +671,8 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 ## Trees
 
 - ### Trees - កំណត់ត្រា និង ព័ត៌មាន
-    - [ ] [ស៊េរី៖ ចំនុចសំខាន់ Trees (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
-    - [ ] [ស៊េរី៖ Trees (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - [ ] [ស៊េរី៖ ចំនុចសំខាន់ Trees (វីដេអូ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-trees-ovovP)
+    - [ ] [ស៊េរី៖ Trees (វីដេអូ)](https://www.coursera.org/lecture/data-structures/trees-95qda)
     - ការសាងសង់ tree
     - ការឆ្លងកាត់ tree
     - ក្បួនដោះស្រាយ
@@ -695,9 +695,9 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
  
 - ### Binary search trees: BSTs
     - [ ] [ការពិនិត្យឡើងវិញ Binary Search Tree (វីដេអូ)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [ស៊េរី (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
+    - [ ] [ស៊េរី (វីដេអូ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-binary-search-trees-p82sw)
         - ចាប់ផ្តើមជាមួយតារាងនិមិត្តសញ្ញាហើយឆ្លងកាត់ការអនុវត្ត BST
-    - [ ] [សេចក្តីផ្តើម (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [សេចក្តីផ្តើម (វីដេអូ)](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
     - [ ] [MIT (វីដេអូ)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
         - [ ] [Binary search tree - ការអនុវត្តក្នុង C/C++ (វីដេអូ)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -726,16 +726,16 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 - ### Heap / Priority Queue / Binary Heap
     - visualized as a tree, but is usually linear in storage (array, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [សេចក្តីផ្តើម (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [ការអនុវត្តដំបូង (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Binary Trees (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [សេចក្តីផ្តើម (វីដេអូ)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [ការអនុវត្តដំបូង (វីដេអូ)](https://www.coursera.org/lecture/data-structures/naive-implementations-z3l9N)
+    - [ ] [Binary Trees (វីដេអូ)](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
     - [ ] [កំពស់ Tree (វីដេអូ)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [ប្រតិបត្តិការមូលដ្ឋាន (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Binary Trees ពេញលេញ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [ប្រតិបត្តិការមូលដ្ឋាន (វីដេអូ)](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+    - [ ] [Binary Trees ពេញលេញ (វីដេអូ)](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+    - [ ] [Pseudocode (វីដេអូ)](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
     - [ ] [Heap Sort - លោតដើម្បីចាប់ផ្ដើម (វីដេអូ)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Heap Sort (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    - [ ] [ការកសាង heap (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [Heap Sort (វីដេអូ)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+    - [ ] [ការកសាង heap (វីដេអូ)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
     - [ ] [MIT: Heaps និង Heap Sort (វីដេអូ)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B មេរៀន 24: Priority Queues (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -772,17 +772,17 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 - សំរាប់ heapsort, សូមមេីល Heap data structure ខាងលេី. Heap sort គឺល្អ, ប៉ុន្តែមិនមានស្ថេរភាពទេ.
 
 - [ ] [Sedgewick - Mergesort (5 វីដេអូ)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
-    - [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-    - [ ] [3. ភាពស្មុគស្មាញ Sorting](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
-    - [ ] [4. ប្រៀបធៀប](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
-    - [ ] [5. ស្ថេរភាព](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+    - [ ] [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+    - [ ] [2. Bottom up Mergesort](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
+    - [ ] [3. ភាពស្មុគស្មាញ Sorting](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
+    - [ ] [4. ប្រៀបធៀប](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    - [ ] [5. ស្ថេរភាព](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 - [ ] [Sedgewick - Quicksort (4 វីដេអូរ)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-    - [ ] [2. Selection](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
-    - [ ] [3. Keys ស្ទួន](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
-    - [ ] [4. Sorts ជាប្រព័ន្ធ](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
+    - [ ] [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
+    - [ ] [2. Selection](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+    - [ ] [3. Keys ស្ទួន](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
+    - [ ] [4. Sorts ជាប្រព័ន្ធ](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
 
 - [ ] UC Berkeley:
     - [ ] [CS 61B មេរៀនទី 29: Sorting I (វីដេអូរ)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
@@ -823,12 +823,12 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 
 - [ ] មិនចាំបាច់ទេ ប៉ុន្តែខ្ញុំសូមណែនាំពួកគេ:
     - [ ] [Sedgewick - Radix Sorts (6 វីដេអូរ)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-        - [ ] [1. Strings ក្នុង Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-        - [ ] [2. ការរាប់ Key Indexed](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
-        - [ ] [3. តម្រៀបខ្ទង់អក្សរដំបូងដែលមានខ្ទង់តិចបំផុត Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-        - [ ] [5. វិធី ៣ Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [1. Strings ក្នុង Java](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
+        - [ ] [2. ការរាប់ Key Indexed](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+        - [ ] [3. តម្រៀបខ្ទង់អក្សរដំបូងដែលមានខ្ទង់តិចបំផុត Radix Sort](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
+        - [ ] [5. វិធី ៣ Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+        - [ ] [6. Suffix Arrays](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix Sort (វីដេអូរ)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (វីដេអូរ)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -936,13 +936,13 @@ Graphs អាចត្រូវបានប្រើដើម្បីបង្�
     - [ ] Yale Lecture notes:
         - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
-        - [ ] [បញ្ហា RNA secondary structure (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [A dynamic programming algorithm (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        - [ ] [បង្ហាញរូបភាពពីវិធីដោះស្រាយ DP (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-        - [ ] [ពេលវេលាដំណើរការនៃ DP algorithm (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP vs. recursive implementation (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Global pairwise sequence alignment (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-        - [ ] [Local pairwise sequence alignment (វីដេអូ)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] [បញ្ហា RNA secondary structure (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
+        - [ ] [A dynamic programming algorithm (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
+        - [ ] [បង្ហាញរូបភាពពីវិធីដោះស្រាយ DP (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+        - [ ] [ពេលវេលាដំណើរការនៃ DP algorithm (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+        - [ ] [DP vs. recursive implementation (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
+        - [ ] [Global pairwise sequence alignment (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+        - [ ] [Local pairwise sequence alignment (វីដេអូ)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### Object-Oriented Programming
     - [ ] [Optional: UML 2.0 Series (វីដេអូ)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -1072,14 +1072,14 @@ Graphs អាចត្រូវបានប្រើដើម្បីបង្�
     - អាចប្រមូលបាន Operating System videos
 
 - ### String searching & manipulations
-    - [ ] [Sedgewick - Suffix Arrays (វីដេអូ)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Suffix Arrays (វីដេអូ)](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Sedgewick - Substring Search (វីដេអូ)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
-        - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-        - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-        - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-        - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
-    - [ ] [Search pattern in text (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+        - [ ] [1. Introduction to Substring Search](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+        - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+        - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+        - [ ] [4. Boyer-Moore](https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
+        - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+    - [ ] [Search pattern in text (វីដេអូ)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
     ប្រសិនបើអ្នកត្រូវការព័ត៌មានលម្អិតបន្ថែមលើប្រធានបទនេះសូមមើលផ្នែក [Additional Detail on Some Subjects](#additional-detail-on-some-subjects).
 
@@ -1087,14 +1087,14 @@ Graphs អាចត្រូវបានប្រើដើម្បីបង្�
     - ចំណាំ មានការ Tries ផ្សេងៗគ្នា។ អ្នកខ្លះមានprefixes អ្នកខ្លះមិនមាន ហើយអ្នកខ្លះប្រើstring ជំនួសឱ្យbits ដើម្បីតាមដានផ្លូវ
     - ខ្ញុំបានអានកូដប៉ុន្តែនឹងមិនអនុវត្តឡើយ
     - [ ] [Sedgewick - Tries (3 វីដេអូ)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-        - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-        - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+        - [ ] [1. R Way Tries](https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+        - [ ] [2. Ternary Search Tries](https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+        - [ ] [3. Character Based Operations](https://www.coursera.org/lecture/algorithms-part2/character-based-operations-jwNmV)
     - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [ ] វីដេអូខ្លីៗ:
-        - [ ] [Introduction To Tries (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Performance Of Tries (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Implementing A Trie (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+        - [ ] [Introduction To Tries (វីដេអូ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+        - [ ] [Performance Of Tries (វីដេអូ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+        - [ ] [Implementing A Trie (វីដេអូ)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
     - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
     - [ ] [Stanford Lecture (real world use case) (វីដេអូ)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1532,9 +1532,9 @@ Mock Interviews:
 - ### Information theory (វីដេអូ)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - បន្ថែមទៀតអំពី Markov processes:
-        - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+        - [Core Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+        - [Core Implementing Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
     - សូមមើលបន្ថែមនៅ MIT 6.050J Information និង Entropy series
 
 - ### Parity & Hamming Code (វីដេអូ)
@@ -1671,9 +1671,9 @@ Mock Interviews:
              វចនានុក្រម (ឬវចនានុក្រមកម្មវិធីដូចជា opcodes របស់ assembler ឬ interpreter)
          
         - [MIT AVL Trees / AVL Sort (វីដេអូ)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [AVL Trees (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [AVL Tree Implementation (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [AVL Trees (វីដេអូ)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+        - [AVL Tree Implementation (វីដេអូ)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+        - [Split And Merge](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
         - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **Splay trees**
@@ -1835,12 +1835,12 @@ Mock Interviews:
         - [ប្រភេទផ្សេងទៀត](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
 - **Union-Find**
-    - [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    - [Overview](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+    - [Naive Implementation](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+    - [Trees](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+    - [Union By Rank](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+    - [Path Compression](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+    - [Analysis Options](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - **More Dynamic Programming** (វីដេអូ)
     - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
@@ -1869,9 +1869,9 @@ Mock Interviews:
 
 - **String Matching**
     - Rabin-Karp (វីដេអូ):
-        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-        - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [Rabin Karps Algorithm](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+        - [Precomputing](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+        - [Optimization: Implementation and Analysis](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - Knuth-Morris-Pratt (KMP):

@@ -70,7 +70,7 @@ Có rất nhiều điều để học trong một chương trình Khoa học Má
 - [Sách Chuẩn Bị Phỏng Vấn](#sách-chuẩn-bị-phỏng-vấn)
 - [Đừng phạm sai lầm của tôi](#đừng-phạm-sai-lầm-của-tôi)
 - [Những phần không được đề cập](#những-phần-không-được-đề-cập)
-- [Kế hoạch hằng ngày](#Kế-hoạch-hàng-ngày)
+- [Kế hoạch hằng ngày](#kế-hoạch-hàng-ngày)
 - [Luyện tập các câu hỏi coding](#luyện-tập-các-câu-hỏi-coding)
 - [Giải bài toán lập trình](#giải-bài-toán-lập-trình)
 
@@ -105,12 +105,12 @@ Có rất nhiều điều để học trong một chương trình Khoa học Má
     - danh sách kề
     - duyệt đồ thị: BFS, DFS
 - [Kiến thức bổ sung](#kiến-thức-bổ-sung)
-    - [Đệ quy](#Đệ-quy)
+    - [Đệ quy](#đệ-quy)
     - [Quy hoạch động](#quy-hoạch-động)
     - [Mẫu thiết kế](#mẫu-thiết-kế)
     - [Tổ hợp và Xác Suất](#tổ-hợp-và-xác-suất)
     - [NP, NP-Complete và thuật toán xấp xỉ gần đúng](#np-np-complete-và-thuật-toán-xấp-xỉ-gần-đúng)
-    - [Cách máy tính xử lý một chương trình](#Cách-máy-tính-xử-lý-một-chương-trình)
+    - [Cách máy tính xử lý một chương trình](#cách-máy-tính-xử-lý-một-chương-trình)
     - [Bộ nhớ cache](#bộ-nhớ-cache)
     - [Process và Thread](#process-và-thread)
     - [Kiểm thử phần mềm](#kiểm-thử-phần-mềm)
@@ -141,7 +141,7 @@ Có rất nhiều điều để học trong một chương trình Khoa học Má
 - [Học thêm](#học-thêm)
     - [Trình biên dịch](#trình-biên-dịch)
     - [Emacs và vi(m)](#emacs-và-vim)
-    - [Các công cụ chạy trên dòng lệnh của Unix](#các-công-cụ-chạy-trên-dòng-lệnh-của-Unix)
+    - [Các công cụ chạy trên dòng lệnh của Unix](#các-công-cụ-chạy-trên-dòng-lệnh-của-unix)
     - [Lý thuyết thông tin](#lý-thuyết-thông-tin)
     - [Parity & Hamming Code](#parity--hamming-code)
     - [Entropy](#entropy)
@@ -639,7 +639,7 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
         - [ ] reverse() - đảo ngược danh sách
         - [ ] remove_value(value) - Xóa dữ liệu đầu tiên được tìm thấy khớp với giá trị được cho
     - [ ] Doubly-linked List
-        - [Description - Miêu tả danh sách liên kết đôi (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - [Description - Miêu tả danh sách liên kết đôi (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - Không cần phải cài đặt
 
 - ### Stack
@@ -754,7 +754,7 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
 - ### Cây tìm kiếm nhị phân: BST
     BST: Binary search tree - cây tìm kiếm nhị phân.
     - [ ] [Ôn lại cây tìm kiếm nhị phân - video](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [Dẫn nhập - video](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [Dẫn nhập - video](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
     - C/C++:
         - [ ] [Cây tìm kiếm nhị phân - Cài đặt trên C/C++ - video](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -784,13 +784,13 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
 - ### Heap / Priority Queue / Binary Heap
     - hình thức thể hiện như một cây, nhưng chúng thường được lưu trữ theo kiểu tuyến tính (mảng, danh sách liên kết)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Dẫn nhập - video](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Cài đặt căn bản - video](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Cây nhị phân - video](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Dẫn nhập - video](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Cài đặt căn bản - video](https://www.coursera.org/lecture/data-structures/naive-implementations-z3l9N)
+    - [ ] [Cây nhị phân - video](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
     - [ ] [Các lưu ý về chiều cao của cây - video](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Các toán tử cơ bản - video](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Cây nhị phân đầy đủ - video](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Mã giả - video](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Các toán tử cơ bản - video](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+    - [ ] [Cây nhị phân đầy đủ - video](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+    - [ ] [Mã giả - video](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
     - [ ] [Heap Sort - bắt đầu (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
     - [ ] [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
     - [ ] [Xây dựng một heap - video](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
@@ -830,10 +830,10 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Sắp xếp trộn (Merge Sort)](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
-    - [ ] [2. Bottom-up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
+    - [ ] [2. Bottom-up Mergesort](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
     - [ ] [3. Sorting Complexity](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
     - [ ] [4. Comparators](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
-    - [ ] [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+    - [ ] [5. Stability](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 - [ ] [Sedgewick - Quicksort (4 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
@@ -882,12 +882,12 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
 
 - [ ] Không nhất thiết, nhưng tôi khuyến khích xem các phần sau:
     - [ ] [Sedgewick - Sắp xếp theo cơ số (Radix Sorts) (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-        - [ ] [1. Chuỗi trong Java (Strings in Java)](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
+        - [ ] [1. Chuỗi trong Java (Strings in Java)](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
         - [ ] [2. Đếm các khóa đã được lập chỉ mục (Key Indexed Counting)](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
-        - [ ] [3. Sắp xếp cơ số ưu tiên chữ số thấp nhất (Least Significant Digit First String Radix Sort)](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] [4. Sắp xếp cơ số ưu tiên chữ số cao nhất (Most Significant Digit First String Radix Sort)](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+        - [ ] [3. Sắp xếp cơ số ưu tiên chữ số thấp nhất (Least Significant Digit First String Radix Sort)](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+        - [ ] [4. Sắp xếp cơ số ưu tiên chữ số cao nhất (Most Significant Digit First String Radix Sort)](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
         - [ ] [5. 3-way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5):  Sắp xếp cơ số kết hợp sắp xếp nhanh, trong đó, chỉ chia mảng ban đầu thành 3 nhóm (thay vì chia theo R nhóm trong sắp xếp cơ số thông thường).
-        - [ ] [6. Mảng hậu tố (Suffix Arrays)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [6. Mảng hậu tố (Suffix Arrays)](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Sắp xếp cơ số (Radix Sort)](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Sắp xếp cơ số (Radix Sort)(video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Sắp xếp cơ số, sắp xếp đếm (Counting Sort, thực thi thời gian tuyến tính, nhưng có nhiều giới hạn đối với dự liệu)- video](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -1005,13 +1005,13 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
     - [ ] Ghi chú cho các bài giảng của đại học Yale:
         - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
-        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
+        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
         - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
         - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
-        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
         - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
-        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### Lập trình hướng đối tượng
     - [ ] [Phụ thêm: Seri về UML 2.0 (Optional: UML 2.0 Series) (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -1164,14 +1164,14 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 
 
 - ### Tìm kiếm và xử lý chuỗi
-    - [ ] [Sedgewick - Mảng tiền tố (Suffix Arrays) (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Mảng tiền tố (Suffix Arrays) (video)](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Sedgewick - Tìm và thay chuỗi (Substring Search) (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. Giới thiệu tìm và thay chuỗi (Introduction to Substring Search)](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
-        - [ ] [2. Tìm và thay chuỗi theo Brute-Force (Brute-Force Substring Search)](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-        - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-        - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
+        - [ ] [2. Tìm và thay chuỗi theo Brute-Force (Brute-Force Substring Search)](https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+        - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+        - [ ] [4. Boyer-Moore](https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
         - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
-    - [ ] [Tìm kiếm mẫu trong văn bản (Search pattern in text) (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    - [ ] [Tìm kiếm mẫu trong văn bản (Search pattern in text) (video)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
     Nếu bạn cần thêm thông tin chi tiết, hãy đọc qua phần "So khớp chuỗi" trong các mục đọc thêm [Đọc thêm về một số đề tài](#đọc-thêm-về-một-số-đề-tài)
 
@@ -1181,14 +1181,14 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
     - Tôi đã đọc qua code, nhưng sẽ không thực hiện
 
     - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-        - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-        - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+        - [ ] [1. R Way Tries](https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+        - [ ] [2. Ternary Search Tries](https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+        - [ ] [3. Character Based Operations](https://www.coursera.org/lecture/algorithms-part2/character-based-operations-jwNmV)
     - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [ ] Các khóa video ngắn:
-        - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+        - [ ] [Introduction To Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+        - [ ] [Performance Of Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+        - [ ] [Implementing A Trie (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
     - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] [TopCoder - Using Tries](https://www.topcoder.com/thrive/articles/Using%20Tries)
     - [ ] [Stanford Lecture (real-world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1493,7 +1493,7 @@ Bạn không bao giờ thực sự học xong!
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - Để có thêm thông tin, xem seri "Mining Massive Datasets" trong [seri video](#Các-chuỗi-Video).
+    - Để có thêm thông tin, xem seri "Mining Massive Datasets" trong [seri video](#các-chuỗi-video).
 - [ ] Thực hành thêm về thiết kế hệ thống: Sau đây là vài ý tưởng có thể thực hiện trên giấy, mỗi ý tưởng đều có tư liệu đi cùng để hiểu rõ nó thực thi thế nào trong thế giới thực.
     - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [Thiết kế hệ thống bới HiredInTech (System Design from HiredInTech)](http://www.hiredintech.com/system-design/)
@@ -1576,9 +1576,9 @@ Bạn không bao giờ thực sự học xong!
 - ### Lý thuyết thông tin
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - [ ] Hiểu thêm về chuỗi Markov:
-        - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+        - [Core Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+        - [Core Implementing Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
     - Xem thêm ở chuỗi bài từ đại học MIT 6.050J Information và Entropy bên dưới.
 
 - ### Parity & Hamming Code (videos)
@@ -1702,9 +1702,9 @@ Bạn không bao giờ thực sự học xong!
         - Trong thực tế:
             Từ những gì mà tôi đọc được, chúng không được sử dụng nhiều, nhưng tôi có thể nghĩ đến vài ứng dụng: cây AVL hỗ trợ O(log n) cho tìm kiếm, chèn và xóa nút. Nó được cân bằng một cách chặt chẽ hơn so với cây đỏ-đen, dẫn đến việc chèn và xóa chậm hơn, nhưng tìm kiếm sẽ nhanh hơn. Điều đó khiến nó thích hơp với các bộ dữ liệu được xây dựng một lần và tái sử dụng nhiều lần, ví dụ như từ diển trong ngôn ngữ thông thường (hoặc các bộ từ vựng trong lập trình, biên dịch)
         - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [AVL Trees (video)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+        - [AVL Tree Implementation (video)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+        - [Split And Merge](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
         - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - [ ] **Splay trees**
@@ -1858,12 +1858,12 @@ Bạn không bao giờ thực sự học xong!
 
 
 - **Union-Find**
-    - [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    - [Overview](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+    - [Naive Implementation](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+    - [Trees](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+    - [Union By Rank](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+    - [Path Compression](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+    - [Analysis Options](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - **Đi sâu hơn vào quy hoạch động** (videos)
     - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=r4-cftqTcdI&ab_channel=MITOpenCourseWare)
@@ -1893,8 +1893,8 @@ Bạn không bao giờ thực sự học xong!
 - **So khớp chuỗi**
     - Rabin-Karp (videos):
         - [Rabin Karps Algorithm](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
-        - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [Precomputing](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+        - [Optimization: Implementation and Analysis](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - Knuth-Morris-Pratt (KMP):

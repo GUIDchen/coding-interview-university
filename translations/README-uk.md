@@ -81,67 +81,67 @@ Microsoft.
 
 ### Навчальний план
 
-- [Що це?](#Що-це)
-- [Чому це використовувати?](#Чому-це-використовувати)
-- [Як це використовувати](#Як-це-використовувати)
-- [Не почувайтесь недостатньо розумними](#Не-почувайтесь-недостатньо-розумними)
-- [Про відео-ресурси](#Про-відеоресурси)
-- [Оберіть мову програмування](#Оберіть-мову-програмування)
-- [Книги про структури даних та алгоритми](#Книги-про-структури-даних-та-алгоритми)
-- [Книги з підготовки до співбесіди](#Книги-з-підготовки-до-співбесіди)
-- [Не робіть моїх помилок](#Не-робіть-моїх-помилок)
-- [Що не буде охоплено](#Що-не-буде-охоплено)
-- [Щоденний план](#Щоденний-план)
-- [Практика з питань кодування](#Практика-з-питань-кодування)
-- [Проблеми кодування](#Проблеми-кодування)
+- [Що це?](#що-це)
+- [Чому це використовувати?](#чому-це-використовувати)
+- [Як це використовувати](#як-це-використовувати)
+- [Не почувайтесь недостатньо розумними](#не-почувайтесь-недостатньо-розумними)
+- [Про відео-ресурси](#про-відеоресурси)
+- [Оберіть мову програмування](#оберіть-мову-програмування)
+- [Книги про структури даних та алгоритми](#книги-про-структури-даних-та-алгоритми)
+- [Книги з підготовки до співбесіди](#книги-з-підготовки-до-співбесіди)
+- [Не робіть моїх помилок](#не-робіть-моїх-помилок)
+- [Що не буде охоплено](#що-не-буде-охоплено)
+- [Щоденний план](#щоденний-план)
+- [Практика з питань кодування](#практика-з-питань-кодування)
+- [Проблеми кодування](#проблеми-кодування)
 
 ### Теми для вивчення
 
 - [Складність алгоритмів / Big-O / Асимптотичний аналіз](#складність-алгоритмів--big-o--асимптотичний-аналіз)
-- [Структури даних](#Структури-даних)
-    - [Масив](#Масив)
-    - [Зв'язаний список](#Зв'язаний-список)
-    - [Стек](#Стек)
-    - [Черга](#Черга)
-    - [Геш-таблиця](#Геш-таблиця)
-- [Більше знань](#Більше-знань)
-    - [Двійковий пошук](#Двійковий-пошук)
-    - [Бітові операції](#Бітові-операції)
-- [Дерева](#Дерева)
-    - [Дерева - Вступ](#Дерева-Вступ)
+- [Структури даних](#структури-даних)
+    - [Масив](#масив)
+    - [Зв'язаний список](#звязаний-список)
+    - [Стек](#стек)
+    - [Черга](#черга)
+    - [Геш-таблиця](#геш-таблиця)
+- [Більше знань](#більше-знань)
+    - [Двійковий пошук](#двійковий-пошук)
+    - [Бітові операції](#бітові-операції)
+- [Дерева](#дерева)
+    - [Дерева - Вступ](#дерева---вступ)
     - [Бінарні дерева пошуку: BSTs](#бінарні-дерева-пошуку-binary-search-trees-bsts)
     - [Купа / Пріоритетна черга / Бінарна купа](#купа--пріоритетна-черга--бінарна-купа)
     - Збалансовані дерева пошуку (загальна концепція, не деталі)
     - Обходи: preorder, inorder, postorder, BFS, DFS
-- [Сортування](#Сортування)
+- [Сортування](#сортування)
     - вибір (selection)
     - вставка (insertion)
     - купчасте сортування (heapsort)
     - швидке сортування (quicksort)
     - злиття (mergesort)
-- [Графи](#Графи)
+- [Графи](#графи)
     - спрямовані (directed)
     - неспрямовані (undirected)
     - матриця суміжності (adjacency matrix)
     - список суміжності (adjacency list)
     - обходи: BFS, DFS (traversals: BFS, DFS)
-- [Ще більше знань](#Ще-більше-знань)
-    - [Рекурсія](#Рекурсія)
-    - [Динамічне програмування](#Динамічне-програмування)
-    - [Шаблони проектування](#Шаблони-проектування)
+- [Ще більше знань](#ще-більше-знань)
+    - [Рекурсія](#рекурсія)
+    - [Динамічне програмування](#динамічне-програмування)
+    - [Шаблони проектування](#шаблони-проектування)
     - [Комбінаторика (n choose k) та ймовірність](#комбінаторика-n-choose-k-та-ймовірність)
     - [NP, NP-повні та Апроксимаційні Алгоритми](#np-np-повні-та-апроксимаційні-алгоритми)
-    - [Як комп'ютер виконує програму](#як-комп'ютер-виконує-програму)
-    - [Кеші](#Кеші)
+    - [Як комп'ютер виконує програму](#як-компютер-виконує-програму)
+    - [Кеші](#кеші)
     - [Процеси та потоки](#процеси-та-потоки)
-    - [Тестування](#Тестування)
-    - [Пошук та маніпуляції з рядками](#Пошук-та-маніпуляції-з-рядками)
-    - [Префіксні дерева](#Префіксні-дерева)
-    - [Числа з рухомою комою](#Числа-з-рухомою-комою)
-    - [Юнікод](#Юнікод)
+    - [Тестування](#тестування)
+    - [Пошук та маніпуляції з рядками](#пошук-та-маніпуляції-з-рядками)
+    - [Префіксні дерева](#префіксні-дерева)
+    - [Числа з рухомою комою](#числа-з-рухомою-комою)
+    - [Юнікод](#юнікод)
     - [Ендіанність (Порядок байтів)](#ендіанність-порядок-байтів)
-    - [Робота з мережами](#Робота-з-мережами)
-- [Фінальний огляд](#Фінальний-огляд)
+    - [Робота з мережами](#робота-з-мережами)
+- [Фінальний огляд](#фінальний-огляд)
 
 ### Отримання роботи
 
@@ -635,12 +635,12 @@ Microsoft.
     - Не потрібно реалізовувати
 
 - ### Стек
-    - [ ] Стеки (відео) [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] Стеки (відео) [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [Огляд] Стеки за 3 хвилини (відео) [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Не буде реалізовано. Реалізація з масивом тривіальна.
 
 - ### Черга
-    - [ ] Черга (відео) [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [ ] Черга (відео) [Queue (video)](https://www.coursera.org/lecture/data-structures/queue-EShpq)
     - [ ] Циклічний буфер/FIFO [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Огляд] Черги за 3 хвилини (відео) [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] Реалізувати за допомогою звʼязаного списка, з хвостовим вказівником:
@@ -670,12 +670,12 @@ Microsoft.
         - [ ] [Огляд] Хеш-таблиці за 4 хвилини (відео) [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     - [ ] Онлайн-курси:
-        - [ ] Основні хеш-таблиці (відео) [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [ ] Основні хеш-таблиці (відео) [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
         - [ ] Структури даних (відео) [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] Проблема телефонної книги (відео) [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] Проблема телефонної книги (відео) [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
         - [ ] розподілені хеш-таблиці:
-            - Миттєві завантаження та оптимізація сховища в Dropbox (відео) [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - Розподілені хеш-таблиці (відео) [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+            - Миттєві завантаження та оптимізація сховища в Dropbox (відео) [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+            - Розподілені хеш-таблиці (відео) [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
     - [ ] реалізувати з масивом за допомогою лінійного зондування
         - hash(k, m) - m - розмір хеш-таблиці
@@ -747,7 +747,7 @@ Microsoft.
 - ### Бінарні дерева пошуку (Binary search trees: BSTs)
 
     - [ ] Огляд бінарних дерев пошуку (відео) [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] Вступ (відео) [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] Вступ (відео) [Introduction (video)](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
     - [ ] MIT (відео) [MIT (video)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
     - C/C++:
         - [ ] Бінарне дерево пошуку - реалізація у C/C++ (відео) [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -778,11 +778,11 @@ Microsoft.
     - візуалізується у вигляді дерева, але зазвичай є лінійною у сховищі (масив, зв'язаний список)
     - [ ] Купа [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] Вступ (відео) [Introduction (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
-    - [ ] Бінарні дерева (відео) [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] Бінарні дерева (відео) [Binary Trees (video)](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
     - [ ] Зауваження щодо висоти дерева (відео) [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] Основні операції (відео) [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] Повні бінарні дерева (відео) [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] Псевдокод (відео) [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] Основні операції (відео) [Basic Operations (video)](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+    - [ ] Повні бінарні дерева (відео) [Complete Binary Trees (video)](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+    - [ ] Псевдокод (відео) [Pseudocode (video)](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
     - [ ] Сортування купою - переходи до початку (відео) [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
     - [ ] Сортування купою (відео) [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
     - [ ] Створення купи (відео) [Building a heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
@@ -820,10 +820,10 @@ Microsoft.
 
 - [ ] Седжвік - Сортування злиттям (5 відео) [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] Сортування злиттям [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
-    - [ ] 2. Висхідний Mergesort [2. Bottom-up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
+    - [ ] 2. Висхідний Mergesort [2. Bottom-up Mergesort](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
     - [ ] 3. Складність сортування [3. Sorting Complexity](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
     - [ ] 4. Компаратори [4. Comparators](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
-    - [ ] 5. Стабільність [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+    - [ ] 5. Стабільність [5. Stability](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 - [ ] Седжвік - Сортування злиттям (5 відео) [Sedgewick - Quicksort (4 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
     - [ ] Швидке сортування [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
@@ -871,12 +871,12 @@ Microsoft.
 
 - [ ] Не обов'язково, але я рекомендую їх:
     - [ ] Седжвік - Радікс-сортування (6 відео) [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-        - [ ] 1. Рядки в Java [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
+        - [ ] 1. Рядки в Java [1. Strings in Java](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
         - [ ] 2. Індексований підрахунок ключів [2. Key Indexed Counting](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
-        - [ ] 3. Сортування за розрядами за найменш значущою цифрою першого рядка [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] 3. Сортування за розрядами за найбільш значущою цифрою першого рядка [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+        - [ ] 3. Сортування за розрядами за найменш значущою цифрою першого рядка [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+        - [ ] 3. Сортування за розрядами за найбільш значущою цифрою першого рядка [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
         - [ ] 5. 3-бічне cортування за розрядами [5. 3 Way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
-        - [ ] 6. Масиви суфіксів [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] 6. Масиви суфіксів [6. Suffix Arrays](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] Сортування за розрядами [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] Сортування за розрядами (відео) [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] Сортування за розрядами, лічильне сортування (лінійні обмеження за часом) (відео) [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -986,13 +986,13 @@ Microsoft.
     - [ ] Єльський конспект лекцій:
         - [ ] Динамічне програмування [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
-        - [ ] Проблема вторинної структури РНК (відео) [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
+        - [ ] Проблема вторинної структури РНК (відео) [The RNA secondary structure problem (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
         - [ ] Алгоритм динамічного програмування (відео) [A dynamic programming algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
         - [ ] Ілюстрація алгоритму ДП (відео) [Illustrating the DP algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
-        - [ ] Час роботи алгоритму DP (відео) [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] DP проти рекурсивної реалізації (відео) [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+        - [ ] Час роботи алгоритму DP (відео) [Running time of the DP algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+        - [ ] DP проти рекурсивної реалізації (відео) [DP vs. recursive implementation (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
         - [ ] Глобальне попарне вирівнювання послідовностей (відео) [Global pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
-        - [ ] Локальне попарне вирівнювання послідовностей (відео) [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] Локальне попарне вирівнювання послідовностей (відео) [Local pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### Шаблони проектування
     - [ ] [Короткий огляд UML (відео)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
@@ -1132,7 +1132,7 @@ Microsoft.
         - [ ] 3. Кнут-Морріс Пратт [3. Knuth-Morris Pratt](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
         - [ ] 4. Бойєра-Мура [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
         - [ ] 5. Рабін-Карп [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] Шаблон пошуку в тексті (відео) [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    - [ ] Шаблон пошуку в тексті (відео) [Search pattern in text (video)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
     Якщо вам потрібна додаткова інформація з цієї теми, зверніться до розділу "Співставлення рядків" у [Додаткова інформація з деяких тем](#additional-detail-on-some-subjects).
 
@@ -1146,9 +1146,9 @@ Microsoft.
         - [ ] 3. Символьні операції [3. Character Based Operations](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ&index=1)
     - [ ] Примітки про структури даних та методи програмування [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [ ] Відео короткого курсу:
-        - [ ] Вступ до префіксних дерев (відео) [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] Ефективність префіксних дерев (відео) [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] Реалізація префіксного дерева (відео) [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+        - [ ] Вступ до префіксних дерев (відео) [Introduction To Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+        - [ ] Ефективність префіксних дерев (відео) [Performance Of Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+        - [ ] Реалізація префіксного дерева (відео) [Implementing A Trie (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
     - [ ] Префіксне дерево: занедбана структура даних [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] TopCoder - Використання префіксних дерев [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
     - [ ] Стенфордська лекція (реальний приклад використання) (відео) [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1522,9 +1522,9 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 - ### Information theory (videos)
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - [ ] more about Markov processes:
-        - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-        - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+        - [ ] [Core Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+        - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+        - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
     - See more in MIT 6.050J Information and Entropy series below.
 
 - ### Parity & Hamming Code (videos)
@@ -1662,9 +1662,9 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
             attractive for data structures that may be built once and loaded without reconstruction, such as language
             dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter).
         - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [ ] [AVL Trees (video)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+        - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+        - [ ] [Split And Merge](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
         - [ ] [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - [ ] **Splay trees**
@@ -1809,12 +1809,12 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     You want to get hired in this century, right?
 
 - [ ] **Union-Find**
-    - [ ] [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [ ] [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [ ] [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [ ] [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [ ] [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [ ] [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    - [ ] [Overview](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+    - [ ] [Naive Implementation](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+    - [ ] [Trees](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+    - [ ] [Union By Rank](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+    - [ ] [Path Compression](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+    - [ ] [Analysis Options](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - [ ] **More Dynamic Programming** (videos)
     - [ ] [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
@@ -1843,9 +1843,9 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 - [ ] **String Matching**
     - [ ] Rabin-Karp (videos):
-        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-        - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [Rabin Karps Algorithm](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+        - [Precomputing](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+        - [Optimization: Implementation and Analysis](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - [ ] Knuth-Morris-Pratt (KMP):

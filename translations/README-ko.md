@@ -99,7 +99,7 @@
   - [비트 연산](#비트-연산)
 - [트리](#트리)
   - [트리 - 배경 지식](#트리---배경-지식)
-  - [이진 탐색 트리 (BST)](#이진-탐색-트리-BST)
+  - [이진 탐색 트리 (BST)](#이진-탐색-트리-bst)
   - [힙 / 우선순위 큐 / 이진 힙](#힙--우선순위-큐--이진-힙)
   - 균형 탐색 트리 (간단한 개념)
   - 트리 순회: 전위 순회, 중위 순회, 후위 순회, 너비 우선 탐색(BFS), 깊이 우선 탐색(DFS)
@@ -117,10 +117,10 @@
   - 그래프 순회: 너비 우선 탐색(BFS), 깊이 우선 탐색(DFS)
 - [더 많은 지식](#더-많은-지식)
   - [재귀 (recursion)](#재귀-recursion)
-  - [동적 프로그래밍 (Dynamic Programming)](#동적-프로그래밍-Dynamic-Programming)
+  - [동적 프로그래밍 (Dynamic Programming)](#동적-프로그래밍-dynamic-programming)
   - [디자인-패턴](#디자인-패턴)
   - [조합과 확률](#조합과-확률)
-  - [NP, NP-완전, 근사 알고리즘](#NP-NP-완전-근사-알고리즘)
+  - [NP, NP-완전, 근사 알고리즘](#np-np-완전-근사-알고리즘)
   - [컴퓨터가 프로그램을 처리하는 방식](#컴퓨터가-프로그램을-처리하는-방식)
   - [캐시](#캐시)
   - [프로세스와 쓰레드](#프로세스와-쓰레드)
@@ -180,8 +180,8 @@
   - [트립](#treap)
   - [선형 계획법](#linear-programming)
   - [기하학, 볼록 껍질](#geometry-convex-hull)
-  - [이산수학](#discrete-math)
-  - [기계학습](#machine-learning)
+  - [이산수학](#이산수학)
+  - [기계학습](#기계학습)
 - [몇몇 주제에 대한 세부사항](#몇몇-주제에-대한-세부사항)
 - [영상 자료](#video-series)
 - [컴퓨터 과학 강의들](#컴퓨터-과학-강의들)
@@ -514,12 +514,12 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
   - [동영상](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
   - [슬라이드 자료](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
-- [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
+- [ ] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
+- [ ] [Asymptotics (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
 - [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
+- [ ] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
 - [ ] TopCoder (includes recurrence relations and master theorem):
   - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
   - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
@@ -531,9 +531,9 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
 - ### 배열
   - 자동 리사이징 벡터 구현하기
   - [ ] 설명:
-    - [배열 (영상)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+    - [배열 (영상)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
     - [UCBerkley CS61B - 선형과 다차원 배열 (영상)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-    - [동적 배열 (영상)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+    - [동적 배열 (영상)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
     - [가변 배열 (영상)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
   - [ ] 벡터 구현하기 (자동 리사이징을 포함한 동적 배열):
     - [ ] 배열, 포인터 및 인덱싱 대신하여 특정 인덱스에 접근하는 포인터 연산을 통한 코딩 연습
@@ -563,15 +563,15 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
 
 - ### 링크드 리스트
   - [ ] 설명:
-    - [ ] [단일 연결 리스트 (영상)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+    - [ ] [단일 연결 리스트 (영상)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
     - [ ] [CS 61B - 연결 리스트 1 (영상)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
     - [ ] [CS 61B - 연결 리스트 2 (영상)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
   - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - 전체 영상은 아니고, 노드 구조와 메모리 할당에 대한 부분입니다.
   - [ ] 연결 리스트 vs 배열:
-    - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-    - [실세계에서의 연결 리스트 Vs 배열 (영상)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+    - [실세계에서의 연결 리스트 Vs 배열 (영상)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
   - [ ] [왜 연결 리스트를 기피해야 하는지 (영상)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
   - [ ] 짚고가기: 이중 포인터에 대한 지식이 필요하다면:
         (for when you pass a pointer to a function that may change the address where that pointer points)
@@ -593,11 +593,11 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
     - [ ] reverse() - 리스트를 뒤집는다.
     - [ ] remove_value(value) - value와 같은 값을 가지는 첫 번째 노드를 제거한다.
   - [ ] 이중 연결 리스트
-    - [설명 (영상)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+    - [설명 (영상)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
     - 구현할 필요는 없습니다.
 
 - ### 스택
-  - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+  - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
   - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
   - [ ] Will not implement. Implementing with array is trivial.
 
@@ -632,12 +632,12 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
     - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
   - [ ] 온라인 강의들:
-    - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+    - [ ] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
     - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
-    - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+    - [ ] [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
     - [ ] distributed hash tables:
-      - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-      - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+      - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+      - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
   - [ ] Linear probing을 사용하여 배열로 구현해보기
     - hash(k, m) - m은 해시 테이블의 크기
@@ -686,7 +686,7 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
 ## 트리
 
 - ### 트리 - 배경 지식
-  - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+  - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
   - 트리 기초 형태 만들기
   - 순회
   - 알고리즘 다루기
@@ -711,7 +711,7 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
 
 - ### 이진 탐색 트리 (BST)
   - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-  - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+  - [ ] [Introduction (video)](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
   - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
   - C/C++:
     - [ ] [이진 탐색 트리 - C/C++로 구현하기 (영상)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -740,16 +740,16 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
 - ### 힙 / 우선순위 큐 / 이진 힙
   - 트리처럼 보여지지만, 보통은 선형으로 저장됩니다. (배열, 링크드리스트처럼)
   - [ ] [힙(Heap)](https://en.wikipedia.org/wiki/Heap_(data_structure))
-  - [ ] [소개 (영상)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-  - [ ] [Naive한 구현들 (영상)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-  - [ ] [이진 트리 (영상)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+  - [ ] [소개 (영상)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+  - [ ] [Naive한 구현들 (영상)](https://www.coursera.org/lecture/data-structures/naive-implementations-z3l9N)
+  - [ ] [이진 트리 (영상)](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
   - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-  - [ ] [기본 연산들 (영상)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-  - [ ] [완전 이진 트리 (영상)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-  - [ ] [의사 코드(Pseudocode) (영상)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+  - [ ] [기본 연산들 (영상)](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+  - [ ] [완전 이진 트리 (영상)](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+  - [ ] [의사 코드(Pseudocode) (영상)](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
   - [ ] [힙 정렬 - 시작하기 (영상)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-  - [ ] [힙 정렬 (영상)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-  - [ ] [힙 만들기 (영상)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+  - [ ] [힙 정렬 (영상)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+  - [ ] [힙 만들기 (영상)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
   - [ ] [MIT: 힙과 힙 정렬 (영상)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
   - [ ] [CS 61B Lecture 24: 우선순위 큐 (영상)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
   - [ ] [선형 시간에 힙 만들기 (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -784,17 +784,17 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
 - 힙소트의 경우, 위의 힙 데이터 구조를 보세요. 힙 정렬은 훌륭하지만 안정적이지 못합니다.
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-  - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
-  - [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-  - [ ] [3. Sorting Complexity](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
-  - [ ] [4. Comparators](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
-  - [ ] [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+  - [ ] [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+  - [ ] [2. Bottom up Mergesort](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
+  - [ ] [3. Sorting Complexity](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
+  - [ ] [4. Comparators](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+  - [ ] [5. Stability](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 - [ ] [Sedgewick - Quicksort (4 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-  - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-  - [ ] [2. Selection](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
-  - [ ] [3. Duplicate Keys](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
-  - [ ] [4. System Sorts](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
+  - [ ] [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
+  - [ ] [2. Selection](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+  - [ ] [3. Duplicate Keys](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
+  - [ ] [4. System Sorts](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
 
 - [ ] UC Berkeley:
   - [ ] [CS 61B Lecture 29: Sorting I (video)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
@@ -835,12 +835,12 @@ Anki 형식의 내 요약집 데이터베이스: https://ankiweb.net/shared/info
 
 - [ ] 필요한 건 아니지만, 아래도 추천합니다:
   - [ ] [Sedgewick - 기수 정렬(Radix Sorts) (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-    - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-    - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
-    - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-    - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-    - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-    - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [1. Strings in Java](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
+    - [ ] [2. Key Indexed Counting](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+    - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+    - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
+    - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+    - [ ] [6. Suffix Arrays](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
   - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
   - [ ] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
   - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -945,13 +945,13 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
   - [ ] Yale Lecture notes:
     - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
   - [ ] Coursera:
-    - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-    - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-    - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-    - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-    - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-    - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-    - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+    - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
+    - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
+    - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+    - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+    - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
+    - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+    - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### 디자인 패턴
   - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
@@ -1083,14 +1083,14 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
   - [ ] [테스트 어떻게 작성하는지](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### 문자열 검색 & 조작
-  - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+  - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
   - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-    - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
-    - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-    - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-    - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-    - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
-  - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    - [ ] [1. Introduction to Substring Search](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+    - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+    - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+    - [ ] [4. Boyer-Moore](https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
+    - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+  - [ ] [Search pattern in text (video)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
     이 주제를 더 자세히 알고 싶으시다면, [몇몇 주제에 대한 세부사항](#몇몇-주제에-대한-세부사항)에서 "문자열 매칭" 섹션을 읽어보세요.
 
@@ -1098,14 +1098,14 @@ Skiena의 책(아래의 책 섹션 참조)과 인터뷰 책에서 더 많은 그
   - 트라이에는 여러 종류가 있다는 것을 유의하라. 어떤 건 접두사가 있는 데, 어떤 건 그렇지 않고 또 어떤 것은 경로 추적을 위해 비트 대신에 문자열을 사용한다.
   - 나는 코드만 읽었고, 구현은 안 했다.
   - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-    - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-    - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-    - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+    - [ ] [1. R Way Tries](https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+    - [ ] [2. Ternary Search Tries](https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+    - [ ] [3. Character Based Operations](https://www.coursera.org/lecture/algorithms-part2/character-based-operations-jwNmV)
   - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
   - [ ] Short course videos:
-    - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-    - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-    - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+    - [ ] [Introduction To Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+    - [ ] [Performance Of Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+    - [ ] [Implementing A Trie (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
   - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
   - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
   - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1546,9 +1546,9 @@ Challenge repos:
 - ### Information theory (videos)
   - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
   - More about Markov processes:
-    - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-    - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-    - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+    - [Core Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+    - [Core Implementing Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+    - [Project = Markov Text Generation Walk Through](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
   - See more in MIT 6.050J Information and Entropy series below.
 
 - ### Parity & Hamming Code (videos)
@@ -1685,9 +1685,9 @@ Challenge repos:
             attractive for data structures that may be built once and loaded without reconstruction, such as language
             dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter).
     - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-    - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-    - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-    - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+    - [AVL Trees (video)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+    - [AVL Tree Implementation (video)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+    - [Split And Merge](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
     - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
   - **Splay trees**
@@ -1850,12 +1850,12 @@ Challenge repos:
     - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
 - **Union-Find**
-  - [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-  - [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-  - [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-  - [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-  - [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-  - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+  - [Overview](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+  - [Naive Implementation](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+  - [Trees](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+  - [Union By Rank](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+  - [Path Compression](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+  - [Analysis Options](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - **More Dynamic Programming** (videos)
   - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
@@ -1884,9 +1884,9 @@ Challenge repos:
 
 - **문자열 매칭
   - 라빈-카프(Rabin-Karp) (동영상):
-    - [라빈 카프 알고리즘](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-    - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-    - [최적화: 구현과 분석](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+    - [라빈 카프 알고리즘](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+    - [Precomputing](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+    - [최적화: 구현과 분석](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
     - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
     - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
   - Knuth-Morris-Pratt (KMP):
