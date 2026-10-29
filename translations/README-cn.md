@@ -1,5 +1,9 @@
 # 编程面试大学
 
+> **翻译说明：** 本中文翻译可能滞后于英文原版；若两者内容冲突，以英文原版 [../README.md](../README.md) 为准。最后审校：2026-10。
+
+> **时间不够？** 先看 [8–12 周最小可行路径](MINIMAL-PATH-cn.md)，再回到完整计划补充深度。
+
 > 原先我为了成为一个软件工程师而建立这份简单的学习主题清单， 但这份清单随着时间的推移而膨胀成今天这样。在做完这份清单上的每个目标后，[我成为了 Amazon 的软件开发工程师](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 你或许不需要像我一样学习这么多。但是，让你成为一位称职工程师所需要的知识都在这里了。
 >
 >我每天自学8~12小时，这样持续了好几个月。这是我的故事：[为什么我为了 Google 面试而自学了8个月](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)。
@@ -33,6 +37,7 @@
 
 ### 学习计划
 
+- [最小可行路径（8–12 周）](MINIMAL-PATH-cn.md)
 - [这是？](#这是)
 - [为何要用到它？](#为何要用到它)
 - [如何使用它](#如何使用它)
@@ -82,23 +87,21 @@
     - [动态规划](#动态规划dynamic-programming)
     - [设计模式](#设计模式)
     - [组合 & 概率](#组合combinatorics-n-中选-k-个--概率probability)
-    - [NP, NP-完全和近似算法](#np-np-完全和近似算法)
+    - [NP, NP-完全和近似算法](#np-np-completeness和近似算法)
     - [缓存](#缓存cache)
     - [进程和线程](#进程processe和线程thread)
     - [测试](#测试)
-    - [调度](#调度)
     - [字符串搜索和操作](#字符串搜索和操作)
     - [字典树（Tries）](#字典树tries)
     - [浮点数](#浮点数)
     - [Unicode](#unicode)
-    - [字节顺序](#字节序Endianness)
+    - [字节顺序](#字节序endianness)
     - [网络](#网络视频)
 - [最终复习](#最终复习)
 
 ### 获得工作机会
 
 - [更新你的简历](#更新你的简历)
-- [找工作](#找工作)
 - [面试流程与一般面试准备](#面试流程与一般面试准备)
 - [当面试来临的时候](#当面试来临的时候)
 - [问面试官的问题](#问面试官的问题)
@@ -109,21 +112,21 @@
 ### 可选的额外主题和资源
 
 - [额外书籍](#额外书籍)
-- [系统设计、可扩展性和数据处理](#系统设计、可扩展性和数据处理)
+- [系统设计、可扩展性和数据处理](#系统设计可扩展性和数据处理)
 - [附加学习](#附加学习)
     - [编译器](#编译器)
     - [Emacs and vi(m)](#emacs-and-vim)
     - [Unix 命令行工具](#unix-命令行工具)
     - [信息论](#信息论-视频)
     - [奇偶校验位 & 汉明码 (视频)](#奇偶校验位--汉明码-视频)
-    - [系统熵值](#系统熵值Entropy)
+    - [系统熵值](#系统熵值entropy)
     - [密码学](#密码学)
     - [压缩](#压缩)
     - [计算机安全](#计算机安全)
     - [垃圾回收](#垃圾回收)
     - [并行编程](#并行编程)
     - [消息传递，序列化和队列化的系统](#消息传递序列化和队列系统)
-    - [A*搜索算法](#a*搜索算法)
+    - [A*搜索算法](#a搜索算法)
     - [快速傅里叶变换](#快速傅里叶变换)
     - [布隆过滤器](#布隆过滤器)
     - [HyperLogLog](#hyperloglog)
@@ -294,7 +297,13 @@
 
 ### Python
 
-- [ ] [Python数据结构和算法](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+- [Coding Interview Patterns：攻克你的下一场编程面试](https://geni.us/q7svoz)（**主要推荐**）
+    - 从面试官的视角，讲清他们真正想考察什么、以及为什么。
+    - 101 道真实的编程面试题，配有详细解答。
+    - 用直觉化的讲解带你逐题推演，如同亲历现场面试。
+    - 1000+ 张图示，帮你理解关键概念与解题模式。
+
+- [Python数据结构和算法](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
     - 作者：Goodrich、Tamassia、Goldwasser
     - 我非常喜爱这本书，它包含了所有东西
     - 很 Python 的代码
@@ -328,6 +337,8 @@
 但我买了更多来给自己更多的练习。但我总是做得太多。
 
 这两个都是我买的，他们给了我大量的练习。
+
+- [Coding Interview Patterns：攻克你的下一场编程面试](https://geni.us/q7svoz)
 
 - [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
     - 提供C++和Java语言的答案
@@ -399,7 +410,7 @@
 你需要将所学知识应用于解决问题，否则你会忘记。我曾经犯过这个错误。
 
 一旦你学完一个主题，并且对它有了一定的掌握，比如 **链表（linked lists）**:
-1. 打开其中一本[编程面试书籍](#interview-prep-books)（或下方列出的编程问题网站之一）。
+1. 打开其中一本[编程面试书籍](#面试准备书籍)（或下方列出的编程问题网站之一）。
 1. 请先做2或3个关于链表的问题。
 1. 继续学习下一个主题。
 1. 稍后，回来再做另外2或3个链表问题。
@@ -442,7 +453,7 @@
 
     这是为什么？我还没有准备好面试。
 
-[那就回去阅读这部分。](#3-do-coding-interview-questions-while-youre-learning)
+[那就回去阅读这部分。](#3-在学习过程中做编程面试题)
 
 为什么你需要练习编程问题：
 - 识别问题，并确定合适的数据结构和算法
@@ -468,7 +479,7 @@
 
 ## 编程问题
 
-别忘了参考你的主要编程面试书籍[这里](#interview-prep-books).
+别忘了参考你的主要编程面试书籍[这里](#面试准备书籍).
 
 解决问题：
 - [如何找到解决方案](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
@@ -594,16 +605,16 @@
         - [ ] reverse() —— 逆序链表
         - [ ] remove_value(value) —— 删除链表中指定值的第一个元素
     - [ ] 双向链表
-        - [介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - [介绍（视频）](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - 并不需要实现
 
 - ### 堆栈（Stack）
-    - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [堆栈（视频）](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] 可以不实现，因为使用数组来实现是微不足道的事
 
 - ### 队列（Queue）
-    - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [ ] [队列（视频）](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] 使用含有尾部指针的链表来实现:
@@ -653,7 +664,7 @@
 - ### 二分查找（Binary search）
     - [ ] [二分查找（视频）](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [二分查找（视频）](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [详情](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] [详情](https://www.topcoder.com/thrive/articles/Binary%20Search)
     - [ ] [蓝图](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)   
     - [ ] [【复习】四分钟二分查找(视频)](https://youtu.be/fDKIpRe8GW4)
     - [ ] 实现：
@@ -670,8 +681,8 @@
         - [ ] [位操作](https://en.wikipedia.org/wiki/Bit_manipulation)
         - [ ] [按位运算](https://en.wikipedia.org/wiki/Bitwise_operation)
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
-        - [ ] [位元抚弄者（The Bit Twiddler）](http://bits.stephan-brumme.com/)
-        - [ ] [交互式位元抚弄者（The Bit Twiddler Interactive）](http://bits.stephan-brumme.com/interactive.html)
+        - [ ] [位元抚弄者（The Bit Twiddler）](https://bits.stephan-brumme.com/)
+        - [ ] [交互式位元抚弄者（The Bit Twiddler Interactive）](https://bits.stephan-brumme.com/interactive.html)
         - [ ] [位操作技巧（Bit Hacks）（视频）](https://www.youtube.com/watch?v=ZusiKXcz_ac)
         - [ ] [练习位操作](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
     - [ ] 一补数和补码
@@ -690,7 +701,7 @@
 ## 树（Trees）
 
 - ### 树-介绍
-    - [ ] [树的介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - [ ] [树的介绍（视频）](https://www.coursera.org/lecture/data-structures/trees-95qda)
     - [ ] [树遍历（视频）](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
     - [ ] [BFS（广度优先搜索）和DFS（深度优先搜索）（视频）](https://www.youtube.com/watch?v=uWL6FJhq5fM)
         - BFS 笔记
@@ -712,7 +723,7 @@
 - ### 二叉查找树（Binary search trees）：BSTs
     - [ ] [二叉搜索树复习（视频）](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-    - [ ] [MIT（视频）](https://www.youtube.com/watch?v=9Jry5-82I68)
+    - [ ] [MIT（视频）](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
     - C/C++:
         - [ ] [二叉查找树 —— 在 C/C++ 中实现（视频）](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
         - [ ] [BST 的实现 —— 在堆栈和堆中的内存分配（视频）](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
@@ -733,7 +744,7 @@
         - [ ] [get_height // 以节点为单位返回高度（单个节点的高度为1）](https://www.geeksforgeeks.org/find-the-maximum-depth-or-height-of-a-tree/)
         - [ ] get_min   // 返回树上的最小值
         - [ ] get_max   // 返回树上的最大值
-        - [ ] is_binary_search_tree
+        - [ ] [is_binary_search_tree](https://leetcode.com/problems/validate-binary-search-tree/)
         - [ ] delete_value
         - [ ] get_successor // 返回给定值的后继者，若没有则返回-1
 
@@ -749,7 +760,7 @@
     - [ ] [堆排序 - 跳转到开始部分（视频）](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
     - [ ] [堆排序（视频）](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
     - [ ] [构建堆（视频）](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
-    - [ ] [MIT：堆和堆排序（视频）](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [MIT 6.006：二叉堆（视频）](https://www.youtube.com/watch?v=Xnpo1atN-Iw&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=12)
     - [ ] [CS 61B Lecture 24：优先队列（视频）](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [线性时间构建堆（大顶堆）](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] [[复习] 13分钟了解堆（视频）](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
@@ -833,12 +844,12 @@
     - 关于堆排序，请查看前文堆的数据结构部分。
 
 - [ ] 有兴趣的话，还有一些补充，但并不是必须的:
-    - [Sedgewick──基数排序 (6个视频)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
+    - [ ] [Sedgewick ── 基数排序（6个视频）](https://www.coursera.org/learn/algorithms-part2/home/week/3)
         - [ ] [1. Java 中的字符串](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-        - [ ] [2. 键值索引计数（Key Indexed Counting）](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
+        - [ ] [2. 键值索引计数（Key Indexed Counting）](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-        - [ ] [5. 3中基数快速排序](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
+        - [ ] [5. 三向基数快速排序（3 Way Radix Quicksort）](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
         - [ ] [6. 后继数组（Suffix Arrays）](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [基数排序](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [基数排序（视频）](https://www.youtube.com/watch?v=xhr26ia4k38)
@@ -863,17 +874,19 @@
     - 广度优先搜索和深度优先搜索：知道它们的计算复杂度和设计上的权衡以及如何用代码实现它们
     - 遇到一个问题时，首先尝试基于图的解决方案，如果没有再去尝试其他的。
 
-- MIT（视频）：
-    - [广度优先搜索](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
-    - [深度优先搜索](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+- [ ] MIT（视频）：
+    - [ ] [广度优先搜索（视频）](https://www.youtube.com/watch?v=oFVYVzlvk9c&t=14s&ab_channel=MITOpenCourseWare)
+    - [ ] [深度优先搜索（视频）](https://www.youtube.com/watch?v=IBfWDYSffUU&t=32s&ab_channel=MITOpenCourseWare)
+    - [广度优先搜索（旧版，视频）](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+    - [深度优先搜索（旧版，视频）](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
 
 - [ ] Skiena 教授的课程 - 很不错的介绍:
-    - [ ] [CSE373 2012 - 课程 11 - 图的数据结构（视频）](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
-    - [ ] [CSE373 2012 - 课程 12 - 广度优先搜索（视频）](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
-    - [ ] [CSE373 2012 - 课程 13 - 图的算法（视频）](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
-    - [ ] [CSE373 2012 - 课程 14 - 图的算法 (1)（视频）](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [CSE373 2012 - 课程 15 - 图的算法 (2)（视频）](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [CSE373 2012 - 课程 16 - 图的算法 (3)（视频）](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [CSE373 2020 - 第10讲 - 图的数据结构（视频）](https://www.youtube.com/watch?v=Sjk0xqWWPCc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=10)
+    - [ ] [CSE373 2020 - 第11讲 - 图的遍历（视频）](https://www.youtube.com/watch?v=ZTwjXj81NVY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=11)
+    - [ ] [CSE373 2020 - 第12讲 - 深度优先搜索（视频）](https://www.youtube.com/watch?v=KyordYB3BOs&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=12)
+    - [ ] [CSE373 2020 - 第13讲 - 最小生成树（视频）](https://www.youtube.com/watch?v=oolm2VnJUKw&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=13)
+    - [ ] [CSE373 2020 - 第14讲 - 最小生成树（续）（视频）](https://www.youtube.com/watch?v=RktgPx0MarY&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=14)
+    - [ ] [CSE373 2020 - 第15讲 - 图的算法（续 2）（视频）](https://www.youtube.com/watch?v=MUe5DXRhyAo&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=15)
 
 - [ ] 图 (复习和其他):
 
@@ -946,11 +959,11 @@
         - [ ] [动态规划](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera 课程:
         - [ ] [RNA 二级结构问题（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [动态规划算法（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        - [ ] [DP 算法描述（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
+        - [ ] [动态规划算法（视频）](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
+        - [ ] [DP 算法描述（视频）](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
         - [ ] [DP 算法的运行时间（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
         - [ ] [DP vs 递归实现（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [全局成对序列排列（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
+        - [ ] [全局成对序列排列（视频）](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
         - [ ] [本地成对序列排列（视频）](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
 - ### 设计模式
@@ -999,9 +1012,9 @@
         - [ ] [NP-Completeness III（视频）](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [NP-Completeness IV（视频）](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
     - [ ] Skiena:
-        - [ ] [CSE373 2012 - 课程 23 - 介绍 NP-Completeness IV（视频）](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
-        - [ ] [CSE373 2012 - 课程 24 - NP-Completeness证明（视频）](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [CSE373 2012 - 课程 25 - NP-Completeness挑战（视频）](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [CSE373 2020 - 第23讲 - NP-Completeness（视频）](https://www.youtube.com/watch?v=ItHp5laE1VE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=23)
+        - [ ] [CSE373 2020 - 第24讲 - 可满足性问题（视频）](https://www.youtube.com/watch?v=inaFJeCzGxU&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=24)
+        - [ ] [CSE373 2020 - 第25讲 - 更多 NP-Completeness（视频）](https://www.youtube.com/watch?v=B-bhKxjZLlc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=25)
         - [ ] [CSE373 2020年 - 第26讲 - NP-Completeness挑战（视频）](https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26)
     - [ ] [复杂度: P, NP, NP-完全性, 规约（视频）](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
     - [ ] [复杂度: 近视算法 Algorithms（视频）](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
@@ -1081,11 +1094,11 @@
 - ### 字符串搜索和操作
     - [ ] [Sedgewick──后缀数组（Suffix Arrays）（视频）](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick──子字符串搜寻（视频）](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. 子字符串搜寻导论](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
+        - [ ] [1. 子字符串搜寻导论](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
         - [ ] [2. 子字符串搜寻──暴力法](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
         - [ ] [3. KMP算法](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
         - [ ] [4. Boyer-Moore算法](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-        - [ ] [5. Rabin-Karp算法](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
+        - [ ] [5. Rabin-Karp算法](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
     - [ ] [文本的搜索模式（视频）](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
 如果你需要有关此主题的更多详细信息，请参阅“[一些主题的额外内容](#一些主题的额外内容)”中的“字符串匹配”部分。
@@ -1094,7 +1107,7 @@
 
     - 需要注意的是，字典树各式各样。有些有前缀，而有些则没有。有些使用字符串而不使用比特位来追踪路径。
     - 阅读代码，但不实现。
-    - [Sedgewick──字典树（3个视频）](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+    - [ ] [Sedgewick ── 字典树（3个视频）](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. R Way字典树](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
         - [ ] [2. 三元搜索树](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
         - [ ] [3. 基于字符串的操作](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
@@ -1104,7 +1117,7 @@
         - [ ] [字典树的性能（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
         - [ ] [实现一棵字典树（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
     - [ ] [字典树：一个被忽略的数据结构](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
-    - [ ] [TopCoder —— 使用字典树](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
+    - [ ] [TopCoder ── 使用字典树](https://www.topcoder.com/thrive/articles/Using%20Tries)
     - [ ] [标准教程（现实中的用例）（视频）](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
     - [ ] [MIT，高阶数据结构，字符串（视频中间有点困难）（视频）](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
@@ -1116,16 +1129,16 @@
     - [ ] [关于处理文本需要的编码和字符集，每个程序员绝对需要知道的知识](http://kunststube.net/encoding/)
 
 - ### 字节序（Endianness）
-    - [大/小端序](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html)
-    - [大端序 Vs 小端序（视频）](https://www.youtube.com/watch?v=JrNF0KRAlyo)
-    - [由里入内的大端序与小端序（视频）](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+    - [ ] [大/小端序](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html)
+    - [ ] [大端序 Vs 小端序（视频）](https://www.youtube.com/watch?v=JrNF0KRAlyo)
+    - [ ] [由里入内的大端序与小端序（视频）](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
         - 对于内核开发非常具有技术性，如果大多数的内容听不懂也没关系。
         - 前半部就已经足够了。
 
 - ### 网络（视频）
     - **如果你具有网络经验或想成为可靠性工程师或运维工程师，期待你的问题**
     - 知道这些有益无害，多多益善!
-    - [ ] [可汗学院](https://www.khanacademy.org/computing/computer-science/computers-and-internet-code-org)
+    - [ ] [可汗学院](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
     - [ ] [UDP 和 TCP：网络传输协议中的数据压缩（视频）](https://www.youtube.com/watch?v=Vdc8TCESIg8)
     - [ ] [TCP/IP 和 OSI 模型解释！（视频）](https://www.youtube.com/watch?v=e5DEVa9eSN0)
     - [ ] [互联网上的数据包传输。网络和 TCP/IP 教程。（视频）](https://www.youtube.com/watch?v=nomyRJehhnM)
@@ -1136,8 +1149,8 @@
     - [ ] [视频系列（21个视频）](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
     - [ ] [子网络解密 - 第五部分 经典内部域名指向 CIDR 标记（视频）](https://www.youtube.com/watch?v=t5xYI0jzOf4)
     - [ ] 套接字（Sockets）：
-        - [Java──套接字──介绍（视频）](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
-        - [套接字编程（视频）](https://www.youtube.com/watch?v=G75vN2mnJeQ)
+        - [ ] [Java ── 套接字 ── 介绍（视频）](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
+        - [ ] [套接字编程（视频）](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
 ---
 
@@ -1386,7 +1399,7 @@
     - [ ] Twitter:
         - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (视频)](https://www.youtube.com/watch?v=5cKTP36HVgI)
         - [时间轴扩展](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - 欲知更多信息，请参阅[Video Series](#video-series) 部分中的“Mining Massive Datasets”视频系列
+    - 欲知更多信息，请参阅[视频系列](#视频系列) 部分中的“Mining Massive Datasets”视频系列
 - [ ] 练习系统设计过程：以下是一些建议您在纸上尝试的想法，每个想法都有一些关于如何在现实世界中处理的文档：
     - 复习: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
     - [HiredInTech的系统设计](http://www.hiredintech.com/system-design/)
@@ -1464,6 +1477,10 @@
     - uniq
     - [strace](https://en.wikipedia.org/wiki/Strace)
     - [tcpdump](https://danielmiessler.com/study/tcpdump/)
+    - [必需掌握的 Linux 命令教程（Essential Linux Commands Tutorial）](https://labex.io/tutorials/practice-linux-commands-hands-on-labs-398420)
+
+- ### DevOps
+    - [DevOps 路线图](https://roadmap.sh/devops)
 
 - ### 信息论 (视频)
     - [Khan Academy 可汗学院](https://www.khanacademy.org/computing/computer-science/informationtheory)
@@ -1489,7 +1506,7 @@
 - ### 密码学
     - 请参考下方视频
     - 观看之前，请先确定观看了信息论的视频
-    - [可汗学院](https://www.khanacademy.org/computing/computer-science/密码学)
+    - [可汗学院密码学系列](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [密码学: 哈希函数](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [密码学: 加密](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
@@ -1521,13 +1538,13 @@
         - [旁路攻击](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### 垃圾回收
-    - [ ] [Python 中的垃圾回收 (视频)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
-    - [ ] [深度解析：论垃圾回收在 JAVA 中的重要性](https://www.infoq.com/presentations/garbage-collection-benefits)
-    - [ ] [深度解析：论垃圾回收在 Python 中的重要性(视频)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+    - [Python 中的垃圾回收 (视频)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
+    - [深度解析：论垃圾回收在 JAVA 中的重要性](https://www.infoq.com/presentations/garbage-collection-benefits)
+    - [深度解析：论垃圾回收在 Python 中的重要性(视频)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
 - ### 并行编程
-    - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
-    - [ ] [用于高性能并行计算的高效Python（视频）](https://www.youtube.com/watch?v=uY85GkaYzBk)
+    - [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
+    - [用于高性能并行计算的高效Python（视频）](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
 - ### 消息传递，序列化和队列系统
     - [Thrift](https://thrift.apache.org/)
@@ -1634,7 +1651,7 @@
         - [Aduni —— 算法 —— 课程4（该链接直接跳到开始部分）（视频）](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni —— 算法 —— 课程5（视频）](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [黑树（Black Tree）](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [二分查找及红黑树的介绍](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [二分查找及红黑树的介绍](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
         - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
     - **2-3查找树**
@@ -1690,7 +1707,7 @@
     - [更生动详细的解释](https://en.wikipedia.org/wiki/Skip_list)
 
 - ### 网络流
-    - [5分钟简析 Ford-Fulkerson──一步步示例 (视频)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [5分钟简析 Ford-Fulkerson──一步步示例 (视频)](https://www.youtube.com/watch?v=Tl90tNtKvxs)
     - [Ford-Fulkerson 算法 (视频)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [网络流 (视频)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
@@ -1783,7 +1800,7 @@
 
 - **字符串匹配**
     - Rabin-Karp（视频）
-        - [Rabin Karps 算法](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
+        - [Rabin Karps 算法](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
         - [预计算](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
         - [优化：实施和分析](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
         - [表翻倍，Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
@@ -1901,6 +1918,12 @@
 - [2015: 大规模高可用性：构建Google广告数据基础设施](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
 - [2015: 开发人员如何搜索代码：一个案例研究](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 - 更多论文： [1,000篇论文](https://github.com/0voice/computer_expert_paper)
+
+## 维护与贡献
+
+最后审校：2026-10。如果你需要一条更短的路线，请从 [MINIMAL-PATH.md](../MINIMAL-PATH.md) 开始。若发现坏链、翻译问题或其他改动需求，请参阅 [CONTRIBUTING.md](../CONTRIBUTING.md)。
+
+原始项目是 [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)。
 
 ## LICENSE
 
