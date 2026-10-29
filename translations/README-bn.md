@@ -99,7 +99,7 @@
    - [অ্যারে](#অ্যারে)
    - [লিঙ্কলিস্ট](#লিঙ্কযুক্ত-তালিকাগুলি)
    - [স্ট্যাক](#স্ট্যাক)
-   - [কিউ](#সারি)
+   - [কিউ](#কিউ)
    - [হ্যাশ টেবিল](#হ্যাশ-টেবিল)
 - [আরও জ্ঞান](#আরও-জ্ঞান)
    - [বাইনারি সার্চ](#বাইনারি-অনুসন্ধান)
@@ -128,7 +128,7 @@
    - [অবজেক্ট-ওরিয়েন্টড প্রোগ্রামিং](#অবজেক্ট-ওরিয়েন্টেড-প্রোগ্রামিং)
    - [ডিজাইন প্যাটার্ন্স](#ডিজাইন-নিদর্শন)
    - [সমাবেশ (এন থেকে কে নির্বাচন করুন) এবং সম্ভাবনা (Combinatorics (n choose k) & Probability)](#সংযুক্তি-এন-পছন্দ-কে-সম্ভাবনা)
-   - [এনপি, এনপি-সম্পূর্ণ এবং আনুমানিক অ্যালগরিদম](#এনপি-এনপি-সম্পূর্ণ-এবং-আনুমানিক-অ্যালগোরিদম)
+   - [এনপি, এনপি-সম্পূর্ণ এবং আনুমানিক অ্যালগরিদম](#এনপি-এনপি-সম্পূর্ণ-এবং-আনুমানিক-অ্যালগরিদম)
    - [কম্পিউটার কিভাবে প্রোগ্রাম প্রসেস করে](কম্পিউটার-কিভাবে-প্রোগ্রাম-প্রসেস-করে)
    - [ক্যাশ](#ক্যাশে)
    - [প্রসেস এবং থ্রেড](#প্রক্রিয়া-এবং-থ্রেড)
@@ -163,19 +163,19 @@
    - [ইউনিক্স কমান্ড লাইন তুলস](#ইউনিক্স-কমান্ড-লাইন-সরঞ্জাম)
    - [ইনফরমেশন থিয়োরি](#তথ্য-তত্ত্ব-ভিডিও)
    - [প্যারিটি এবং হামিং কোড](#সমতা-হামিং-কোড-ভিডিও)
-   - [এন্ট্রপি](#এনট্রপি)
+   - [এন্ট্রপি](#এন্ট্রপি)
    - [ক্রিপ্টোগ্রাফি](#ক্রিপ্টোগ্রাফি)
    - [কম্প্রেশন](#সংক্ষেপণ)
    - [কম্পিউটার সুরক্ষা](#কম্পিউটার-সুরক্ষা)
    - [গারবেজ কালেকশন](#জঞ্জাল-সংগ্রহ)
    - [প্যারালাল প্রোগ্রামিং](#সমান্তরাল-প্রোগ্রামিং)
    - [মেসেজিং, সিরিয়ালাইজেশন, এবং কিউইং সিস্টেম](#মেসেজিং-সিরিয়ালাইজেশন-এবং-কুইউং-সিস্টেম)
-   - [এ*](#ক)
+   - [এ*](#এ)
    - [ফাস্ট ফুরিয়ার ট্রান্সফর্ম](#ফাস্ট-ফুরিয়ার-ট্রান্সফর্ম)
    - [ব্লুম ফিল্টার](#ব্লুম-ফিল্টার)
    - [হাইপারলগলগ](#হাইপারলগলগ)
    - [লোকালিটি-সেনসিটিভ হ্যাশিং](#লোকাল-সংবেদনশীল-হ্যাশিং)
-   - [ভ্যান এমডে বোস ট্রি](#ভ্যান-এমডি-বোস-ট্রি)
+   - [ভ্যান এমডে বোস ট্রি](#ভ্যান-এমডে-বোস-ট্রি)
    - [অগমেন্টেড ডেটা স্ট্রাকচার](#সংযুক্ত-ডেটা-কাঠামো)
    - [ব্যালান্সড সার্চ ট্রি](#সুষম-অনুসন্ধান-গাছ)
        - এভিএল ট্রি
@@ -559,7 +559,7 @@ https://github.com/jwasham/coding-interview-university
    - [স্লাইডস](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 -  [অ্যালগরিদম জটিলতা বিশ্লেষণের একটি নম্র ভূমিকা] (http://discrete.gr/complexity/)
 -  [বৃদ্ধির অর্ডার (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
--  [অ্যাসিপটোটিকস (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-চিন্তাধারার-1/asyptics-bXAtM)
+-  [অ্যাসিপটোটিকস (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-thinking-1/asyptics-bXAtM)
 - [ ] [ইউসি বার্কলে বিগ ও (ভিডিও)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
 - [ ] [ইউসি বার্কলে বিগ ওমেগা (ভিডিও)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
 - [ ]  [ইমোরটাইজড অ্যানালাইসিস (ভিডিও)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -745,7 +745,7 @@ https://github.com/jwasham/coding-interview-university
         - ইমপ্লিমেন্টের প্রয়োজন নাই।
  
 - ### স্ট্যাক
-   -  [স্ট্যাকস (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+   -  [স্ট্যাকস (ভিডিও)] (https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
    - ] বাস্তবায়ন করবে না। অ্যারের সাথে প্রয়োগ করা তুচ্ছ।
  
@@ -780,12 +780,12 @@ https://github.com/jwasham/coding-interview-university
         - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
  
    -  অনলাইন কোর্স:
-       -  [কোর হ্যাশ টেবিল (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+       -  [কোর হ্যাশ টেবিল (ভিডিও)] (https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
        -  [ডেটা স্ট্রাকচার (ভিডিও)] (https://www.coursera.org/learn/data-structures/home/week/3)
        -  [ফোন বুক সমস্যা (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন / NYZZP/ iPhone-book-সমস্যা)
        -  হ্যাশ টেবিল বিতরণ:
-           - [ড্রপবক্সে তাত্ক্ষণিক আপলোড এবং স্টোরেজ অপ্টিমাইজেশন (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-stores-optimization-in-rodbox)
-           - [বিতরণ করা হ্যাশ টেবিলগুলি (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributes-hash-tables)
+           - [ড্রপবক্সে তাত্ক্ষণিক আপলোড এবং স্টোরেজ অপ্টিমাইজেশন (ভিডিও)] (https://www.coursera.org/lecture/data-structures/instant-uploads-and-stores-optimization-in-rodbox-DvaIb)
+           - [বিতরণ করা হ্যাশ টেবিলগুলি (ভিডিও)] (https://www.coursera.org/lecture/data-structures/distributes-hash-tables-tvH8H)
  
    -  লিনিয়ার প্রোব ব্যবহার করে অ্যারে প্রয়োগ করুন
        -হ্যাশ (কে, মি)-মি হ্যাশ টেবিলের আকার
@@ -868,9 +868,9 @@ https://github.com/jwasham/coding-interview-university
 
 - ### বাইনারি অনুসন্ধান গাছ: বিএসটি
    -  [বাইনারি অনুসন্ধান বৃক্ষ পর্যালোচনা (ভিডিও)] (https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-   -  [সিরিজ (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-intr پيداوار-to-binary-search-trees)
+   -  [সিরিজ (ভিডিও)] (https://www.coursera.org/lecture/data-structures-optimizing-performance/core-intr-p82sw پيداوار-to-binary-search-trees)
        -প্রতীক টেবিল দিয়ে শুরু হয় এবং বিএসটি অ্যাপ্লিকেশনগুলির মধ্য দিয়ে যায়
-   -  [পরিচিতি (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/E7cXP/intr پيداوار)
+   -  [পরিচিতি (ভিডিও)] (https://www.coursera.org/lecture/data-structures/intr-E7cXP پيداوار)
    -  [এমআইটি (ভিডিও)] (https://www.youtube.com/watch?v=9Jry5-82I68)
    - সি / সি ++:
        -  [বাইনারি অনুসন্ধান ট্রি-সি / সি ++ (ভিডিও) তে বাস্তবায়ন]] (https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -900,15 +900,15 @@ https://github.com/jwasham/coding-interview-university
    - গাছ হিসাবে ভিজ্যুয়ালাইজড, তবে সাধারণত সঞ্চয়স্থানে লিনিয়ার থাকে (অ্যারে, লিঙ্কযুক্ত তালিকা)
    -  [গাদা] (https://en.wikedia.org/wiki/Heap_ (ডেটা_ স্ট্রাস্ট্রাকচার))
    -  [ভূমিকা (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন / 2 অপ্টস / সিন্ট্রোকশন)
-   -  [নিষ্পাপ বাস্তবায়ন (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-বাস্তবায়ন)
+   -  [নিষ্পাপ বাস্তবায়ন (ভিডিও)] (https://www.coursera.org/lecture/data-structures/naive-বাস্তবায়ন-z3l9N)
    -  [বাইনারি ট্রি (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন / জিআরভি 2 কিউ / বাইনারি-গাছগুলি)
    -  [গাছের উচ্চতা মন্তব্য (ভিডিও)] (https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-   -  [বেসিক অপারেশনস (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operation)
-   -  [সম্পূর্ণ বাইনারি গাছগুলি (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/gl5Ni/ কমপ্লিট-বাইনারি-ট্রিগুলি)
+   -  [বেসিক অপারেশনস (ভিডিও)] (https://www.coursera.org/lecture/data-structures/basic-operation-0g1dl)
+   -  [সম্পূর্ণ বাইনারি গাছগুলি (ভিডিও)] (https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni কমপ্লিট-বাইনারি-ট্রিগুলি)
    -  [সিউডোকোড (ভিডিও)] (https://www.coursera.org/learn/data-structures/ ਚੋਣ / HxQo9/pseudocode)
    -  [স্তূপের বাছাই-শুরু করতে লাফিয়ে লাফালাফি (ভিডিও)] (https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-   -  [গাদা সাজান (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-   -  [একটি হিপ তৈরি করা (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+   -  [গাদা সাজান (ভিডিও)] (https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+   -  [একটি হিপ তৈরি করা (ভিডিও)] (https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
    -  [এমআইটি: হিপস এবং হিপ সাজান (ভিডিও)] (https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
    -  [সিএস 61 বি লেকচার 24: অগ্রাধিকার ক্যু (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
    -  [লিনিয়ার টাইম বিল্ডহীপ (সর্বাধিক হিপ)] (https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -948,17 +948,17 @@ https://github.com/jwasham/coding-interview-university
 - হিপসোর্টের জন্য, উপরে হ্যাপের ডেটা কাঠামোটি দেখুন। হিপ সাজানো দুর্দান্ত তবে স্থিতিশীল নয়।
  
 -  [সেডজউইক-মার্জেসোর্ট (৫ টি ভিডিও)] (https://www.coursera.org/learn/algorithms-part1/home/week/3)
-   -  [১। Mergesort] (https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
-   -  [২। নীচে আপ মার্জেস্টর্ট] (https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-ستمsort)
-   -  [3। জটিলতা বাছাই করা] (https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
-   -  [৪। Comparators] (https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
-   -  [৫। স্টেবিলিটি] (https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+   -  [১। Mergesort] (https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+   -  [২। নীচে আপ মার্জেস্টর্ট] (https://www.coursera.org/lecture/algorithms-part1/bottom-up-ستمsort-PWNEl)
+   -  [3। জটিলতা বাছাই করা] (https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
+   -  [৪। Comparators] (https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+   -  [৫। স্টেবিলিটি] (https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
  
 -  [সেডজউইক-কুইকোর্ট (4 টি ভিডিও)] (https://www.coursera.org/learn/algorithms-part1/home/week/3)
-   -  [১। Quicksort] (https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-   -  [২। নির্বাচন] (https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
-   -  [3। সদৃশ কী]] (https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/d નકલate-keys)
-   -  [৪। সিস্টেম সাজস] (https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
+   -  [১। Quicksort] (https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
+   -  [২। নির্বাচন] (https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+   -  [3। সদৃশ কী]] (https://www.coursera.org/lecture/algorithms-part1/d-XvjPd નકલate-keys)
+   -  [৪। সিস্টেম সাজস] (https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
  
 -  ইউসি বার্কলে:
    -  [সিএস 61 বি লেকচার 29: আই বাছাই করা (ভিডিও)] (https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
@@ -999,12 +999,12 @@ https://github.com/jwasham/coding-interview-university
  
 -  প্রয়োজন হয় না, তবে আমি তাদের সুপারিশ করেছি:
    -  [সেডজউইক-র‌্যাডিক্স সোর্টস (6 টি ভিডিও)] (https://www.coursera.org/learn/algorithms-part2/home/week/3)
-       -  [১। জাভাতে স্ট্রিংস (https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-       -  [২। মূল সূচক গণনা] (https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
-       -  [3। সর্বনিম্ন গুরুত্বপূর্ণ অঙ্কের প্রথম স্ট্রিং রেডিক্সের সাজান] (https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-       -  [৪। সর্বাধিক উল্লেখযোগ্য অঙ্কের প্রথম স্ট্রিং রেডিক্স সাজান] (https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-       -  [৫। 3 ওয়ে রেডিক্স কুইকসোর্ট] (https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-       -  [।। প্রত্যয় অ্যারে] (https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+       -  [১। জাভাতে স্ট্রিংস (https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
+       -  [২। মূল সূচক গণনা] (https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+       -  [3। সর্বনিম্ন গুরুত্বপূর্ণ অঙ্কের প্রথম স্ট্রিং রেডিক্সের সাজান] (https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+       -  [৪। সর্বাধিক উল্লেখযোগ্য অঙ্কের প্রথম স্ট্রিং রেডিক্স সাজান] (https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
+       -  [৫। 3 ওয়ে রেডিক্স কুইকসোর্ট] (https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+       -  [।। প্রত্যয় অ্যারে] (https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
    -  [রেডিক্স বাছাই] (http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
    -  [রেডিক্স বাছাই (ভিডিও)] (https://www.youtube.com/watch?v=xhr26ia4k38)
    -  [রেডিক্স বাছাই, গণনা অনুসারে বাছাই (রৈখিক সময় দেওয়া সীমাবদ্ধতা) (ভিডিও)] (https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -1063,7 +1063,7 @@ https://github.com/jwasham/coding-interview-university
    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
  
 - সম্পূর্ণ কোর্সেরা কোর্স:
-   -  [গ্রাফগুলিতে অ্যালগরিদমগুলি (ভিডিও)] (https://www.coursera.org/learn/algorithms-on-অনুচ্ছেদ / হোম / উপস্ব)
+   -  [গ্রাফগুলিতে অ্যালগরিদমগুলি (ভিডিও)] (https://www.coursera.org/learn/algorithms-on-graphs / হোম / উপস্ব)
  
 - আমি বাস্তবায়ন করব:
    -  সংলগ্ন তালিকার সাথে ডিএফএস (পুনরাবৃত্ত)
@@ -1118,12 +1118,12 @@ https://github.com/jwasham/coding-interview-university
        -  [ডায়নামিক প্রোগ্রামিং] (http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamic প্রোগ্রামগ্রাম)
    -  কোর্সেরা:
        -  [আরএনএ মাধ্যমিক কাঠামো সমস্যা (ভিডিও)] (https://www.coursera.org/learn/algorithmic-thinking-2/ নির্বাচন / 80RrW/the-rna-secondary-কাঠামো-সমস্যা)
-       -  [একটি গতিশীল প্রোগ্রামিং অ্যালগরিদম (ভিডিও)] (https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-       -  [ডিপি অ্যালগরিদম (ভিডিও) উদাহরণস্বরূপ] (https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-       -  [ডিপি অ্যালগরিদমের চলমান সময় (ভিডিও)] (https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-       -  [ডিপি বনাম পুনরাবৃত্তিমূলক বাস্তবায়ন (ভিডিও)] (https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-বাস্তবায়ন)
-       -  [গ্লোবাল পেয়ারওয়াইজ সিকোয়েন্স অ্যালাইনমেন্ট (ভিডিও)] (https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-       -  [স্থানীয় যুগের ক্রম সারিবদ্ধকরণ প্রান্তিককরণ (ভিডিও)] (https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+       -  [একটি গতিশীল প্রোগ্রামিং অ্যালগরিদম (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
+       -  [ডিপি অ্যালগরিদম (ভিডিও) উদাহরণস্বরূপ] (https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+       -  [ডিপি অ্যালগরিদমের চলমান সময় (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+       -  [ডিপি বনাম পুনরাবৃত্তিমূলক বাস্তবায়ন (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-বাস্তবায়ন-M999a)
+       -  [গ্লোবাল পেয়ারওয়াইজ সিকোয়েন্স অ্যালাইনমেন্ট (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+       -  [স্থানীয় যুগের ক্রম সারিবদ্ধকরণ প্রান্তিককরণ (ভিডিও)] (https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
  
 - ### অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং
    -  ptionচ্ছিক: ইউএমএল ২.০ সিরিজ (ভিডিও)] (https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -1277,14 +1277,14 @@ https://github.com/jwasham/coding-interview-university
    - অপারেটিং সিস্টেমের ভিডিওগুলি থেকে সংগ্রহ করা যায়
  
 - ### স্ট্রিং অনুসন্ধান এবং ম্যানিপুলেশনগুলি
-   -  [সেডজউইক-প্রত্যয় অ্যারে (ভিডিও)] (https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+   -  [সেডজউইক-প্রত্যয় অ্যারে (ভিডিও)] (https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
    -  [সেডজউইক-সাবস্ট্রিং অনুসন্ধান (ভিডিও)] (https://www.coursera.org/learn/algorithms-part2/home/week/4)
-       -  [১। সাবস্ট্রিং অনুসন্ধানের পরিচিতি] (https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/intr پيداوار-to-substring-search)
-       -  [২। ব্রুট-ফোর্স সাবস্ট্রিং অনুসন্ধান] (https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-       -  [3। নূথ-মরিস প্র্যাট] (https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-       -  [৪। বুইয়ার মুর] (https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-       -  [৫। রবিন-Karp] (https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
-   -  [পাঠ্যের প্যাটার্ন (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+       -  [১। সাবস্ট্রিং অনুসন্ধানের পরিচিতি] (https://www.coursera.org/lecture/algorithms-part2/intr-n3ZpG پيداوار-to-substring-search)
+       -  [২। ব্রুট-ফোর্স সাবস্ট্রিং অনুসন্ধান] (https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+       -  [3। নূথ-মরিস প্র্যাট] (https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+       -  [৪। বুইয়ার মুর] (https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
+       -  [৫। রবিন-Karp] (https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+   -  [পাঠ্যের প্যাটার্ন (ভিডিও)] (https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
  
     আপনার যদি এই বিষয়ে আরও বিশদ প্রয়োজন, [কিছু বিষয়ের উপর অতিরিক্ত বিবরণ] "স্ট্রিং ম্যাচিং" বিভাগটি দেখুন (কিছু-বিষয়ে-কিছু-অতিরিক্ত)
  
@@ -1293,14 +1293,14 @@ https://github.com/jwasham/coding-interview-university
         পথ ট্র্যাক।
    - আমি কোডের মাধ্যমে পড়েছি, তবে বাস্তবায়ন করব না।
    -  [সেডজউইক-চেষ্টা (3 টি ভিডিও)] (https://www.coursera.org/learn/algorithms-part2/home/week/4)
-       -  [১। আর ওয়ে চেষ্টা করে] (https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-       -  [২। টার্নারি অনুসন্ধানের চেষ্টা] (https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-       -  [3। চরিত্র ভিত্তিক অপারেশন] (https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-ভিত্তিক-অপারেশন)
+       -  [১। আর ওয়ে চেষ্টা করে] (https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+       -  [২। টার্নারি অনুসন্ধানের চেষ্টা] (https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+       -  [3। চরিত্র ভিত্তিক অপারেশন] (https://www.coursera.org/lecture/algorithms-part2/character-ভিত্তিক-অপারেশন-jwNmV)
    -  [ডেটা স্ট্রাকচার এবং প্রোগ্রামিং কৌশল সম্পর্কিত নোটসমূহ] (http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#চেষ্টা)
    -  শর্ট কোর্সের ভিডিও:
-       -  [চেষ্টা করার চেষ্টা (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-intr پيداوار-to-tries)
-       -  [চেষ্টা সম্পাদনা (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-দক্ষতা / নির্বাচন / PvlZW/core-performance-of-tries)
-       -  [একটি ট্রাই প্রয়োগ করে (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+       -  [চেষ্টা করার চেষ্টা (ভিডিও)] (https://www.coursera.org/lecture/data-structures-optimizing-performance/core-intr-08Xyf پيداوار-to-tries)
+       -  [চেষ্টা সম্পাদনা (ভিডিও)] (https://www.coursera.org/learn/data-structures-optimizing-performance / নির্বাচন / PvlZW/core-performance-of-tries)
+       -  [একটি ট্রাই প্রয়োগ করে (ভিডিও)] (https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
    -  [ট্রাই: একটি অবহেলিত ডেটা স্ট্রাকচার] (https://www.toptal.com/java/the-trie-a-neglected-data-st संरचना)
    -  [টপকোডার-চেষ্টা ব্যবহার করে] (https://www.topcoder.com/commune/competitive-pogramming/tutorials/ using-tries/)
    -  [স্ট্যানফোর্ড লেকচার (রিয়েল ওয়ার্ল্ড ইউজ কেস) (ভিডিও)] (https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1747,9 +1747,9 @@ https://github.com/jwasham/coding-interview-university
 - ### তথ্য তত্ত্ব (ভিডিও)
    -  [খান একাডেমি] (https://www.khanacademy.org/computing/computer-s विज्ञान / তথ্যসূত্র)
    -  মার্কভ প্রক্রিয়া সম্পর্কে আরও:
-       -  [কোর মার্কভ টেক্সট জেনারেশন] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-       -  [মার্কেভ টেক্সট জেনারেশনের মূল প্রয়োগকারী] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-       -  [প্রকল্প = মার্কভ টেক্সট জেনারেশন ওয়াক থ্রো] (https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+       -  [কোর মার্কভ টেক্সট জেনারেশন] (https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+       -  [মার্কেভ টেক্সট জেনারেশনের মূল প্রয়োগকারী] (https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+       -  [প্রকল্প = মার্কভ টেক্সট জেনারেশন ওয়াক থ্রো] (https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
    - নীচে এমআইটি 6.050J তথ্য এবং এন্ট্রপি সিরিজে আরও দেখুন।
  
 - ### সমতা এবং হামিং কোড (ভিডিও)
@@ -1887,8 +1887,8 @@ https://github.com/jwasham/coding-interview-university
             অভিধানগুলি (বা প্রোগ্রামের অভিধান, যেমন কোনও এসেম্বলার বা দোভাষীর অপকডস)।
        -  [এমআইটি এভিএল গাছ / এভিএল সাজান (ভিডিও)] (https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
        -  [এভিএল ট্রি (ভিডিও)] (https://www.coursera.org/learn/data-structures/ নির্বাচন / Qq5E0/avl-trees)
-       -  [এভিএল ট্রি বাস্তবায়ন (ভিডিও)] (https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-বাস্তবায়ন)
-       -  [স্প্লিট এবং মার্জ করুন] (https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-विसর)
+       -  [এভিএল ট্রি বাস্তবায়ন (ভিডিও)] (https://www.coursera.org/lecture/data-structures/avl-tree-বাস্তবায়ন-PKEBC)
+       -  [স্প্লিট এবং মার্জ করুন] (https://www.coursera.org/lecture/data-structures/split-and-विसর-22BgE)
        - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
  
    - **গাছ স্প্লে**
@@ -2017,7 +2017,7 @@ https://github.com/jwasham/coding-interview-university
        - [দুর্দান্ত স্টার্টার কোর্স: মেশিন লার্নিং] (https://www.coursera.org/learn/machine-learning)
              - [কেবলমাত্র ভিডিও] (https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
              -লিনিয়ার বীজগণিতের পর্যালোচনার জন্য ভিডিওগুলি 12-18 দেখুন (14 এবং 15 টি সদৃশ)
-       - [মেশিন লার্নিংয়ের জন্য নিউরাল নেটওয়ার্ক] (https://www.coursera.org/learn/neural-নেট ওয়ার্কস)
+       - [মেশিন লার্নিংয়ের জন্য নিউরাল নেটওয়ার্ক] (https://www.coursera.org/learn/neural-networks ওয়ার্কস)
        - [গুগলের ডিপ লার্নিং ন্যানোডগ্রি] (https://www.udacity.com/course/DP-learning--ud730)
        - [গুগল / কাগল মেশিন লার্নিং ইঞ্জিনিয়ার ন্যানোডগ্রি] (https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
        - [স্ব-চালনা কার ইঞ্জিনিয়ার ন্যানোডগ্রি] (https://www.udacity.com/drive)
@@ -2045,11 +2045,11 @@ https://github.com/jwasham/coding-interview-university
  
 - **ইউনিয়ন-সন্ধান করুন**
    -  [ওভারভিউ] (https://www.coursera.org/learn/data-structures/ নির্বাচন / জেএসএসওয়াই / ওভারভিউ)
-   -  [নিষ্পাপ বাস্তবায়ন] (https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-আইনীকরণ)
-   -  [গাছগুলি] (https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-   -  [র‌্যাঙ্ক অনুসারে ইউনিয়ন] (https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
+   -  [নিষ্পাপ বাস্তবায়ন] (https://www.coursera.org/lecture/data-structures/naive-আইনীকরণ-EM5D0)
+   -  [গাছগুলি] (https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+   -  [র‌্যাঙ্ক অনুসারে ইউনিয়ন] (https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
    -  [পথ সংক্ষেপণ] (https://www.coursera.org/learn/data-structures/ নির্বাচন / Q9CVI/path-compression)
-   -  [বিশ্লেষণ বিকল্পসমূহ) (https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+   -  [বিশ্লেষণ বিকল্পসমূহ) (https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
  
 - **আরও ডায়নামিক প্রোগ্রামিং**(ভিডিও)
    -  6..০০০০: ডায়নামিক প্রোগ্রামিং আই: ফিবোনাচি, সবচেয়ে ছোট পাথ] (https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
@@ -2078,9 +2078,9 @@ https://github.com/jwasham/coding-interview-university
  
 - **স্ট্রিং ম্যাচিং**
    -  রবিন-কার্প (ভিডিও):
-       - [রবিন কার্পস অ্যালগরিদম] (https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-       - [প্রিকম্পুটিং] (https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-       - [অপ্টিমাইজেশন: বাস্তবায়ন এবং বিশ্লেষণ] (https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-বাস্তবায়ন-এবং-বিশ্লেষণ)
+       - [রবিন কার্পস অ্যালগরিদম] (https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+       - [প্রিকম্পুটিং] (https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+       - [অপ্টিমাইজেশন: বাস্তবায়ন এবং বিশ্লেষণ] (https://www.coursera.org/lecture/data-structures/optimization-বাস্তবায়ন-এবং-বিশ্লেষণ-h4ZLc)
        - [টেবিল ডাবলিং, কার্প-রবিন] (https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
        - [রোলিং হ্যাশস, ইমোর্টাইজড বিশ্লেষণ] (https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
    -  নুথ-মরিস-প্র্যাট (কেএমপি):

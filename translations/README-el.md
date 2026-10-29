@@ -17,19 +17,19 @@
 ---
 # Πίνακας περιεχομένων
 
-- [Τι είναι](#Tι-είναι)
-- [Γιατί να το χρησιμοποιήσεις](#Γιατί-να-το-χρησιμοποιήσεις)
-- [Πώς να το χρησιμοποιήσεις](#Πώς-να-το-χρησιμοποιήσεις)
-- [Μη νιώθεις ανίκανος](#Μη-νιώθεις-ανίκανος)
-- [Σχετικά με τα βίντεο](#Σχετικά-με-τα-βίντεο)
-- [Διαδικασία Συνέντευξης & Γενική προετοιμασία συνέντευξης](#Διαδικασία-Συνέντευξης--Γενική-προετοιμασία-συνέντευξης)
-- [Διάλεξε μία γλώσσα για τη συνέντευξη](#Διάλεξε-μία-γλώσσα-για-τη-συνέντευξη)
-- [Λίστα βιβλίων](#Λίστα-βιβλίων)
-- [Πριν αρχίσεις](#Πριν-αρχίσεις)
-- [Τι δε θα δεις να καλύπτετε](#Τι-δε-θα-δεις-να-καλύπτετε)
-- [Προαπαιτούμενη γνώση](#Προαπαιτούμενη-γνώση)
-- [Το καθημερινό πλάνο](#Το-καθημερινό-πλάνο)
-- [Αλγοριθμική πολυπλοκότητα / Big-O / Ασυμπτωτική ανάλυση](#Αλγοριθμική-πολυπλοκότητα--Big-O--Ασυμπτωτική-ανάλυση)
+- [Τι είναι](#τι-είναι)
+- [Γιατί να το χρησιμοποιήσεις](#γιατί-να-το-χρησιμοποιήσεις)
+- [Πώς να το χρησιμοποιήσεις](#πώς-να-το-χρησιμοποιήσεις)
+- [Μη νιώθεις ανίκανος](#μη-νιώθεις-ανίκανος)
+- [Σχετικά με τα βίντεο](#σχετικά-με-τα-βίντεο)
+- [Διαδικασία Συνέντευξης & Γενική προετοιμασία συνέντευξης](#διαδικασία-συνέντευξης--γενική-προετοιμασία-συνέντευξης)
+- [Διάλεξε μία γλώσσα για τη συνέντευξη](#διάλεξε-μία-γλώσσα-για-τη-συνέντευξη)
+- [Λίστα βιβλίων](#λίστα-βιβλίων)
+- [Πριν αρχίσεις](#πριν-αρχίσεις)
+- [Τι δε θα δεις να καλύπτετε](#τι-δε-θα-δεις-να-καλύπτετε)
+- [Προαπαιτούμενη γνώση](#προαπαιτούμενη-γνώση)
+- [Το καθημερινό πλάνο](#το-καθημερινό-πλάνο)
+- [Αλγοριθμική πολυπλοκότητα / Big-O / Ασυμπτωτική ανάλυση](#αλγοριθμική-πολυπλοκότητα--big-o--ασυμπτωτική-ανάλυση)
 - [Data Structures](#data-structures)
     - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
@@ -406,7 +406,7 @@
 - και γράφω tests για να σιγουρευτώ ότι το κάνω καλά, μερικές φορές χρησιμοποιώντας μόνο assert() δηλώσεις
 - Μπορεί να κάνεις Java ή κάτι άλλο, αυτό είναι μόνο αυτό που κάνω.
 
-Δεν χρειάζεσαι όλα αυτά. Χρειάζεσαι μόνο [μία γλώσσα για τη συνέντευξη](#Διάλεξε-μία-γλώσσα-για-τη-συνέντευξη).
+Δεν χρειάζεσαι όλα αυτά. Χρειάζεσαι μόνο [μία γλώσσα για τη συνέντευξη](#διάλεξε-μία-γλώσσα-για-τη-συνέντευξη).
 
 Γιατί γράφω κώδικα σε όλα αυτά;
 - Εξάσκηση, εξάσκηση, εξάσκηση, μέχρι να γίνω άρρωστος από αυτό, και να μπορώ να το κάνω χωρίς κανένα πρόβλημα (μερικά έχουν πολλές ακραίες περιπτώσεις και και τήρηση των λεπτομερειών του βιβλίου να θυμηθείς)
@@ -446,12 +446,12 @@
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
-- [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
+- [ ] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
+- [ ] [Asymptotics (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
 - [ ] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98)
 - [ ] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc)
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
+- [ ] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
 - [ ] TopCoder (includes recurrence relations and master theorem):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
@@ -466,11 +466,11 @@
 - ### Πίνακες
     - Υλοποίησε μία λίστα, η οποία αλλάζει αυτόματα μέγεθος.
     - [ ] Περιγραφή:
-        - [Πίνακες(EN) (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [Πίνακες(EN) (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
         - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
         - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
         - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
@@ -502,14 +502,14 @@
 
 - ### Συνδεδεμένες λίστες
     - [ ] Περιγραφή:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - not the whole video, just portions about Node struct and memory allocation.
     - [ ] Linked List vs Arrays:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
@@ -534,18 +534,18 @@
         - [ ] reverse() - reverses the list
         - [ ] remove_value(value) - removes the first item in the list with this value
     - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - No need to implement
 
 - ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Will not implement. Implementing with array is trivial.
 
 - ### Queue
     - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queue-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
@@ -580,12 +580,12 @@
         - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
         - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
         - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [ ] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
         - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
         - [ ] distributed hash tables:
-            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+            - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
     - [ ] implement with array using linear probing
         - hash(k, m) - m is size of hash table
@@ -635,8 +635,8 @@
 ## Trees
 
 - ### Trees - Notes & Background
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
-    - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - [ ] [Series: Core Trees (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-trees-ovovP)
+    - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
     - basic tree construction
     - traversal
     - manipulation algorithms

@@ -73,7 +73,7 @@
 
 ### 研究のテーマ
 
-- [アルゴリズムの複雑さ / Big-O / 漸近分析](#アルゴリズムの複雑さ/Big-O/漸近分析)
+- [アルゴリズムの複雑さ / Big-O / 漸近分析](#アルゴリズムの複雑さbig-o漸近分析)
 - [データ構造](#データ構造)
 	- [配列](#配列)
 	- [連結リスト](#連結リスト)
@@ -85,8 +85,8 @@
 	- [ビット演算](#ビット演算)
 - [ツリー](#ツリー)
 	- [ツリーとは](#ツリーとは)
-	- [二分探索木：BST](#二分探索木：BST)
-	- [ヒープ/優先度つきキュー/二分ヒープ](#ヒープ/優先度つきキュー/二分ヒープ)
+	- [二分探索木：BST](#二分探索木bst)
+	- [ヒープ/優先度つきキュー/二分ヒープ](#ヒープ優先度つきキュー二分ヒープ)
 	- バランスの取れた検索ツリー (詳細ではなく一般的な概念)
 	- トラバーサル: プレオーダー、インオーダー、 postorder、BFS、DFS
 - [ソート](#ソート)
@@ -105,8 +105,8 @@
 	- [再帰](#再帰)
 	- [動的プログラミング](#動的プログラミング)
 	- [デザインパターン](#デザインパターン)
-	- [組み合わせ論(nからkを選択)と確率](#組み合わせ論(nからkを選択)と確率)
-	- [NP、NP-完全/近似アルゴリズム](#NP、NP-完全/近似アルゴリズム)
+	- [組み合わせ論(nからkを選択)と確率](#組み合わせ論nからkを選択と確率)
+	- [NP、NP-完全/近似アルゴリズム](#npnp-完全近似アルゴリズム)
 	- [コンピューターがプログラムを処理する仕組み](#コンピューターがプログラムを処理する仕組み)
 	- [キャッシュ](#キャッシュ)
 	- [プロセスとスレッド](#プロセスとスレッド)
@@ -517,15 +517,15 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 
 - ### 連結リスト
 	- [ ] 説明：
-		- [ ]  [単独連結されたリスト(動画)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+		- [ ]  [単独連結されたリスト(動画)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
 		- [ ]  [CS 61B - 連結リスト1(動画)](https://www.youtube.com/watch?v=htzJdKoEmO0&list=PL4BBB74C7D2A1049C&index=7)
 		- [ ]  [CS 61B - 連結リスト2(動画)](https://www.youtube.com/watch?v=-c4I3gFYe3w&index=8&list=PL4BBB74C7D2A1049C)
         - [ ] [[レビュー] 4 分でわかるリンクリスト (動画)](https://youtu.be/F8AbOfQwl1c)
 	- [ ]  [Cコード(動画)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
     - ビデオ全体ではなく、ノード構造とメモリ割り当てに関する部分のみ
 	- [ ] 連結リストと配列：
-		- [コア連結リストと配列 (動画)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-		- [現実世界の連結リストと配列 (動画)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/quaUd/in-the-real-world-lists-vs)
+		- [コア連結リストと配列 (動画)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+		- [現実世界の連結リストと配列 (動画)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-quaUd)
 	- [ ]  [連結リスト(動画)を避けるべき理由](https://www.youtube.com/watch?v=YQs6IC-vgmo)
 	- [ ]  注意事項: ポインタからポインタへの知識が必要です: (ポインタが指すアドレスを変更する可能性のある関数にポインタを渡すときのため) このページは、ptr から ptr への理解だけを目的としています。このリスト走査スタイルはお勧めしません。賢いため、可読性と保守性が低下します。
 		- [ポインターへのポインター](https://www.eskimo.com/~scs/cclass/int/sx8.html)
@@ -545,16 +545,16 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 		- [ ]  reverse() - リストを反転する
 		- [ ]  remove_value(value) - この値を持つリストの最初の項目を削除します。
 	- [ ] 二重連結リスト
-		- [説明(動画)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+		- [説明(動画)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
 		- 実装する必要はありません
 
 - ### スタック
-	- [ ]  [スタック (動画)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+	- [ ]  [スタック (動画)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [【復讐】3分でわかるスタック（動画）](https://youtu.be/KcT3aVgrrpU)
 	- [ ] 実装しません。配列を使った実装は簡単です
 
 - ### キュー
-	- [ ]  [キュー(動画)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+	- [ ]  [キュー(動画)](https://www.coursera.org/lecture/data-structures/queue-EShpq)
 	- [ ]  [環状バッファ/ FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [【復習】3分でわかるキュー（動画）](https://youtu.be/D6gu-_tmEpQ)
 	- [ ] テールポインタ付き連結リストを使って実装する：
@@ -584,12 +584,12 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 		- [ ]  [【復習】4分でわかるハッシュテーブル（動画）](https://www.youtube.com/watch?v=knV86FlSXJ8)
 
 	- [ ] オンラインコース：
-		- [ ]  [コアハッシュテーブル(動画)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+		- [ ]  [コアハッシュテーブル(動画)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
 		- [ ]  [データ構造(動画)](https://www.coursera.org/learn/data-structures/home/week/3)
-		- [ ]  [電話帳の問題(動画)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+		- [ ]  [電話帳の問題(動画)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
 		- [ ] 分散ハッシュテーブル：
-			- [Dropbox でのインスタント アップロードとストレージの最適化 (動画)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-			- [分散ハッシュテーブル(動画)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+			- [Dropbox でのインスタント アップロードとストレージの最適化 (動画)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+			- [分散ハッシュテーブル(動画)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
 	- [ ] 線形プロービングを使用して配列で実装する
 		- hash(k、m) - mはハッシュテーブルのサイズです
@@ -665,7 +665,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 
 - ### 二分探索木：BST
 	- [ ] [二分探索木の復習 (動画)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-	- [ ] [はじめに（動画）](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+	- [ ] [はじめに（動画）](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
 	- [ ] [MIT (動画)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
 	- C / C ++：
 		- [ ]  [二分探索木 - C / C ++での実装(動画)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -694,16 +694,16 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 - ### ヒープ/優先度つきキュー/二分ヒープ
 	- 木として可視化されますが、通常はストレージ内で線形です(配列、連結リスト)
 	- [ ]  [ヒープ](https://en.wikipedia.org/wiki/Heap_(data_structure))
-	- [ ]  [はじめに(動画)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-	- [ ]  [ナイーブな実装(動画)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-	- [ ]  [二分木(動画)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+	- [ ]  [はじめに(動画)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+	- [ ]  [ナイーブな実装(動画)](https://www.coursera.org/lecture/data-structures/naive-implementations-z3l9N)
+	- [ ]  [二分木(動画)](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
 	- [ ]  [木の高さ備考(動画)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-	- [ ]  [基本的な操作(動画)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-	- [ ]  [完全な二分木(動画)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-	- [ ]  [疑似コード(動画)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+	- [ ]  [基本的な操作(動画)](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+	- [ ]  [完全な二分木(動画)](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+	- [ ]  [疑似コード(動画)](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
 	- [ ]  [ヒープソート - ジャンプして開始(動画)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-	- [ ]  [ヒープソート(動画)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-	- [ ]  [ヒープを作る(動画)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+	- [ ]  [ヒープソート(動画)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+	- [ ]  [ヒープを作る(動画)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
 	- [ ]  [MIT：ヒープとヒープソート(動画)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 	- [ ]  [CS 61B講義24：優先度つきキュー(動画)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
 	- [ ]  [線形時間ビルドヒープ (最大ヒープ)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -738,10 +738,10 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 
 - [ ] [セッジウィック - マージソート (5動画)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 	- [ ] [1. マージソート](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
-	- [ ] [2. ボトムアップ マージソート](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
+	- [ ] [2. ボトムアップ マージソート](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
 	- [ ] [3. 並べ替えの複雑さ](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
 	- [ ] [4. コンパレーター](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
-	- [ ] [5. 安定性](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+	- [ ] [5. 安定性](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 - [ ] [セッジウィック - クイックソート (4動画)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 	- [ ] [1. クイックソート](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
@@ -791,12 +791,12 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 
 - [ ] 必須ではありませんが、お勧めします:
 	- [ ] [Sedgewick - 基数ソート (6動画)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-		- [ ] [1. Java の文字列](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
+		- [ ] [1. Java の文字列](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
 		- [ ] [2. キーのインデックス付きカウント](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
-		- [ ] [3. 最下位桁の最初の文字列基数ソート](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-		- [ ] [4. 最上位桁の最初の文字列基数ソート](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
+		- [ ] [3. 最下位桁の最初の文字列基数ソート](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+		- [ ] [4. 最上位桁の最初の文字列基数ソート](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
 		- [ ] [5. 3 ウェイ基数クイックソート](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
-		- [ ] [6. サフィックス配列](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+		- [ ] [6. サフィックス配列](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
 	- [ ] [基数ソート](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
 	- [ ] [基数ソート (動画)](https://www.youtube.com/watch?v=xhr26ia4k38)
 	- [ ] [基数ソート、カウンティング ソート (線形時間指定制約) (動画)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -878,7 +878,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- いつ使用するのが適切ですか?
 	- 末尾再帰をしない場合と比べて、どのような点が優れているのでしょうか?
 		- [ ] [末尾再帰とは何ですか、なぜそれほど悪いのですか?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-		- [ ] [末尾再帰 (動画)](https://www.coursera.org/lecture/programming-langages/tail-recursion-YZic1)
+		- [ ] [末尾再帰 (動画)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 	- [ ] [再帰的問題を解決するための 5 つの簡単なステップ (動画)](https://youtu.be/ngCos392W4w)
 	バックトラッキング ブループリント: [Java](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-回文分割)) [Python](https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A)
 
@@ -900,13 +900,13 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- [ ]  イェール講義ノート：
 		- [ ]  [動的プログラミング](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicプログラミング)
 	- [ ]  Coursera：
-		- [ ]  [RNA二次構造の問題(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-		- [ ]  [動的プログラミングのアルゴリズム(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-		- [ ]  [DPアルゴリズムの説明(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-		- [ ]  [DPアルゴリズムの実行時間(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-  	- [ ] [DPと再帰的実装(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-		- [ ]  [グローバル対配列アライメント(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-		- [ ]  [ローカル対配列アライメント(動画)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+		- [ ]  [RNA二次構造の問題(動画)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
+		- [ ]  [動的プログラミングのアルゴリズム(動画)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
+		- [ ]  [DPアルゴリズムの説明(動画)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+		- [ ]  [DPアルゴリズムの実行時間(動画)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+		- [ ] [DPと再帰的実装(動画)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
+		- [ ]  [グローバル対配列アライメント(動画)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+		- [ ]  [ローカル対配列アライメント(動画)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### デザインパターン
 	- [ ]  [UMLの簡単なレビュー(動画)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
@@ -1034,14 +1034,14 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- [ ] [テストの書き方](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### 文字列の検索と操作
-	- [ ] [Sedgewick - サフィックス配列 (動画)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+	- [ ] [Sedgewick - サフィックス配列 (動画)](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
 	- [ ] [Sedgewick - 部分文字列検索 (動画)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
 		- [ ] [1. 部分文字列検索の概要](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
-		- [ ] [2. ブルートフォース部分文字列検索](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-		- [ ] [3. クヌース・モリス・プラット](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-		- [ ] [4. ボイヤー・ムーア](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
+		- [ ] [2. ブルートフォース部分文字列検索](https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+		- [ ] [3. クヌース・モリス・プラット](https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+		- [ ] [4. ボイヤー・ムーア](https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
 		- [ ] [5. ラビン・カープ](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
-	- [ ] [テキスト内のパターンの検索 (動画)](https://www.coursera.org/learn/data-Structures/lecture/tAfHI/search-pattern-in-text)
+	- [ ] [テキスト内のパターンの検索 (動画)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
 	この件についてさらに詳細が必要な場合は、[一部の件名に関する追加の詳細](#Additional-detail-on-some-subjects) の「文字列マッチング」セクションを参照してください。
 
@@ -1049,14 +1049,14 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- さまざまな種類のトライがあることに注意してください。プレフィックスを持つものと持たないもの、そしてビットの代わりに文字列を使用してパスを追跡するものもあります
 		- コードは一通り読みましたが、実装はしません
 	- [ ] [Sedgewick - Trys (3動画)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-		- [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-		- [ ] [2. 三項探索トライズ](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-		- [ ] [3. 文字ベースの操作](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+		- [ ] [1. R Way Tries](https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+		- [ ] [2. 三項探索トライズ](https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+		- [ ] [3. 文字ベースの操作](https://www.coursera.org/lecture/algorithms-part2/character-based-operations-jwNmV)
 	- [ ] [データ構造とプログラミング技術に関するメモ](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
 	- [ ] ショートコースビデオ:
-		- [ ] [トライの概要 (動画)](https://www.coursera.org/learn/data-structions-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-		- [ ] [トライのパフォーマンストライ (動画)](https://www.coursera.org/learn/data-Structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-		- [ ] [トライの実装 (動画)]( https://www.coursera.org/learn/data-Structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+		- [ ] [トライの概要 (動画)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+		- [ ] [トライのパフォーマンストライ (動画)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+		- [ ] [トライの実装 (動画)]( https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
 	- [ ] [トライ: 無視されたデータ構造](https://www.toptal.com/java/the-trie-a-neglected-data-struction)
 	- [ ] [TopCoder - トライの使用](https://www.topcoder.com/thrive/articles/Using%20Tries)
 	- [ ] [スタンフォード講義 (実際の使用例) (動画)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1339,7 +1339,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- [ ] ツイッター：
 		- [O'MySQL CE 2011: Jeremy Cole、「@Twitter におけるビッグ データとスモール データ」」 (ビデオ)](https://www.youtube.com/watch?v=5cKTP36HVgI)
 		- [大規模なタイムライン](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-	- さらに詳しくは、「大規模なデータセットのマイニング」を参照してください。 [ビデオ シリーズ](#video-series) セクションのビデオ シリーズ
+	- さらに詳しくは、「大規模なデータセットのマイニング」を参照してください。 [ビデオ シリーズ](#ビデオ-シリーズ) セクションのビデオ シリーズ
 - [ ] システム設計プロセスの練習: ここでは、紙の上で取り組んでみるいくつかのアイデアを示します。それぞれのアイデアには、現実世界でどのように処理されたかについてのドキュメントが含まれています。
 	- レビュー: [システム設計入門](https://github.com/donnemartin/system-design-primer)
 	- [HiredInTech のシステム設計](http://www.hiredintech.com/system-design/)
@@ -1421,9 +1421,9 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 - ### 情報理論 (ビデオ)
 	- [カーンアカデミー](https://www.khanacademy.org/computing/computer-science/informationtheory)
 	- マルコフ過程の詳細:
-		- [コアマルコフテキスト生成](https://www.coursera.org/learn/data-structions-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-		- [マルコフ テキスト生成のコア実装](https://www.coursera.org/learn/data-structors-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-		- [プロジェクト = マルコフ テキスト生成ウォークスルー](https://www.coursera.org/learn/data-structions-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+		- [コアマルコフテキスト生成](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+		- [マルコフ テキスト生成のコア実装](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+		- [プロジェクト = マルコフ テキスト生成ウォークスルー](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
 	- 詳細については、以下の MIT 6.050J 情報とエントロピー シリーズを参照してください。
 
 - ### パリティとハミングコード (ビデオ)
@@ -1559,9 +1559,9 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 			言語など、一度構築すれば再構築せずにロードできるデータ構造にとって魅力的
 			辞書 (またはアセンブラやインタプリタのオペコードなどのプログラム辞書)
 		- [MIT AVL ツリー / AVL ソート (ビデオ)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-		- [AVL ツリー (ビデオ)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-		- [AVL ツリーの実装 (ビデオ)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-		- [分割とマージ](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+		- [AVL ツリー (ビデオ)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+		- [AVL ツリーの実装 (ビデオ)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+		- [分割とマージ](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
 		- [[レビュー] 19 分でわかる AVL ツリー (プレイリスト) (ビデオ)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
 	- **スプレーツリー**
@@ -1700,12 +1700,12 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 		- [その他のフレーバー](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
 - **ユニオン検索**
-	- [概要](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-	- [単純な実装](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-	- [木](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-	- [ランク別ユニオン](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-	- [パス圧縮](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-	- [分析オプション](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+	- [概要](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+	- [単純な実装](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+	- [木](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+	- [ランク別ユニオン](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+	- [パス圧縮](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+	- [分析オプション](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - **さらに動的プログラミング** (ビデオ)
 	- [6.006: 動的計画法 I: フィボナッチ、最短経路](https://www.youtube.com/watch?v=r4-cftqTcdI&ab_channel=MITOpenCourseWare)
@@ -1734,9 +1734,9 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 
 - **文字列のマッチング**
 	- ラビン・カープ (ビデオ):
-		- [Rabin Karps アルゴリズム](https://www.coursera.org/lecture/data- Structures/rabin-karps-algorithm-c0Qkw)
-		- [事前計算](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-		- [最適化: 実装と分析](https://www.coursera.org/learn/data- Structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+		- [Rabin Karps アルゴリズム](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+		- [事前計算](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+		- [最適化: 実装と分析](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
 		- [テーブル ダブリング、カープラビン](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
 		- [ローリング ハッシュ、償却分析](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
 	- クヌース・モリス・プラット (KMP):

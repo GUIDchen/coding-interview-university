@@ -32,104 +32,104 @@
 
 ## Содержание
 
-- [Для кого это?](#Для-кого-это)
-- [Чем это полезно?](#Чем-это-полезно)
-- [Как пользоваться](#Как-пользоваться)
+- [Для кого это?](#для-кого-это)
+- [Чем это полезно?](#чем-это-полезно)
+- [Как пользоваться](#как-пользоваться)
 - [Получи гугловское настроение](#Получи-гугловское-настроение)
-- [Получил ли я работу?](#Получил-ли-я-работу)
-- [Двигайся вместе со мной](#Двигайся-вместе-со-мной)
-- [Не переживайте о том, что вы недостаточно умны](#Не-переживайте-о-том,-что-вы-недостаточно-умны)
-- [О Google](#О-google)
-- [О видео ресурсах](#О-видео-ресурсах)
-- [Процесс собеседования & Основное в подготовке к интервью](#Процесс-собеседования-Основное-в-подготовке-к-интервью)
-- [Выберите один язык для собеседования](#Выберите-один-язык-для-собеседования)
-- [Список книг](#Список-книг)
-- [Перед тем как вы начнете](#Перед-тем-как-вы-начнете)
-- [Что еще не охвачено](#То,-что-не-охватывает-этот-учебный-план)
-- [Необходимые знания](#Необходимые-знания)
-- [План на день](#План-на-день)
-- [Сложность алгоритмов / Big-O / Асимптотический анализ](#Сложность-алгоритмов,-Big-O,-Асимптотический-анализ)
-- [Структуры данных](#Структуры-данных)
-    - [Массивы](#Массивы)
-    - [Связные списки](#Связные-списки-(Linked-Lists))
-    - [Стек](#Стек)
-    - [Очередь](#Очередь)
-    - [Хеш-таблицы](#Хеш-таблица)
-- [Дополнительно](#Дополнительно)
-    - [Двоичный поиск](#Бинарный-поиск)
-    - [Битовые операции](#Побитовые-операции)
-- [Деревья](#Деревья)
-    - [Деревья](#Деревья,-Заметки-и-Основные-понятия)
-    - [Двоичное дерево поиска: BSTs](#Бинарное-дерево-поиска-(BST:-Binary-search-trees))
-    - [Куча / Очередь с приоритетом / Двоичная куча](#Куча,-Приоритетная-очередь,-Бинарная-куча)
+- [Получил ли я работу?](#получил-ли-я-работу)
+- [Двигайся вместе со мной](#двигайся-вместе-со-мной)
+- [Не переживайте о том, что вы недостаточно умны](#не-переживайте-о-том-что-вы-недостаточно-умны)
+- [О Google](#о-google)
+- [О видео ресурсах](#о-видео-ресурсах)
+- [Процесс собеседования & Основное в подготовке к интервью](#процесс-собеседования--основное-в-подготовке-к-интервью)
+- [Выберите один язык для собеседования](#выберите-один-язык-для-собеседования)
+- [Список книг](#список-книг)
+- [Перед тем как вы начнете](#перед-тем-как-вы-начнете)
+- [Что еще не охвачено](#то-что-не-охватывает-этот-учебный-план)
+- [Необходимые знания](#необходимые-знания)
+- [План на день](#план-на-день)
+- [Сложность алгоритмов / Big-O / Асимптотический анализ](#сложность-алгоритмов-big-o-асимптотический-анализ)
+- [Структуры данных](#структуры-данных)
+    - [Массивы](#массивы)
+    - [Связные списки](#связные-списки-linked-lists)
+    - [Стек](#стек)
+    - [Очередь](#очередь)
+    - [Хеш-таблицы](#хеш-таблица)
+- [Дополнительно](#дополнительно)
+    - [Двоичный поиск](#бинарный-поиск)
+    - [Битовые операции](#побитовые-операции)
+- [Деревья](#деревья)
+    - [Деревья](#деревья)
+    - [Двоичное дерево поиска: BSTs](#бинарное-дерево-поиска-bst-binary-search-trees)
+    - [Куча / Очередь с приоритетом / Двоичная куча](#куча-приоритетная-очередь-бинарная-куча)
     - Сбалансированные деревья поиска (основная идея, без деталей)
     - Обходы: прямой, симметричный, обратный, BFS, DFS
-- [Сортировка](#Сортировка)
+- [Сортировка](#сортировка)
     - выбором
     - вставками
     - пирамидальная
     - быстрая
     - слиянием
-- [Графы](#Графы)
+- [Графы](#графы)
     - ориентированные
     - неориентированные
     - матрица смежности
     - лист смежности
     - обходы: BFS, DFS
-- [Еще больше знаний](#Еще-больше-знаний)
-    - [Рекурсия](#Рекурсия)
-    - [Объектно-ориентированное программирование](#Объектно-ориентированное-программирование)
-    - [Шаблоны проектирования](#Шаблоны-проектирования)
+- [Еще больше знаний](#еще-больше-знаний)
+    - [Рекурсия](#рекурсия)
+    - [Объектно-ориентированное программирование](#объектно-ориентированное-программирование)
+    - [Шаблоны проектирования](#шаблоны-проектирования)
     - [Комбинаторика & Вероятность](#combinatorics-n-choose-k--probability)
     - [NP, NP-полные and Аппроксимирующие алгоритмы](#np-np-complete-and-approximation-algorithms)
-    - [Кэш](#caches)
+    - [Кэш](#кэш)
     - [Процессы и нити](#processes-and-threads)
-    - [Статьи](#Статьи)
-    - [Тестирование](#Тестирование)
-    - [Планирование](#Планирование)
-    - [Реализация системных вызовов](#Реализация-системных-вызовов)
+    - [Статьи](#статьи)
+    - [Тестирование](#тестирование)
+    - [Планирование](#планирование)
+    - [Реализация системных вызовов](#реализация-системных-вызовов)
     - [Поиск в строке & манипуляции](#string-searching--manipulations)
-- [Проектирование систем, Масштабируемость, Обработка данных](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Заключительный обзор](#final-review)
-- [Практика: задачи по программированию](#coding-question-practice)
-- [Упражнения по программированию](#coding-exerciseschallenges)
-- [Перед собеседованием](#once-youre-closer-to-the-interview)
-- [Ваше резюме](#your-resume)
-- [Подумайте об этом когда подходит время собеседования](#be-thinking-of-for-when-the-interview-comes)
-- [Приготовьте вопросы для интервьювера](#have-questions-for-the-interviewer)
-- [Когда вас приняли на работу](#once-youve-got-the-job)
+- [Проектирование систем, Масштабируемость, Обработка данных](#проектирование-систем-масштабируемость-обработка-данных) (if you have 4+ years experience)
+- [Заключительный обзор](#заключительный-обзор)
+- [Практика: задачи по программированию](#практика-задачи-по-программированию)
+- [Упражнения по программированию](#упражнения-по-программированию)
+- [Перед собеседованием](#перед-собеседованием)
+- [Ваше резюме](#ваше-резюме)
+- [Подумайте об этом когда подходит время собеседования](#подумайте-об-этом-когда-подходит-время-собеседования)
+- [Приготовьте вопросы для интервьювера](#приготовьте-вопросы-для-интервьювера)
+- [Когда вас приняли на работу](#когда-вас-приняли-на-работу)
 
 
 ---------------- Все что ниже - опционально ----------------
 
 - [Дополнительные книги](#additional-books)
 - [Дополнительное обучение](#additional-learning)
-    - [Динамическое программирование](#dynamic-programming)
-    - [Компиляторы](#compilers)
+    - [Динамическое программирование](#динамическое-программирование)
+    - [Компиляторы](#компиляторы)
     - [Числа с плавующей запятой](#floating-point-numbers)
     - [Unicode](#unicode)
     - [Порядок следования байт](#endianness)
-    - [Emacs и vi(m)](#emacs-and-vim)
+    - [Emacs и vi(m)](#emacs-и-vim)
     - [Командная строка Unix](#unix-command-line-tools)
-    - [Теория информации](#Теория-информации)
-    - [Чётность & Код Хемминга](#Чётность-и-Код-Хемминга)
-    - [Энтропия](#Энтропия)
-    - [Криптография](#Криптография)
-    - [Сжатие](#Сжатие)
-    - [Сети](#Сети-и-сетевые-протоколы)
-    - [Компьютерная безопасность](#Компьютерная-безопасность)
-    - [Сборка мусора](#Сборка-мусора-(Garbage-collection))
-    - [Параллельное программирование](#Параллельное-программирование)
-    - [Сообщения, сериализация и системы очередей](#Сообщения,-сериализация-и-системы-очередей)
-    - [Быстрое преобразование Фурье](#Быстрое-преобразование-Фурье)
-    - [Фильтр Блума](#Фильтр Блума)
+    - [Теория информации](#теория-информации)
+    - [Чётность & Код Хемминга](#чётность-и-код-хемминга)
+    - [Энтропия](#энтропия)
+    - [Криптография](#криптография)
+    - [Сжатие](#сжатие)
+    - [Сети](#сети-и-сетевые-протоколы)
+    - [Компьютерная безопасность](#компьютерная-безопасность)
+    - [Сборка мусора](#сборка-мусора-garbage-collection)
+    - [Параллельное программирование](#параллельное-программирование)
+    - [Сообщения, сериализация и системы очередей](#сообщения-сериализация-и-системы-очередей)
+    - [Быстрое преобразование Фурье](#быстрое-преобразование-фурье)
+    - [Фильтр Блума](#фильтр-блума)
     - [HyperLogLog](#hyperloglog)
     - [Локально-чувствительное хеширование](#locality-sensitive-hashing)
     - [Дерево ван Эмде Боаса](#van-emde-boas-trees)
     - [Дополнительные структуры данных](#augmented-data-structures)
-    - [Префиксные деревья](#tries)
+    - [Префиксные деревья](#префиксные-деревья)
     - [N-арные (K-арные, M-арные) деревья](#n-ary-k-ary-m-ary-trees)
-    - [Сбалансированные деревья поиска](#balanced-search-trees)
+    - [Сбалансированные деревья поиска](#сбалансированные-деревья-поиска)
         - АВЛ деревья
         - Splay-деревья
         - Красно-черные деревья
@@ -137,12 +137,12 @@
         - 2-3-4 деревья
         - N-арные (K-арные, M-арные) деревья
         - B-деревья
-    - [k-D деревья](#k-d-trees)
+    - [k-D деревья](#k-d-деревья)
     - [Списки с пропусками](#skip-lists)
     - [Сеть](#network-flows)
     - [Система непересекающихся множеств](#disjoint-sets--union-find)
-    - [Математика для быстрой обработки](#math-for-fast-processing)
-    - [Декартово дерево](#treap)
+    - [Математика для быстрой обработки](#математика-для-быстрой-обработки)
+    - [Декартово дерево](#декартово-дерево)
     - [Линейное программирование](#linear-programming)
     - [Геометрия, Выпуклая оболочка](#geometry-convex-hull)
     - [Дискретная математика](#discrete-math)
@@ -508,7 +508,7 @@ Google не возьмёт тебя на работу.
 - написание тестов для проверки правильности кода, иногда просто используя выражение assert()
 - Вы можете программировать на Java или других языках, это только лишь мой выбор.
 
-Вам не нужны все эти языки для собеседования, нужен только один [один язык для собеседования](#Выберите-один-язык-для-собеседования).
+Вам не нужны все эти языки для собеседования, нужен только один [один язык для собеседования](#выберите-один-язык-для-собеседования).
 
 Зачем нужно программировать на нескольких языках:
 - Практика, практика, практика пока это не надоедает мне я программирую
@@ -548,12 +548,12 @@ Google не возьмёт тебя на работу.
     - [видео](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [слайды](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
 - [ ] [Плавное введение в анализ сложности алгоритмов](http://discrete.gr/complexity/)
-- [ ] [Порядок роста (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
-- [ ] [Асимптотика (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
+- [ ] [Порядок роста (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
+- [ ] [Асимптотика (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
 - [ ] [UC Berkeley Big O (видео)](https://youtu.be/VIS4YDpuP98)
 - [ ] [UC Berkeley Big Omega (видео)](https://youtu.be/ca3e7UVmeUc)
 - [ ] [Amortized Analysis (видео)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Иллюстрация "Big O" (видео)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
+- [ ] [Иллюстрация "Big O" (видео)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
 - [ ] TopCoder (включая рекуррентные соотношений и основную теорему):
     - [Вычислительная сложность: Часть 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [Вычислительная сложность: Часть 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
@@ -568,11 +568,11 @@ Google не возьмёт тебя на работу.
 - ### Массивы
     - Реализация динамического вектора.
     - [ ] Описание:
-        - [Массивы (видео)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [Массивы (видео)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UCBerkley CS61B - Линейные и многомерные массивы (видео)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
         - [Основные массивы (видео)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
         - [Многомерные массивы (видео)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
-        - [Динамические массивы (видео)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Динамические массивы (видео)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Массив массивов (видео)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Массив массивов (видео)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
         - [Динамические массивы (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
@@ -604,14 +604,14 @@ Google не возьмёт тебя на работу.
 
 - ### Связные списки (Linked Lists)
     - [ ] Описание:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - не все видео целиком, только кусочки об узлах и распределении памяти.
     - [ ] Связные списки vs Массивы:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Ага, попался: тебе нужны знания указателей на указатели:
         (для тех случаев, когда ты передаешь указатель функции, которая может менять адрес, куда указывает указатель)
@@ -635,18 +635,18 @@ Google не возьмёт тебя на работу.
         - [ ] reverse() - реверсирует весь список
         - [ ] remove_value(value) - удаляет первый элемент в списке с указанным значением (value)
     - [ ] Двусвязный список
-        - [Описание (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - [Описание (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - Можно не делать
 
 - ### Стек
-    - [ ] [Стек (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [Стек (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [Использование стека Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Не будет реализован. Реализация с помощью массива очевидна.
 
 - ### Очередь
     - [ ] [Использование очереди First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
-    - [ ] [Очередь (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [ ] [Очередь (video)](https://www.coursera.org/lecture/data-structures/queue-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Очередь с приоритетом (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
@@ -681,12 +681,12 @@ Google не возьмёт тебя на работу.
         - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
         - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
         - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [ ] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
         - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
         - [ ] распределенные хеш-таблицы:
-            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+            - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
     - [ ] реализация с помощью массива и применением linear probing
         - hash(k, m) - m размер хеш-таблицы
@@ -736,8 +736,8 @@ Google не возьмёт тебя на работу.
 ## Деревья
 
 - ### Деревья, Заметки и Основные понятия
-    - [ ] [Основы деревьев (видео)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
-    - [ ] [Деревья (видео)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - [ ] [Основы деревьев (видео)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-trees-ovovP)
+    - [ ] [Деревья (видео)](https://www.coursera.org/lecture/data-structures/trees-95qda)
     - базовые конструкции деревьев
     - обход
     - алгоритмы манипуляции
@@ -762,9 +762,9 @@ Google не возьмёт тебя на работу.
 
 - ### Бинарное дерево поиска (BST: Binary search trees)
     - [ ] [Обзор бинарного дерева поиска (видео)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [Лекции (видео)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
+    - [ ] [Лекции (видео)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-binary-search-trees-p82sw)
         - начинается с таблицы символов и заканчивая BST приложениями
-    - [ ] [Введение (видео)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [Введение (видео)](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
     - [ ] [MIT (видео)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
         - [ ] [Бинарное дерево поиска - реализация на C/C++ (видео)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -793,16 +793,16 @@ Google не возьмёт тебя на работу.
 - ### Куча, Приоритетная очередь, Бинарная куча
     - визуализируется как дерево, но обычно хранится в линейных структурах данных (массив, связанные список)
     - [ ] [Куча](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Введение (видео)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Наивная реализация (видео)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Бинарные деревья (видео)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Введение (видео)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Наивная реализация (видео)](https://www.coursera.org/lecture/data-structures/naive-implementations-z3l9N)
+    - [ ] [Бинарные деревья (видео)](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
     - [ ] [Замечания к высоте дерева (видео)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Базовые операции (видео)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Полные двоичные деревья (видео)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Псевдокод (видео)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Базовые операции (видео)](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+    - [ ] [Полные двоичные деревья (видео)](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+    - [ ] [Псевдокод (видео)](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
     - [ ] [Пирамидальная сортировка - начальные шаги (видео)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Пирамидальная сортировка (видео)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    - [ ] [Построение кучи (видео)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [Пирамидальная сортировка (видео)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+    - [ ] [Построение кучи (видео)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
     - [ ] [MIT: Кучи и пирамидальная сортировка (видео)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Лекция 24: Приоритетные очереди (видео)](https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C)
     - [ ] [Построение кучи за линейное время (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -1144,7 +1144,7 @@ Google не возьмёт тебя на работу.
         - [ ] [3. Кнут-Моррис Пратт](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
         - [ ] [4. Бойер-Мур](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [Шаблон поиска в тексте (текст)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    - [ ] [Шаблон поиска в тексте (текст)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
     
     Если вам нужно больше подробностей по этому вопросу, см. Раздел «Соответствие строк» в [Дополнительная информация по некоторым предметам](#additional-detail-on-some-subjects)
 ---
@@ -1449,13 +1449,13 @@ Google не возьмёт тебя на работу.
     - [ ] Йельские лекции:
         - [ ] [Динамическое программирование](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
-        - [ ] [Проблема вторичной структуры РНК (видео)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [Алгоритм динамического программирования (видео)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        - [ ] [Иллюстрация алгоритма динамического программирования (видео)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-        - [ ] [Время исполнения алгоритма динамического программирования (видео)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP и рекурсивная имплементация (видео)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Глобальное парное выравнивание последовательностей (видео)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-        - [ ] [Локальное попарное выравнивание последовательностей (видео)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] [Проблема вторичной структуры РНК (видео)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
+        - [ ] [Алгоритм динамического программирования (видео)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
+        - [ ] [Иллюстрация алгоритма динамического программирования (видео)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+        - [ ] [Время исполнения алгоритма динамического программирования (видео)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+        - [ ] [DP и рекурсивная имплементация (видео)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
+        - [ ] [Глобальное парное выравнивание последовательностей (видео)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+        - [ ] [Локальное попарное выравнивание последовательностей (видео)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### Компиляторы
     - [ ] [Как работает компилятор за ~1 минуту (видео)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
@@ -1516,9 +1516,9 @@ Google не возьмёт тебя на работу.
 - ### Теория информации
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - [ ] Подробнее о Марковских Процессах:
-        - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-        - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+        - [ ] [Core Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+        - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+        - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
     - А также смотрите курс-сериал MIT 6.050J Information and Entropy в самом низу.
 
 - ### Чётность и Код Хемминга
@@ -1652,9 +1652,9 @@ Google не возьмёт тебя на работу.
         - [ ] [3. Символьные операции](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ&index=1)
     - [ ] [Примечания о структурах данных и методах программирования](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [ ] Короткие видео курса:
-        - [ ] [Введение в префиксные деревья (видео)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Производительность префиксных деревьев (видео)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Реализация префиксных деревьев (видео)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+        - [ ] [Введение в префиксные деревья (видео)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+        - [ ] [Производительность префиксных деревьев (видео)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+        - [ ] [Реализация префиксных деревьев (видео)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
     - [ ] [Префиксное дерево: забытая структура данных](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] [TopCoder - использование префиксных деревьев](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
     - [ ] [Stanford лекция (использование в реальной жизни) (видео)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1678,9 +1678,9 @@ Google не возьмёт тебя на работу.
             attractive for data structures that may be built once and loaded without reconstruction, such as language
             dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter).
         - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [ ] [AVL Trees (video)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+        - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+        - [ ] [Split And Merge](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
         - [ ] [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - [ ] **Splay trees**
@@ -1830,12 +1830,12 @@ Google не возьмёт тебя на работу.
     You want to get hired in this century, right?
 
 - [ ] **Union-Find**
-    - [ ] [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [ ] [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [ ] [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [ ] [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [ ] [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [ ] [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    - [ ] [Overview](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+    - [ ] [Naive Implementation](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+    - [ ] [Trees](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+    - [ ] [Union By Rank](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+    - [ ] [Path Compression](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+    - [ ] [Analysis Options](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - [ ] **More Dynamic Programming** (videos)
     - [ ] [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
@@ -1864,9 +1864,9 @@ Google не возьмёт тебя на работу.
 
 - [ ] **String Matching**
     - [ ] Rabin-Karp (videos):
-        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-        - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [Rabin Karps Algorithm](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+        - [Precomputing](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+        - [Optimization: Implementation and Analysis](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - [ ] Knuth-Morris-Pratt (KMP):

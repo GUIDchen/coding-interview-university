@@ -78,56 +78,56 @@ the next week — but see the stop rules for when to move on anyway. Before week
 
 - **Learn:** [Big-O](README.md#algorithmic-complexity--big-o--asymptotic-analysis), [Arrays](README.md#arrays), [Linked Lists](README.md#linked-lists). One video per topic is enough.
 - **Build:** a dynamic array with grow/shrink; a singly linked list with push, pop, insert, delete, and reverse. No built-in list types.
-- **Practice:** 8 easy problems — 4 array/string (two pointers, prefix sums), 4 linked list (reverse, cycle, merge).
+- **Practice:** 8 problems (six easy, two medium) — 4 array/string (two pointers, prefix sums), 4 linked list (reverse, cycle, merge). The exact eight are listed in [week 1 of the problem set](PROBLEM-SET.md#week-1--complexity-and-linear-structures).
 - **Accept when:** you implement both structures in about 60 minutes with the README closed; you can state the complexity of every operation you wrote; you can explain why `append` is amortized O(1), and why finding the insertion point in a linked list costs O(n) even though changing the pointers is O(1).
 
 ### Week 2 — Hashing, stacks, queues, binary search
 
 - **Learn:** [Hash table](README.md#hash-table), [Stack](README.md#stack), [Queue](README.md#queue), [Binary search](README.md#binary-search).
 - **Build:** a stack on an array and on a linked list; a circular-buffer queue; a hash table with separate chaining *and* open addressing, including resize and load factor; binary search both iterative and recursive.
-- **Practice:** 10 problems — valid parentheses, min stack, sliding-window maximum, first/last occurrence, search in rotated array, two-sum variants.
+- **Practice:** 10 problems — valid parentheses, min stack, sliding-window maximum, first/last occurrence, search in rotated array, two-sum variants. The exact ten are listed in [week 2 of the problem set](PROBLEM-SET.md#week-2--hashing-stacks-queues-binary-search).
 - **Accept when:** your hash table survives a forced resize without losing entries; you can explain why the load factor matters; you write binary search with the correct boundary condition on the first try; every problem is solved only after you state its complexity out loud.
 
 ### Week 3 — Trees and heaps
 
 - **Learn:** [Trees](README.md#trees), [Trees intro](README.md#trees---intro), [BSTs](README.md#binary-search-trees-bsts), [Heap / Priority Queue](README.md#heap--priority-queue--binary-heap).
 - **Build:** a BST with insert, search, delete (all three delete cases), min/max, successor/predecessor; all four traversals recursively and at least two iteratively; a binary heap with sift-up/sift-down.
-- **Practice:** 10 problems — depth, balanced check, lowest common ancestor, level-order, validate BST, kth smallest, merge k lists.
+- **Practice:** 10 problems — depth, balanced check, lowest common ancestor, level-order, validate BST, kth smallest, merge k lists. The exact ten are listed in [week 3 of the problem set](PROBLEM-SET.md#week-3--trees-and-heaps).
 - **Accept when:** you can delete a node with two children without notes; you can explain why an unbalanced BST degrades to O(n) and what a self-balancing tree buys you; you can describe BFS vs DFS trade-offs in terms of queue/stack memory.
 
 ### Week 4 — Sorting
 
 - **Learn:** [Sorting](README.md#sorting). Skip bubble sort except as a cautionary tale.
 - **Build:** insertion sort, merge sort (array and linked list), quicksort with both Lomuto and Hoare partitioning, heapsort. Write a table of best/average/worst time, space, and stability.
-- **Practice:** 8 problems — sort colors, merge intervals, kth largest, custom comparator sorts, "is this sort stable" interviews.
+- **Practice:** 8 problems — sort colors, merge intervals, kth largest, custom comparator sorts, "is this sort stable" interviews. The exact eight are listed in [week 4 of the problem set](PROBLEM-SET.md#week-4--sorting).
 - **Accept when:** you can code merge sort and quicksort from a blank file in 25 minutes each; you can say which of your sorts is stable and why; you can explain when O(n log n) loses to O(n²) insertion sort in practice.
 
 ### Week 5 — Graphs
 
 - **Learn:** [Graphs](README.md#graphs).
 - **Build:** an adjacency list and an adjacency matrix; BFS and DFS iterative and recursive; topological sort (Kahn and DFS); union-find with path compression and union by rank; cycle detection for directed and undirected graphs.
-- **Practice:** 10 problems — number of islands, clone graph, course schedule, connected components, word ladder, rotting oranges.
+- **Practice:** 10 problems — number of islands, clone graph, course schedule, connected components, word ladder, rotting oranges. The exact ten are listed in [week 5 of the problem set](PROBLEM-SET.md#week-5--graphs).
 - **Accept when:** you pick the right representation before coding and can justify it; you can write BFS and DFS without a template in front of you; you can explain why topological sort needs a DAG; union-find runs in near-constant amortized time and you can say why.
 
 ### Week 6 — Recursion, backtracking, dynamic programming
 
 - **Learn:** [Recursion](README.md#recursion), [Dynamic Programming](README.md#dynamic-programming). This is the heaviest week; protect the time.
 - **Build:** a backtracking template (subsets, permutations, combination sum) from scratch; DP solutions to climbing stairs, house robber, coin change, LIS (O(n²) then O(n log n)); 2D DP for unique paths and edit distance. For each, write the brute force, then memoize, then tabulate.
-- **Practice:** 14 problems — 6 backtracking, 8 DP.
+- **Practice:** 14 problems — 6 backtracking, 8 DP. The exact fourteen are listed in [week 6 of the problem set](PROBLEM-SET.md#week-6--recursion-backtracking-dynamic-programming).
 - **Accept when:** you can derive a recurrence and its base cases before writing code; you can convert any of your memoized solutions to bottom-up; you can state the state, transition, and space optimization for each DP problem you solved.
 
 ### Week 7 — Mixed practice and P1 topics
 
 - **Learn:** [Tries](README.md#tries), [Bitwise operations](README.md#bitwise-operations), [String searching & manipulations](README.md#string-searching--manipulations), plus [Testing](README.md#testing) if you have time.
 - **Build:** a trie with insert/search/prefix; a small bit-tricks sheet (single number, counting bits, subsets via bitmask).
-- **Practice:** 15 problems in 4 timed sets of 35 minutes, mixing all prior weeks. Re-solve every problem you failed in weeks 1–6.
+- **Practice:** 15 problems in 4 timed sets of 35 minutes, mixing all prior weeks. Re-solve every problem you failed in weeks 1–6. The exact fifteen are listed in [week 7 of the problem set](PROBLEM-SET.md#week-7--mixed-practice-and-p1-topics).
 - **Accept when:** you finish a medium problem in 35 minutes including tests; you recognize the topic of a new problem within 5 minutes; your failed-problem log is empty or every entry is scheduled for re-solve.
 
 ### Week 8 — Mock interviews, review, and the application
 
 - **Learn:** [Final Review](README.md#final-review) (short videos only), [Interview Process & General Interview Prep](README.md#interview-process--general-interview-prep), [Update Your Resume](README.md#update-your-resume).
 - **Build:** nothing new. Repair only.
-- **Practice:** 5 mock interviews, 45 minutes each, with a peer or recorded solo — talk, then code, then test. 10 re-solves from your failure log. Three behavioral stories written down.
+- **Practice:** 5 mock interviews, 45 minutes each, with a peer or recorded solo — talk, then code, then test. 10 re-solves from your failure log. Three behavioral stories written down. How to choose the ten is explained in [week 8 of the problem set](PROBLEM-SET.md#week-8--mock-interviews-review-and-the-application).
 - **Accept when:** you narrate your approach before writing code in every mock; you finish 4 of 5 mocks within time; you handle a hint without restarting; your resume is one page and your stories are two minutes each.
 
 ## Daily cadence

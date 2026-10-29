@@ -155,7 +155,7 @@ Facebook и Microsoft различават софтуерното инженер
 
 - [Допълнителни книги](#допълнителни-книги)
 - [Системен дизайн, мащабируемост, обработка на данни](#системен-дизайн-мащабируемост-обработка-на-данни) (ако имате над 4 години опит)
-- [Допълнителни теми за учене](#Допънителни-теми-за-учене)
+- [Допълнителни теми за учене](#допънителни-теми-за-учене)
   - [Компилатори](#компилатори)
   - [Emacs and vi(m)](#emacs-and-vim)
   - [Unix command line tools](#unix-command-line-tools)
@@ -744,7 +744,7 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 - ### Дървета за двоично търсене: BSTs
   - [ ] [Преговор над двоични дървета за търсене (клип)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-  - [ ] [Въведение (клип)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+  - [ ] [Въведение (клип)](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
   - [ ] [MIT (клип)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
       - [ ] [Двоично дърво за търсене - имплементация в C/C++ (клип)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -773,16 +773,16 @@ pобхождам графи. Ако трябваше да напиша сорт
 -   ### Heap / Priority Queue / Binary Heap
     -   визуализира се като дърво, но обикновенно е линейна структура (масив, свързан списък)
     -   [ ] [Heap](<https://en.wikipedia.org/wiki/Heap_(data_structure)>)
-    -   [ ] [Въведение (клип)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    -   [ ] [Наивни имплементации (клип)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    -   [ ] [Двоични дървета (клип)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    -   [ ] [Въведение (клип)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    -   [ ] [Наивни имплементации (клип)](https://www.coursera.org/lecture/data-structures/naive-implementations-z3l9N)
+    -   [ ] [Двоични дървета (клип)](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
     -   [ ] [Tree Height Remark (клип)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    -   [ ] [Основни операции (клип)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    -   [ ] [Завършени двоични дървета (клип)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    -   [ ] [Псевдокод (клип)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    -   [ ] [Основни операции (клип)](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+    -   [ ] [Завършени двоични дървета (клип)](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+    -   [ ] [Псевдокод (клип)](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
     -   [ ] [Heap Sort - jumps to start (клип)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    -   [ ] [Heap Sort (клип)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    -   [ ] [Създаване на heap (клип)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    -   [ ] [Heap Sort (клип)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+    -   [ ] [Създаване на heap (клип)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
     -   [ ] [MIT: Heaps and Heap Sort (клип)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     -   [ ] [CS 61B Lecture 24: Priority Queues (клип)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     -   [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -818,18 +818,18 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 -   [ ] [Sedgewick - Mergesort (5 клипа)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 
-    -   [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
-    -   [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-    -   [ ] [3. Сортираща сложност](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
-    -   [ ] [4. Компаратори](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
-    -   [ ] [5. Стабилност](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+    -   [ ] [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+    -   [ ] [2. Bottom up Mergesort](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
+    -   [ ] [3. Сортираща сложност](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
+    -   [ ] [4. Компаратори](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    -   [ ] [5. Стабилност](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 -   [ ] [Sedgewick - Quicksort (4 клипа)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 
-    -   [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-    -   [ ] [2. Селекция](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
-    -   [ ] [3. Дублиращи се ключове](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
-    -   [ ] [4. System Sorts](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
+    -   [ ] [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
+    -   [ ] [2. Селекция](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+    -   [ ] [3. Дублиращи се ключове](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
+    -   [ ] [4. System Sorts](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
 
 -   [ ] UC Berkeley:
 
@@ -873,12 +873,12 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 -   [ ] Не е задължително, но препоръчвам:
     -   [ ] [Sedgewick - Radix Sorts (6 клипа)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-        -   [ ] [1. Низове в Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-        -   [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
-        -   [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        -   [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-        -   [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        -   [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        -   [ ] [1. Низове в Java](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
+        -   [ ] [2. Key Indexed Counting](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+        -   [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+        -   [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
+        -   [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+        -   [ ] [6. Suffix Arrays](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     -   [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     -   [ ] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     -   [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -987,13 +987,13 @@ pобхождам графи. Ако трябваше да напиша сорт
     -   [ ] Бележки от лекции в Yale:
         -   [ ] [Динамично програмиране](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     -   [ ] Coursera:
-        -   [ ] [The RNA secondary structure problem (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        -   [ ] [Алгоритъм за динамично програмиране (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        -   [ ] [Илюстриране на алгоритъма за ДП (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-        -   [ ] [Време за изпълнение на алгоритъма за ДП (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        -   [ ] [ДП срещу рекурсивна имплементация (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        -   [ ] [Глобално подравняване на последователности по двойки (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-        -   [ ] [Локално подравняване на последователности по двойки (клип)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        -   [ ] [The RNA secondary structure problem (клип)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
+        -   [ ] [Алгоритъм за динамично програмиране (клип)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
+        -   [ ] [Илюстриране на алгоритъма за ДП (клип)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+        -   [ ] [Време за изпълнение на алгоритъма за ДП (клип)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+        -   [ ] [ДП срещу рекурсивна имплементация (клип)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
+        -   [ ] [Глобално подравняване на последователности по двойки (клип)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+        -   [ ] [Локално подравняване на последователности по двойки (клип)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 -   ### Design patterns
 
@@ -1131,14 +1131,14 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 -   ### String searching & manipulations
 
-    -   [ ] [Sedgewick - Суфиксни масиви (клип)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    -   [ ] [Sedgewick - Суфиксни масиви (клип)](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     -   [ ] [Sedgewick - Substring Search (клипове)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        -   [ ] [1. Въведение в Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
-        -   [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-        -   [ ] [3. Кнут-Морис-Прат](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-        -   [ ] [4. Бойер-Мур](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-        -   [ ] [5. Рабин-Карп](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
-    -   [ ] [Търсене на на шаблон в текст (клип)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+        -   [ ] [1. Въведение в Substring Search](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+        -   [ ] [2. Brute-Force Substring Search](https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+        -   [ ] [3. Кнут-Морис-Прат](https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+        -   [ ] [4. Бойер-Мур](https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
+        -   [ ] [5. Рабин-Карп](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+    -   [ ] [Търсене на на шаблон в текст (клип)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
     Ако ви трябват допълнителни детайли по тази тема вижте секцията "String Matching" в [Допълнителни детайли по някои теми](#допълнителни-детайли-по-някои-теми).
 
@@ -1147,14 +1147,14 @@ pобхождам графи. Ако трябваше да напиша сорт
     -   Обърнете внимание, че има различни видове tries. Някои имат prefixes, а други нямат, също така някои ползват низове вместо битове за да следят пътеката
     -   Разгледах кода, но няма да го имплементирам
     -   [ ] [Sedgewick - Tries (3 клипа)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        -   [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-        -   [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-        -   [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+        -   [ ] [1. R Way Tries](https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+        -   [ ] [2. Ternary Search Tries](https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+        -   [ ] [3. Character Based Operations](https://www.coursera.org/lecture/algorithms-part2/character-based-operations-jwNmV)
     -   [ ] [Бележки върху структурите от данни и техники за програмиране](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     -   [ ] Малък курс с клипове:
-        -   [ ] [Въведение в Tries (клип)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        -   [ ] [Производителност на Tries (клип)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        -   [ ] [Имплементиране на Trie (клип)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+        -   [ ] [Въведение в Tries (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+        -   [ ] [Производителност на Tries (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+        -   [ ] [Имплементиране на Trie (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
     -   [ ] [Trie: неглежираната структура от данни](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     -   [ ] [TopCoder - използване на Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
     -   [ ] [Stanford лекция (приложение в истинския живот) (клип)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1527,9 +1527,9 @@ Mock интервюта:
 
     -   [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     -   Повече за Марковските процеси:
-        -   [Основите на Марковския текст](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        -   [Основите на имплементацията на Марковския текст](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-        -   [Проект = Ръководство за Марковския текст](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+        -   [Основите на Марковския текст](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+        -   [Основите на имплементацията на Марковския текст](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+        -   [Проект = Ръководство за Марковския текст](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
     -   Вижте повече в серията Information and Entropy MIT 6.050J надолу
 
 -   ### Паритет & код на Хаминг (клипове)
@@ -1683,9 +1683,9 @@ Mock интервюта:
             attractive for data structures that may be built once and loaded without reconstruction, such as language
             dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter)
         -   [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        -   [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        -   [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        -   [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        -   [AVL Trees (video)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+        -   [AVL Tree Implementation (video)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+        -   [Split And Merge](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
         -   [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     -   **Splay trees**
@@ -1860,12 +1860,12 @@ Mock интервюта:
 
 -   **Union-Find**
 
-    -   [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    -   [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    -   [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    -   [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    -   [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    -   [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    -   [Overview](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+    -   [Naive Implementation](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+    -   [Trees](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+    -   [Union By Rank](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+    -   [Path Compression](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+    -   [Analysis Options](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 -   **Още динамично програмиране** (клипове)
 
@@ -1898,9 +1898,9 @@ Mock интервюта:
 -   **Съвпадение на низове**
 
     -   Алгоритъм на Рабин-Карп (видеа):
-        -   [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-        -   [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        -   [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        -   [Rabin Karps Algorithm](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+        -   [Precomputing](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+        -   [Optimization: Implementation and Analysis](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
         -   [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         -   [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     -   Алгоритъм на Кнут-Морис-Прaт (KMP):

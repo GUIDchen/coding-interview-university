@@ -70,28 +70,28 @@
 - [What is it?](#what-is-it)
 - [Why use it?](#why-use-it)
 - [How to use it](#how-to-use-it)
-- [不要覺得自己不夠聰明](#dont-feel-you-arent-smart-enough(不要覺得自己不夠聰明))
-- [關於影片資源](#about-video-resources(關於影片資源))
-- [面試過程&面試準備](#interview-process--general-interview-prep(面試過程&面試準備))
-- [面試時專精一種程式語言](#面試時專精一種程式語言(Pick-One-Language-for-the-Interview))
-- [書單](#書單(book-list))
+- [不要覺得自己不夠聰明](#dont-feel-you-arent-smart-enough不要覺得自己不夠聰明)
+- [關於影片資源](#about-video-resources關於影片資源)
+- [面試過程&面試準備](#interview-process--general-interview-prep面試過程面試準備)
+- [面試時專精一種程式語言](#面試時專精一種程式語言pick-one-language-for-the-interview)
+- [書單](#書單book-list)
 - [在你開始之前](#在你開始之前)
 - [這份清單沒有包含的內容](#這份清單沒有包含的內容)
 - [先備知識](#先備知識)
 - [每日計畫](#每日計畫)
-- [演算法複雜度 / Big-O / 漸進分析](#演算法複雜度(Algorithmic-complexity)--Big-O--漸進分析(Asymptotic-analysis))
+- [演算法複雜度 / Big-O / 漸進分析](#演算法複雜度algorithmic-complexity--big-o--漸進分析asymptotic-analysis)
 - [資料結構](#資料結構)
     - [陣列](#陣列)
     - [Linked Lists](#linked-lists)
-    - [Stack](#Stack(堆疊))
-    - [Queue](#Queue(佇列))
-    - [Hash table](#Hash-table(雜湊表))
+    - [Stack](#stack堆疊)
+    - [Queue](#queue佇列)
+    - [Hash table](#hash-table雜湊表)
 - [更多](#更多)
-    - [二分搜尋法](#二分搜尋法(Binary-Search))
-    - [位元運算](#位元運算(Bitwise-operations))
-- [樹狀結構(Tree)](#樹狀結構(Tree))
-    - [Trees-重點與背景知識](#Trees-重點與背景知識)
-    - [二元搜尋樹](#二元搜尋樹Binary-search-trees:-BSTs)
+    - [二分搜尋法](#二分搜尋法binary-search)
+    - [位元運算](#位元運算bitwise-operations)
+- [樹狀結構(Tree)](#樹狀結構tree)
+    - [Trees-重點與背景知識](#trees-重點與背景知識)
+    - [二元搜尋樹](#二元搜尋樹binary-search-trees-bsts)
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
     - 平衡搜尋樹(基本概念，非細節)
     - 遍歷:前序、中序、後序、BFS、DFS
@@ -108,26 +108,26 @@
     - adjacency list
     - 遍歷: 廣度優先(BFS), 深度優先(DFS)
 - [更多知識](#更多知識)
-    - [遞迴](#遞迴Recursion)
+    - [遞迴](#遞迴recursion)
     - [動態規劃](#動態規劃)
     - [物件導向程式設計](#物件導向程式設計)
     - [設計模式](#設計模式)
-    - [組合數&機率](#組合數&機率)
-    - [NP、NP-Complete以及近似演算法](#NP、NP-Complete以及近似演算法)
-    - [快取(cache)](#快取(cache))
-    - [程序與執行緒](#程序與執行緒(Processes&Threads))
+    - [組合數&機率](#組合數機率)
+    - [NP、NP-Complete以及近似演算法](#npnp-complete以及近似演算法)
+    - [快取(cache)](#快取cache)
+    - [程序與執行緒](#程序與執行緒processesthreads)
     - [Testing](#testing)
-    - [排程](#排程Scheduling)
+    - [排程](#排程scheduling)
     - [字串搜尋演算法以及操作](#字串搜尋演算法以及操作)
-    - [字典樹](#字典樹(Tries))
+    - [字典樹](#字典樹tries)
     - [浮點數](#浮點數)
     - [Unicode](#unicode)
-    - [端序](#端序(Endianness))
+    - [端序](#端序endianness)
     - [網路](#網路)
-- [系統設計、可擴充性、資料處理](#系統設計、可擴充性、資料處理) (如果你有四年以上的經驗)
+- [系統設計、可擴充性、資料處理](#系統設計可擴充性資料處理) (如果你有四年以上的經驗)
 - [總複習](#總複習)
 - [解題練習](#解題練習)
-- [解題練習/挑戰](#解題練習/挑戰)
+- [解題練習/挑戰](#解題練習挑戰)
 - [面試前夕](#面試前夕)
 - [你的履歷](#你的履歷)
 - [想想面試時可能的狀況](#想想面試時可能的狀況)
@@ -141,19 +141,19 @@
 - [額外學習](#額外學習)
     - [編譯器](#編譯器)
     - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix命令列工具](#Unix命令列(command-line)工具)
-    - [資訊理論](#資訊理論-(影片))
-    - [同位位元 & 漢明碼](#同位位元-&-漢明碼-(影片))
+    - [Unix命令列工具](#unix命令列command-line工具)
+    - [資訊理論](#資訊理論-影片)
+    - [同位位元 & 漢明碼](#同位位元--漢明碼-影片)
     - [Entropy](#entropy)
     - [密碼學](#密碼學)
     - [壓縮](#壓縮)
     - [電腦安全](#電腦安全)
-    - [垃圾回收](#垃圾回收(GC))
+    - [垃圾回收](#垃圾回收gc)
     - [平行計算](#平行計算)
-    - [通訊、序列化以及佇列系統](#通訊、序列化以及佇列系統(Messaging,-Serialization,-and-Queueing-Systems))
-    - [A*搜尋演算法](#A*搜尋演算法)
+    - [通訊、序列化以及佇列系統](#通訊序列化以及佇列系統messaging-serialization-and-queueing-systems)
+    - [A*搜尋演算法](#a搜尋演算法)
     - [快速傅立葉轉換](#快速傅立葉轉換)
-    - [布隆過濾器](#布隆過濾器(Bloom-filter))
+    - [布隆過濾器](#布隆過濾器bloom-filter)
     - [HyperLogLog](#hyperloglog)
     - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
     - [van Emde Boas Trees](#van-emde-boas-trees)
@@ -170,10 +170,10 @@
     - [Skip lists](#skip-lists)
     - [Network Flows](#network-flows)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [快速處理的數學](#快速處理(Fast-Processing)的數學)
+    - [快速處理的數學](#快速處理fast-processing的數學)
     - [Treap](#treap)
-    - [線性程式設計](#線性程式設計Linear-Programming-(影片))
-    - [幾何、Convex hull](#幾何、Convex-hull-(影片))
+    - [線性程式設計](#線性程式設計linear-programming-影片)
+    - [幾何、Convex hull](#幾何convex-hull-影片)
     - [離散數學](#離散數學)
     - [機器學習](#機器學習)
 - [某些主題的額外知識](#某些主題的額外知識)
@@ -480,11 +480,11 @@
 - ### 陣列
     - 實作一個可以自動調整大小的陣列(動態陣列vector)
     - [ ] (動態)陣列背後原理:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
         - [Basic Arrays (video)]()
         - [Multi-dim (video)]()
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] 實作動態陣列(可變、可動態調整大小的陣列)
         - [ ] 練習在程式中用陣列以及指標，透過計算指標而存取該內容，而不是直接用索引。
@@ -514,15 +514,15 @@
 
 - ### Linked Lists
     - [ ] Linked Lists背後原理:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - 沒有完整的code，裡面只包含了用struct實作節點的方式以及其記憶體配置。
     - [ ] Linked List vs 陣列:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] 小心!: 你需要一些關於指標的指標(Pointer to pointer)的知識:
         (當你回傳一個指標到函式，這個動作可能會改變指標所指向的地址)
@@ -544,11 +544,11 @@
         - [ ] reverse() - 反轉該linked list
         - [ ] remove_value(value) - 刪除第一個為該數值的元素(意即7 2 2 1，要刪除2的話，只刪除index:1的那個2)
     - [ ] 雙向linked List
-        - [背後原理(影片)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - [背後原理(影片)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - 不需實作
 
 - ### Stack(堆疊)
-    - [ ] [Stacks(影片)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [Stacks(影片)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [使用Stacks先進後出(Last-In First-Out)(影片)]()
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] 無須實作，可以用陣列實作，但這樣太過簡單了。
@@ -584,12 +584,12 @@
         - [ ] [Using Hash Tables (影片)]()
         - [ ] [Supporting Hashing (影片)]()
         - [ ] [Language Support Hash Tables (影片)]()
-        - [ ] [Core Hash Tables (影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [ ] [Core Hash Tables (影片)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
         - [ ] [Data Structures (影片)](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [Phone Book Problem (影片)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] [Phone Book Problem (影片)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
         - [ ] 分散式雜湊表(distributed hash table):
-            - [Instant Uploads And Storage Optimization In Dropbox (影片)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [Distributed Hash Tables (影片)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+            - [Instant Uploads And Storage Optimization In Dropbox (影片)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+            - [Distributed Hash Tables (影片)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
     - [ ] 實作雜湊表(用陣列以及線性探測(linear probing))
         - hash(k, m) - m:雜湊表的大小
@@ -637,7 +637,7 @@
 ## 樹狀結構(Tree)
 
 - ### Trees-重點與背景知識
-    - [ ] [Series: Trees (影片)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - [ ] [Series: Trees (影片)](https://www.coursera.org/lecture/data-structures/trees-95qda)
     - 如何建立一棵樹
     - 遍歷
     - 操作樹的演算法
@@ -660,9 +660,9 @@
 
 - ### 二元搜尋樹Binary search trees: BSTs
     - [ ] [Binary Search Tree Review (影片)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [Series (影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
+    - [ ] [Series (影片)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-binary-search-trees-p82sw)
         - starts with symbol table and goes through BST applications
-    - [ ] [Introduction (影片)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [Introduction (影片)](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
     - [ ] [MIT (影片)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
         - [ ] [二元搜尋樹-用C/C++實作 (影片)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -691,16 +691,16 @@
 - ### Heap / Priority Queue / Binary Heap
     - 一般將此資料結構以樹的方式視覺化，但實際上是以線性的方式儲存(陣列、linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Introduction (影片)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Naive Implementations (影片)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Binary Trees (影片)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Introduction (影片)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Naive Implementations (影片)](https://www.coursera.org/lecture/data-structures/naive-implementations-z3l9N)
+    - [ ] [Binary Trees (影片)](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
     - [ ] [Tree Height Remark (影片)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Basic Operations (影片)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Complete Binary Trees (影片)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (影片)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Basic Operations (影片)](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+    - [ ] [Complete Binary Trees (影片)](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+    - [ ] [Pseudocode (影片)](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
     - [ ] [Heap Sort - jumps to start (影片)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Heap Sort (影片)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    - [ ] [Building a heap (影片)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [Heap Sort (影片)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+    - [ ] [Building a heap (影片)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
     - [ ] [MIT: Heaps and Heap Sort (影片)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (影片)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -735,17 +735,17 @@
 - 有關於堆積排序，可以看看上面有關於堆積的介紹。堆積排序很棒，但不太穩定。
 
 - [ ] [Sedgewick - Mergesort (5部影片)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
-    - [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-    - [ ] [3. Sorting Complexity](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
-    - [ ] [4. Comparators](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
-    - [ ] [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+    - [ ] [1. Mergesort](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+    - [ ] [2. Bottom up Mergesort](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
+    - [ ] [3. Sorting Complexity](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
+    - [ ] [4. Comparators](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    - [ ] [5. Stability](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 - [ ] [Sedgewick - Quicksort (4部影片)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-    - [ ] [2. Selection](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
-    - [ ] [3. Duplicate Keys](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
-    - [ ] [4. System Sorts](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
+    - [ ] [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
+    - [ ] [2. Selection](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+    - [ ] [3. Duplicate Keys](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
+    - [ ] [4. System Sorts](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
 
 - [ ] UC Berkeley:
     - [ ] [CS 61B Lecture 29: Sorting I (影片)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
@@ -786,12 +786,12 @@
 
 - [ ] 非必要，但我建議看一看:
     - [ ] [Sedgewick - Radix Sorts (6部影片)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-        - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-        - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
-        - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-        - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [1. Strings in Java](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
+        - [ ] [2. Key Indexed Counting](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+        - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+        - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
+        - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+        - [ ] [6. Suffix Arrays](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix Sort (影片)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (影片)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -893,13 +893,13 @@
     - [ ] Yale課程筆記:
         - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
-        - [ ] [The RNA secondary structure problem (影片)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [A dynamic programming algorithm (影片)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        - [ ] [Illustrating the DP algorithm (影片)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-        - [ ] [Running time of the DP algorithm (影片)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP vs. recursive implementation (影片)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Global pairwise sequence alignment (影片)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-        - [ ] [Local pairwise sequence alignment (影片)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] [The RNA secondary structure problem (影片)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
+        - [ ] [A dynamic programming algorithm (影片)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
+        - [ ] [Illustrating the DP algorithm (影片)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+        - [ ] [Running time of the DP algorithm (影片)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+        - [ ] [DP vs. recursive implementation (影片)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
+        - [ ] [Global pairwise sequence alignment (影片)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+        - [ ] [Local pairwise sequence alignment (影片)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### 物件導向程式設計
     - [ ] [Optional: UML 2.0 Series (影片)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -1029,14 +1029,14 @@
     - 可以從作業系統的課程影片中學習
 
 - ### 字串搜尋演算法以及操作
-    - [ ] [Sedgewick-後綴陣列(Suffix Arrays)(影片)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick-後綴陣列(Suffix Arrays)(影片)](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Sedgewick-子字串搜尋(影片)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1.子字串搜尋導論](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
-        - [ ] [2.子字串搜尋-暴力法](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-        - [ ] [3.KMP演算法](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-        - [ ] [4.Boyer-Moore字串搜尋演算法](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-        - [ ] [5.Rabin-Karp演算法](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
-    - [ ] [在文字中尋找模式(影片)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+        - [ ] [1.子字串搜尋導論](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+        - [ ] [2.子字串搜尋-暴力法](https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+        - [ ] [3.KMP演算法](https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+        - [ ] [4.Boyer-Moore字串搜尋演算法](https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
+        - [ ] [5.Rabin-Karp演算法](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+    - [ ] [在文字中尋找模式(影片)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
   如果你想知道更多有關這個主題的知識，可以去看[某些主題的額外知識](#某些主題的額外知識)中的"String Matching"
 
@@ -1044,14 +1044,14 @@
     - 請注意字典樹有許多種類。有些有前綴，有些沒有，而有些在追蹤路徑時使用字串而非位元。
     - 我有看過這些程式碼，但沒有實作
     - [ ] [Sedgewick-字典樹(3部影片)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1.R Way字典樹](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-        - [ ] [2.三元搜尋樹](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-        - [ ] [3.字元操作](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+        - [ ] [1.R Way字典樹](https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+        - [ ] [2.三元搜尋樹](https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+        - [ ] [3.字元操作](https://www.coursera.org/lecture/algorithms-part2/character-based-operations-jwNmV)
     - [ ] [Note:資料結構以及coding技巧](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [ ] 簡短的課程影片:
-        - [ ] [字典樹簡介(影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [字典樹效能(影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [實作字典樹(影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+        - [ ] [字典樹簡介(影片)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+        - [ ] [字典樹效能(影片)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+        - [ ] [實作字典樹(影片)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
     - [ ] [字典樹:一個被忽視的資料結構](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] [TopCoder-使用字典樹](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
     - [ ] [Stanford線上課程(實際使用範例))(影片)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1266,7 +1266,7 @@
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - 附有Java的解答
 
-看看[上方的書單](#書單(book-list))
+看看[上方的書單](#書單book-list)
 
 ## 解題練習/挑戰
 
@@ -1459,9 +1459,9 @@ Coding面試題目影片:
 - ### 資訊理論 (影片)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - 更多有關馬可夫鏈:
-        - [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        - [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+        - [Core Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+        - [Core Implementing Markov Text Generation](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+        - [Project = Markov Text Generation Walk Through](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
     - 進一步的可以去看看下方的MIT 6.050J Information和Entropy系列
 
 - ### 同位位元 & 漢明碼 (影片)
@@ -1591,9 +1591,9 @@ Coding面試題目影片:
             從我所知，這些樹在實際上並沒有用到太多，但這些是他們可能會出現的地方:
             AVL樹是另一個能夠在O(log n)的時間內搜尋、插入和刪除的資料結構。AVL樹比起紅黑樹更加嚴格的兩邊平衡，而這也導致了比較慢的插入和刪除，但比較快速的拿取。這對於那些只要建立一次，之後就只要取用的資料結構非常有吸引力，像是字典(或是程式字典，像是直譯器或組譯器的opcodes)
         - [MIT AVL Trees / AVL Sort (影片)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [AVL Trees (影片)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [AVL Tree Implementation (影片)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [AVL Trees (影片)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+        - [AVL Tree Implementation (影片)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+        - [Split And Merge](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
         - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **伸縮樹Splay tree**
@@ -1749,12 +1749,12 @@ Coding面試題目影片:
 
 
 - **Union-Find**
-    - [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    - [Overview](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+    - [Naive Implementation](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+    - [Trees](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+    - [Union By Rank](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+    - [Path Compression](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+    - [Analysis Options](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - **More Dynamic Programming** (影片)
     - [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
@@ -1783,9 +1783,9 @@ Coding面試題目影片:
 
 - **String Matching**
     - Rabin-Karp (影片):
-        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-        - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [Rabin Karps Algorithm](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+        - [Precomputing](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+        - [Optimization: Implementation and Analysis](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
         - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - Knuth-Morris-Pratt (KMP):

@@ -45,7 +45,7 @@ Jika Anda ingin menjadi insinyur keandalan atau insinyur operasi, pelajari lebih
 - [Trees](#trees)
     - [Trees - Catatan & Latar Belakang](#trees---catatan--latar-belakang)
     - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Prioritas Antrian / Biner Heap](#heap-/-prioritas-antrian-/-biner-heap)
+    - [Heap / Prioritas Antrian / Biner Heap](#heap--prioritas-antrian--biner-heap)
 - [Penyortiran](#penyortiran)
     - selection
     - insertion
@@ -59,23 +59,23 @@ Jika Anda ingin menjadi insinyur keandalan atau insinyur operasi, pelajari lebih
     - adjacency list
     - traversals: BFS, DFS
 - [Bahkan Lebih Banyak Pengetahuan](#bahkan-lebih-banyak-pengetahuan)
-    - [Pengulangan (Recursion)](#pengulangan-(recursion))
+    - [Pengulangan (Recursion)](#pengulangan-recursion)
     - [Pemrograman Dinamis](#pemrograman-dinamis)
     - [Pemrograman Berorientasi Objek](#pemrograman-berorientasi-objek)
-    - [Pola desain (Design patterns)](#pola-desain-(design-patterns))
-    - [Kombinatorik (n pilih k) & Probabilitas](#kombinatorik-(n-pilih-k)-&-probabilitas)
-    - [Algoritma NP, NP-Complete dan Approximation](#algoritma-np,-np-complete-dan-approximation)
+    - [Pola desain (Design patterns)](#pola-desain-design-patterns)
+    - [Kombinatorik (n pilih k) & Probabilitas](#kombinatorik-n-pilih-k--probabilitas)
+    - [Algoritma NP, NP-Complete dan Approximation](#algoritma-np-np-complete-dan-approximation)
     - [Cache](#cache)
     - [Proses dan Thread](#proses-dan-thread)
     - [Testing](#testing)
     - [Penjadwalan](#penjadwalan)
-    - [Pencarian & manipulasi string](#pencarian-&-manipulasi-string)
+    - [Pencarian & manipulasi string](#pencarian--manipulasi-string)
     - [Tries](#tries)
     - [Angka Floating Point](#angka-floating-point)
     - [Unicode](#unicode)
     - [Endianness](#endianness)
     - [Jaringan](#jaringan)
-- [Perancangan Sistem, Skalabilitas, Penganganan Data](#Perancangan-Sistem,-Skalabilitas,-Penganganan-Data) (jika anda memiliki pengalaman 4 tahun lebih)
+- [Perancangan Sistem, Skalabilitas, Penganganan Data](#perancangan-sistem-skalabilitas-penganganan-data) (jika anda memiliki pengalaman 4 tahun lebih)
 - [Ulasan Akhir](#ulasan-akhir)
 - [Latihan Pertanyaan Pemrograman](#latihan-pertanyaan-pemrograman)
 - [Latihan / tantangan coding](#latihan--tantangan-coding)
@@ -625,9 +625,9 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 
 - ### Binary search trees: BSTs
     - [ ] [Ulasan Binary Search Tree (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [Serial (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
+    - [ ] [Serial (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-binary-search-trees-p82sw)
         - starts with symbol table and goes through BST applications
-    - [ ] [Pendahuluan (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [Pendahuluan (video)](https://www.coursera.org/lecture/data-structures/introduction-E7cXP)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
         - [ ] [Binary search tree - Implementasi di C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
@@ -659,16 +659,16 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - Binary Heap (Biner Heap)
     - divisualisasikan sebagai pohon, tetapi biasanya linier dalam penyimpanan (array, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Pendahuluan (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-    - [ ] [Penerapan Naif (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-    - [ ] [Pohon Biner (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+    - [ ] [Pendahuluan (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
+    - [ ] [Penerapan Naif (video)](https://www.coursera.org/lecture/data-structures/naive-implementations-z3l9N)
+    - [ ] [Pohon Biner (video)](https://www.coursera.org/lecture/data-structures/binary-trees-GRV2q)
     - [ ] [Keterangan Tinggi Pohon (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-    - [ ] [Operasi Dasar (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-    - [ ] [Pohon Biner Lengkap (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-    - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
+    - [ ] [Operasi Dasar (video)](https://www.coursera.org/lecture/data-structures/basic-operations-0g1dl)
+    - [ ] [Pohon Biner Lengkap (video)](https://www.coursera.org/lecture/data-structures/complete-binary-trees-gl5Ni)
+    - [ ] [Pseudocode (video)](https://www.coursera.org/lecture/data-structures/pseudocode-HxQo9)
     - [ ] [Urutan Heap - lompat untuk memulai (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-    - [ ] [Urutan Heap (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-    - [ ] [Membangun heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+    - [ ] [Urutan Heap (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
+    - [ ] [Membangun heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
     - [ ] [MIT: Heaps dan Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Kuliah 24: Antrian Prioritas (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
@@ -702,17 +702,17 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 - Untuk heapsort, lihat struktur data Heap di atas. Jenis heap bagus, tapi tidak stabil
 
 - [ ] [Sedgewick - Mergesort (5 video)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Penggabungan](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
-    - [ ] [2. Mergesort dari bawah ke atas](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
-    - [ ] [3. Kompleksitas Sortir](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
-    - [ ] [4. Pembanding](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
-    - [ ] [5. Stabilitas](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+    - [ ] [1. Penggabungan](https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq)
+    - [ ] [2. Mergesort dari bawah ke atas](https://www.coursera.org/lecture/algorithms-part1/bottom-up-mergesort-PWNEl)
+    - [ ] [3. Kompleksitas Sortir](https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF)
+    - [ ] [4. Pembanding](https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS)
+    - [ ] [5. Stabilitas](https://www.coursera.org/lecture/algorithms-part1/stability-pvvLZ)
 
 - [ ] [Sedgewick - Quicksort (4 video)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-    - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-    - [ ] [2. Seleksi](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
-    - [ ] [3. Kunci Duplikat](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
-    - [ ] [4. System Sorts](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
+    - [ ] [1. Quicksort](https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC)
+    - [ ] [2. Seleksi](https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT)
+    - [ ] [3. Kunci Duplikat](https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
+    - [ ] [4. System Sorts](https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7)
 
 - [ ] UC Berkeley:
     - [ ] [CS 61B Kuliah 29: Penyortiran I (video)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
@@ -753,12 +753,12 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 
 - [ ] Tidak wajib, tetapi saya merekomendasikan mereka:
     - [ ] [Sedgewick - Radix Sorts (6 video)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
-        - [ ] [1. String di Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
-        - [ ] [2. Penghitungan Indeks Kunci](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
-        - [ ] [3. Urutan Radix String Pertama Digit Signifikan Terkecil](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
-        - [ ] [4. Urutan Radix String Pertama Digit Paling Signifikan](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
-        - [ ] [5. Radix Quicksort 3 Arah](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        - [ ] [6. Array Suffix](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [1. String di Java](https://www.coursera.org/lecture/algorithms-part2/strings-in-java-vGHvb)
+        - [ ] [2. Penghitungan Indeks Kunci](https://www.coursera.org/lecture/algorithms-part2/key-indexed-counting-2pi1Z)
+        - [ ] [3. Urutan Radix String Pertama Digit Signifikan Terkecil](https://www.coursera.org/lecture/algorithms-part2/lsd-radix-sort-c1U7L)
+        - [ ] [4. Urutan Radix String Pertama Digit Paling Signifikan](https://www.coursera.org/lecture/algorithms-part2/msd-radix-sort-gFxwG)
+        - [ ] [5. Radix Quicksort 3 Arah](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
+        - [ ] [6. Array Suffix](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Sortir Radix](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Sortir Radix (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Sortir Radix, Sortir Counting (waktu linier diberikan batasan) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -861,13 +861,13 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - [ ] Catatan Kuliah Yale:
         - [ ] [Pemrograman Dinamis](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
-        - [ ] [Masalah struktur sekunder RNA (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [Algoritma pemrograman dinamis (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        - [ ] [Mengilustrasikan algoritma DP (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-        - [ ] [Waktu berjalan dari algoritma DP (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP vs. implementasi rekursif (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] [Masalah struktur sekunder RNA (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/the-rna-secondary-structure-problem-80RrW)
+        - [ ] [Algoritma pemrograman dinamis (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/a-dynamic-programming-algorithm-PSonq)
+        - [ ] [Mengilustrasikan algoritma DP (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/illustrating-the-dp-algorithm-oUEK2)
+        - [ ] [Waktu berjalan dari algoritma DP (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/running-time-of-the-dp-algorithm-nfK2r)
+        - [ ] [DP vs. implementasi rekursif (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/dp-vs-recursive-implementation-M999a)
+        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/global-pairwise-sequence-alignment-UZ7o6)
+        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/lecture/algorithmic-thinking-2/local-pairwise-sequence-alignment-WnNau)
 
 - ### Pemrograman Berorientasi Objek
     - [ ] [Optional: UML 2.0 seri (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
@@ -998,14 +998,14 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - Dapat diperoleh dari video Sistem Operasi
 
 - ### Pencarian & manipulasi string
-    - [ ] [Sedgewick - Suffix Array (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Suffix Array (video)](https://www.coursera.org/lecture/algorithms-part2/suffix-arrays-TH18W)
     - [ ] [Sedgewick - Pencarian Substring (video)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. Pengantar Pencarian Substring](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
-        - [ ] [2. Pencarian Substring Brute-Force](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-        - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
-        - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
-        - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
-    - [ ] [Pola pencarian dalam teks (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+        - [ ] [1. Pengantar Pencarian Substring](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+        - [ ] [2. Pencarian Substring Brute-Force](https://www.coursera.org/lecture/algorithms-part2/brute-force-substring-search-2Kn5i)
+        - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/lecture/algorithms-part2/knuth-morris-pratt-TAtDr)
+        - [ ] [4. Boyer-Moore](https://www.coursera.org/lecture/algorithms-part2/boyer-moore-CYxOT)
+        - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
+    - [ ] [Pola pencarian dalam teks (video)](https://www.coursera.org/lecture/data-structures/search-pattern-in-text-tAfHI)
 
     Jika Anda membutuhkan detail lebih lanjut tentang subjek ini, lihat bagian "String Matching" di [Detail Tambahan tentang Beberapa Subjek](#detail-tambahan-tentang-beberapa-subjek).
 
@@ -1013,14 +1013,14 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - Perhatikan bahwa ada berbagai jenis percobaan. Beberapa memiliki prefiks, beberapa tidak, dan beberapa menggunakan bit untuk melacak jalur
     - Saya membaca kode, tetapi tidak akan menerapkan
     - [ ] [Sedgewick - Tries (3 video)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-        - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-        - [ ] [3. Operasi Berbasis Karakter](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+        - [ ] [1. R Way Tries](https://www.coursera.org/lecture/algorithms-part2/r-way-tries-CPVdr)
+        - [ ] [2. Ternary Search Tries](https://www.coursera.org/lecture/algorithms-part2/ternary-search-tries-yQM8K)
+        - [ ] [3. Operasi Berbasis Karakter](https://www.coursera.org/lecture/algorithms-part2/character-based-operations-jwNmV)
     - [ ] [Catatan tentang Struktur Data dan Teknik Pemrograman](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
     - [ ] Video kursus singkat:
-        - [ ] [Pengantar Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Menerapkan A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+        - [ ] [Pengantar Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-introduction-to-tries-08Xyf)
+        - [ ] [Performance Of Tries (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-performance-of-tries-PvlZW)
+        - [ ] [Menerapkan A Trie (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-a-trie-DFvd3)
     - [ ] [Trie: Sebuah Struktur Data Terabaikan](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     - [ ] [TopCoder - Menggunakan Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
     - [ ] [Kuliah Stanford (kasus penggunaan dunia nyata) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
@@ -1459,9 +1459,9 @@ Anda tidak pernah benar-benar selesai.
 - ### Teori Informasi (video)
     - [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - Lebih lanjut tentang proses Markov:
-        - [Pembuatan Teks Markov Inti](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        - [Inti Penerapan Pembuatan Teks Markov](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
-        - [Proyek = Panduan Pembuatan Teks Markov](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
+        - [Pembuatan Teks Markov Inti](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-markov-text-generation-waxgx)
+        - [Inti Penerapan Pembuatan Teks Markov](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-implementing-markov-text-generation-gZhiC)
+        - [Proyek = Panduan Pembuatan Teks Markov](https://www.coursera.org/lecture/data-structures-optimizing-performance/project-markov-text-generation-walk-through-EUjrq)
     - Lihat lebih lanjut dalam seri Informasi dan Entropi MIT 6.050J di bawah ini
 
 - ### Pariti & Kode Hamming
@@ -1596,9 +1596,9 @@ Anda tidak pernah benar-benar selesai.
             Ini lebih seimbang daripada red-black trees, menyebabkan penyisipan dan pemindahan lebih lambat tetapi pengambilan lebih cepat.
             Ini membuatnya menarik untuk struktur data yang dapat dibangun sekali dan dimuat tanpa rekonstruksi, seperti kamus bahasa (atau kamus program, seperti opcode assembler atau interpreter)
         - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [Implementasi AVL Tree (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [Split Dan Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [AVL Trees (video)](https://www.coursera.org/lecture/data-structures/avl-trees-Qq5E0)
+        - [Implementasi AVL Tree (video)](https://www.coursera.org/lecture/data-structures/avl-tree-implementation-PKEBC)
+        - [Split Dan Merge](https://www.coursera.org/lecture/data-structures/split-and-merge-22BgE)
         - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **Splay trees**
@@ -1759,12 +1759,12 @@ Anda tidak pernah benar-benar selesai.
 
 
 - **Union-Find**
-    - [Gambaran](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [Implementasi yang Naif](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [Pohon](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [Union Berdasarkan Pangkat](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [Kompresi Jalur](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [Opsi Analisis](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    - [Gambaran](https://www.coursera.org/lecture/data-structures/overview-JssSY)
+    - [Implementasi yang Naif](https://www.coursera.org/lecture/data-structures/naive-implementations-EM5D0)
+    - [Pohon](https://www.coursera.org/lecture/data-structures/trees-Mxu0w)
+    - [Union Berdasarkan Pangkat](https://www.coursera.org/lecture/data-structures/union-by-rank-qb4c2)
+    - [Kompresi Jalur](https://www.coursera.org/lecture/data-structures/path-compression-Q9CVI)
+    - [Opsi Analisis](https://www.coursera.org/lecture/data-structures/analysis-optional-GQQLN)
 
 - **Lebih banyak Pemrograman Dinamis** (videos)
     - [6.006: Pemrograman Dinamis I: Fibonacci, Jalur Terpendek](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
@@ -1793,9 +1793,9 @@ Anda tidak pernah benar-benar selesai.
 
 - **Pencocokan String**
     - Rabin-Karp (videos):
-        - [Algoritma Rabin Karps](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-        - [Prekomputasi](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [Optimasi: Implementasi dan Analisis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [Algoritma Rabin Karps](https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw)
+        - [Prekomputasi](https://www.coursera.org/lecture/data-structures/optimization-precomputation-nYrc8)
+        - [Optimasi: Implementasi dan Analisis](https://www.coursera.org/lecture/data-structures/optimization-implementation-and-analysis-h4ZLc)
         - [Penggandaan Meja, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Analisis Amortisasi](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - Knuth-Morris-Pratt (KMP):
